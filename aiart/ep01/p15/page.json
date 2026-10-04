@@ -1,0 +1,1100 @@
+{
+ "id": "ep01/p15",
+ "paper": "#ffffff",
+ "seed": 15,
+ "panels": [
+  {
+   "id": "p1",
+   "rect": [
+    40,
+    40,
+    920,
+    386
+   ]
+  },
+  {
+   "id": "p2",
+   "rect": [
+    436,
+    442,
+    524,
+    360
+   ]
+  },
+  {
+   "id": "p3",
+   "rect": [
+    40,
+    442,
+    380,
+    360
+   ]
+  },
+  {
+   "id": "p4",
+   "rect": [
+    40,
+    818,
+    920,
+    360
+   ],
+   "bleed": [
+    "l",
+    "r"
+   ]
+  },
+  {
+   "id": "p5",
+   "rect": [
+    40,
+    1194,
+    920,
+    180
+   ],
+   "fill": "#000000"
+  }
+ ],
+ "layers": [
+  {
+   "id": "p1/a",
+   "panel": "p1",
+   "kind": "frame",
+   "frame": "p1",
+   "rect": [
+    0,
+    -0.124,
+    1,
+    1.465
+   ]
+  },
+  {
+   "id": "p1/out",
+   "panel": "p1",
+   "kind": "frame",
+   "frame": "p1-out",
+   "rect": [
+    0,
+    -0.124,
+    1,
+    1.465
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "pk1/hide",
+   "panel": "p1",
+   "kind": "sprite",
+   "frame": "pk-hide",
+   "at": [
+    0.87,
+    1.0
+   ],
+   "scale": 0.24,
+   "anchor": [
+    0.5,
+    1
+   ]
+  },
+  {
+   "id": "pk1/stand",
+   "panel": "p1",
+   "kind": "sprite",
+   "frame": "pk-stand",
+   "at": [
+    0.87,
+    1.0
+   ],
+   "scale": 0.24,
+   "anchor": [
+    0.5,
+    1
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p2/plate",
+   "panel": "p2",
+   "kind": "frame",
+   "frame": "p2-plate",
+   "rect": [
+    -0.3,
+    -0.16,
+    1.3,
+    1.24
+   ]
+  },
+  {
+   "id": "p2/gloom",
+   "panel": "p2",
+   "kind": "gloom",
+   "box": [
+    0.4,
+    -0.2,
+    1.1,
+    0.7
+   ],
+   "n": 26,
+   "alpha": 0
+  },
+  {
+   "id": "k2/a",
+   "panel": "p2",
+   "kind": "frame",
+   "frame": "k2a",
+   "rect": [
+    0.36,
+    0.25,
+    1.112,
+    1.893
+   ],
+   "tags": [
+    "k2"
+   ]
+  },
+  {
+   "id": "k2/vein",
+   "panel": "p2",
+   "kind": "frame",
+   "frame": "k2a-vein",
+   "rect": [
+    0.36,
+    0.25,
+    1.112,
+    1.893
+   ],
+   "tags": [
+    "k2"
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "k2/b",
+   "panel": "p2",
+   "kind": "frame",
+   "frame": "k2b",
+   "rect": [
+    0.36,
+    0.25,
+    1.112,
+    1.893
+   ],
+   "tags": [
+    "k2"
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "k2/shock",
+   "panel": "p2",
+   "kind": "frame",
+   "frame": "k2b-shock",
+   "rect": [
+    0.36,
+    0.25,
+    1.112,
+    1.893
+   ],
+   "tags": [
+    "k2"
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "k2/glow",
+   "panel": "p2",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.58,
+    0.28
+   ],
+   "r": [
+    0.12,
+    0.16
+   ],
+   "invert": true,
+   "color": "#FF8A3D",
+   "mono": "#000000",
+   "strength": 0.6,
+   "blend": "add",
+   "alpha": 0
+  },
+  {
+   "id": "k2/ahoge",
+   "panel": "p2",
+   "kind": "frame",
+   "frame": "k2-ahoge",
+   "rect": [
+    0.36,
+    0.25,
+    1.112,
+    1.893
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p3/a",
+   "panel": "p3",
+   "kind": "frame",
+   "frame": "p3",
+   "rect": [
+    0,
+    -0.028,
+    1,
+    1.028
+   ]
+  },
+  {
+   "id": "p3/dark",
+   "panel": "p3",
+   "kind": "frame",
+   "frame": "p3-dark",
+   "rect": [
+    0,
+    -0.028,
+    1,
+    1.028
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p3/tone",
+   "panel": "p3",
+   "kind": "tone",
+   "from": [
+    0.62,
+    0.5
+   ],
+   "to": [
+    0.1,
+    0.5
+   ],
+   "strength": 0.45,
+   "alpha": 0
+  },
+  {
+   "id": "pk3/cry",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "pk-cry",
+   "at": [
+    0.8,
+    0.98
+   ],
+   "scale": 0.36,
+   "anchor": [
+    0.5,
+    1
+   ]
+  },
+  {
+   "id": "pk3/flinch",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "pk-flinch",
+   "at": [
+    0.8,
+    0.98
+   ],
+   "scale": 0.36,
+   "anchor": [
+    0.5,
+    1
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p4/a",
+   "panel": "p4",
+   "kind": "frame",
+   "frame": "p4",
+   "rect": [
+    -0.06,
+    -0.81,
+    1.06,
+    1.265
+   ]
+  },
+  {
+   "id": "p4/crack",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "crack",
+   "at": [
+    0.28,
+    0.2
+   ],
+   "scale": 0.3,
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "rot": -8
+  },
+  {
+   "id": "p4/spark",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "sparkle",
+   "n": 3,
+   "area": [
+    0.25,
+    0.15,
+    0.31,
+    0.25
+   ],
+   "emit": "inside",
+   "size": 0.6,
+   "speed": 0.2,
+   "colors": [
+    "#ffffff"
+   ]
+  },
+  {
+   "id": "p4/ahoge",
+   "panel": "p4",
+   "kind": "frame",
+   "frame": "p4-ahoge",
+   "rect": [
+    -0.06,
+    -0.81,
+    1.06,
+    1.265
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "e1",
+   "panel": "p1",
+   "type": "bubble",
+   "shape": "burst",
+   "ink": "#E8262D",
+   "at": [
+    0.6,
+    0.11
+   ],
+   "tail": [
+    0.56,
+    0.3
+   ],
+   "size": 17,
+   "reserve": 9,
+   "text": {
+    "zh": "",
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "mute",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.24,
+    0.66
+   ],
+   "size": 40,
+   "rot": -8,
+   "font": "impact",
+   "hollow": true,
+   "dash": [
+    7,
+    5
+   ],
+   "stroke": [
+    [
+     "#7a1018",
+     3.4
+    ]
+   ],
+   "jitter": 0.3,
+   "text": {
+    "zh": "⬚⬚⬚⬚!!",
+    "ja": "⬚⬚⬚⬚!!",
+    "en": "⬚⬚⬚⬚!!"
+   }
+  },
+  {
+   "id": "puq",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.79,
+    0.6
+   ],
+   "size": 30,
+   "rot": 10,
+   "font": "round",
+   "fill": "#ffffff",
+   "stroke": [
+    [
+     "#1a1a1a",
+     3
+    ]
+   ],
+   "text": {
+    "zh": "?",
+    "ja": "?",
+    "en": "?"
+   }
+  },
+  {
+   "id": "e2a",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "ink": "#E8262D",
+   "at": [
+    0.86,
+    0.13
+   ],
+   "tail": [
+    0.66,
+    0.38
+   ],
+   "size": 10,
+   "reserve": 5,
+   "text": {
+    "zh": "",
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "e2b",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "ink": "#E8262D",
+   "at": [
+    0.56,
+    0.1
+   ],
+   "tail": [
+    0.43,
+    0.36
+   ],
+   "size": 12,
+   "reserve": 7,
+   "text": {
+    "zh": "",
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "e2c",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "ink": "#E8262D",
+   "at": [
+    0.22,
+    0.05
+   ],
+   "tail": [
+    0.4,
+    0.4
+   ],
+   "size": 15,
+   "reserve": 8,
+   "text": {
+    "zh": "",
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "pu1",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.75,
+    0.15
+   ],
+   "tail": [
+    0.8,
+    0.62
+   ],
+   "size": {
+    "zh": 15,
+    "ja": 14,
+    "en": 12
+   },
+   "maxW": 150,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "超过自己极限的那一声，会——",
+    "ja": "自分の限界をこえた、その一声は——",
+    "en": "A VOICE THAT GOES PAST YOUR OWN LIMIT WILL—"
+   }
+  },
+  {
+   "id": "e3",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "burst",
+   "ink": "#E8262D",
+   "at": [
+    1.25,
+    0.4
+   ],
+   "tail": null,
+   "size": 16,
+   "reserve": 6,
+   "text": {
+    "zh": "",
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "pu2",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.7,
+    0.47
+   ],
+   "tail": [
+    0.8,
+    0.64
+   ],
+   "size": {
+    "zh": 13,
+    "ja": 13,
+    "en": 11
+   },
+   "maxW": 130,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……会带着主人的声音，\n一起离开噗。",
+    "ja": "……主の声を連れて、\nいっしょに去るプク。",
+    "en": "...TAKE ITS OWNER'S VOICE AWAY WITH IT, PUKU."
+   }
+  },
+  {
+   "id": "pita",
+   "panel": "p4",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.36,
+    0.13
+   ],
+   "size": 16,
+   "rot": 0,
+   "font": "quiet",
+   "fill": "#B8BCC6",
+   "stroke": [
+    [
+     "#ffffff",
+     1.5
+    ]
+   ],
+   "text": {
+    "zh": "ピタ",
+    "ja": "ピタ",
+    "en": "SHUT"
+   }
+  },
+  {
+   "id": "q",
+   "panel": "p4",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.818,
+    0.12
+   ],
+   "size": 20,
+   "rot": 14,
+   "font": "round",
+   "fill": "#9a9aa0",
+   "stroke": [
+    [
+     "#3a3a40",
+     1.5
+    ]
+   ],
+   "text": {
+    "zh": "?",
+    "ja": "?",
+    "en": "?"
+   }
+  },
+  {
+   "id": "s4a",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.14,
+    0.5
+   ],
+   "tail": [
+    0.02,
+    0.8
+   ],
+   "size": 14,
+   "maxW": 200,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……变成“最后一声”，\n被“祂”捡走。",
+    "ja": "……「最後の一声」になって、\n“あれ”に拾われる。",
+    "en": "...IT BECOMES A \"LAST VOICE,\" AND \"IT\" PICKS IT UP."
+   }
+  },
+  {
+   "id": "s4b",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.4,
+    0.72
+   ],
+   "tail": [
+    0.28,
+    0.95
+   ],
+   "size": 15,
+   "maxW": 180,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "——余白之主。",
+    "ja": "——余白の主。",
+    "en": "—THE LORD OF THE BLANK."
+   }
+  },
+  {
+   "id": "nar",
+   "panel": "p5",
+   "type": "bubble",
+   "shape": "rect",
+   "font": "narration",
+   "at": [
+    0.5,
+    0.5
+   ],
+   "tail": null,
+   "size": 20,
+   "maxW": 800,
+   "ink": "#000000",
+   "paper": "#000000",
+   "color": "#ffffff",
+   "text": {
+    "zh": "那一声，去了没有颜色的地方。",
+    "ja": "その一声は、色のない場所へ行った。",
+    "en": "THAT VOICE WENT SOMEWHERE WITHOUT COLOUR."
+   }
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "panel",
+    "id": "p1",
+    "style": "cut"
+   },
+   {
+    "do": "text",
+    "id": "e1",
+    "enter": "pop",
+    "delay": 0.15
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "mute",
+    "enter": "fade",
+    "dur": 0.12
+   },
+   {
+    "do": "shatter",
+    "id": "mute",
+    "delay": 0.75
+   },
+   {
+    "do": "alpha",
+    "id": "p1/out",
+    "to": 1,
+    "dur": 0.15,
+    "delay": 0.45
+   },
+   {
+    "do": "alpha",
+    "id": "pk1/hide",
+    "to": 0,
+    "dur": 0.3,
+    "delay": 0.6
+   },
+   {
+    "do": "alpha",
+    "id": "pk1/stand",
+    "to": 1,
+    "dur": 0.3,
+    "delay": 0.6
+   },
+   {
+    "do": "text",
+    "id": "puq",
+    "enter": "pop",
+    "delay": 0.95
+   }
+  ],
+  [
+   {
+    "do": "cam",
+    "panel": "p2",
+    "at": [
+     0.5,
+     0.5
+    ],
+    "z": 1.0,
+    "rot": -12,
+    "dur": 0
+   },
+   {
+    "do": "panel",
+    "id": "p2",
+    "style": "cut"
+   },
+   {
+    "do": "text",
+    "id": "e2a",
+    "enter": "pop",
+    "delay": 0.3
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "k2/vein",
+    "to": 1,
+    "dur": 0.08
+   },
+   {
+    "do": "text",
+    "id": "e2b",
+    "enter": "pop",
+    "delay": 0.2
+   },
+   {
+    "do": "wipe",
+    "to": "mono",
+    "tags": [
+     "k2"
+    ],
+    "shape": "linear",
+    "angle": -90,
+    "edge": "dots",
+    "stop": 0.46,
+    "dur": 1.0,
+    "delay": 0.4
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "k2/b",
+    "to": 1,
+    "dur": 0.12
+   },
+   {
+    "do": "alpha",
+    "id": "k2/a",
+    "to": 0,
+    "dur": 0.12
+   },
+   {
+    "do": "alpha",
+    "id": "k2/vein",
+    "to": 0,
+    "dur": 0.12
+   },
+   {
+    "do": "text",
+    "id": "e2c",
+    "enter": "pop",
+    "delay": 0.3
+   },
+   {
+    "do": "wipe",
+    "to": "mono",
+    "tags": [
+     "k2"
+    ],
+    "shape": "linear",
+    "angle": -90,
+    "edge": "dots",
+    "stop": 0.52,
+    "dur": 1.0,
+    "delay": 0.6
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "k2/shock",
+    "to": 1,
+    "dur": 0.08
+   },
+   {
+    "do": "alpha",
+    "id": "k2/b",
+    "to": 0,
+    "dur": 0.08
+   },
+   {
+    "do": "alpha",
+    "id": "p2/gloom",
+    "to": 1,
+    "dur": 0.4
+   },
+   {
+    "do": "alpha",
+    "id": "k2/ahoge",
+    "to": 1,
+    "dur": 0.1,
+    "delay": 0.3
+   },
+   {
+    "do": "alpha",
+    "id": "k2/glow",
+    "to": 1,
+    "dur": 0.8,
+    "delay": 1.3
+   },
+   {
+    "do": "wipe",
+    "to": "mono",
+    "tags": [
+     "k2"
+    ],
+    "shape": "linear",
+    "angle": -90,
+    "edge": "dots",
+    "dur": 1.5,
+    "delay": 0.3,
+    "ease": "in"
+   },
+   {
+    "do": "cam",
+    "panel": "p2",
+    "at": [
+     0.56,
+     0.32
+    ],
+    "z": 1.1,
+    "rot": -12,
+    "dur": 1.8,
+    "ease": "inOut"
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p3"
+   },
+   {
+    "do": "text",
+    "id": "pu1",
+    "enter": "pop",
+    "delay": 0.3
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "e3",
+    "enter": "pop",
+    "dur": 0.1
+   },
+   {
+    "do": "move",
+    "id": "e3",
+    "to": [
+     0.66,
+     0.4
+    ],
+    "dur": 0.22,
+    "ease": "outExpo"
+   },
+   {
+    "do": "alpha",
+    "id": "pk3/cry",
+    "to": 0,
+    "dur": 0.08,
+    "delay": 0.15
+   },
+   {
+    "do": "alpha",
+    "id": "pk3/flinch",
+    "to": 1,
+    "dur": 0.08,
+    "delay": 0.15
+   }
+  ],
+  [
+   {
+    "do": "move",
+    "id": "e3",
+    "scale": 0.35,
+    "by": [
+     0,
+     0.08
+    ],
+    "dur": 0.7,
+    "ease": "in"
+   },
+   {
+    "do": "untext",
+    "id": "e3",
+    "exit": "fade",
+    "delay": 0.45
+   },
+   {
+    "do": "alpha",
+    "id": "pk3/flinch",
+    "to": 0,
+    "dur": 0.15,
+    "delay": 0.5
+   },
+   {
+    "do": "alpha",
+    "id": "pk3/cry",
+    "to": 1,
+    "dur": 0.15,
+    "delay": 0.5
+   },
+   {
+    "do": "text",
+    "id": "pu2",
+    "enter": "pop",
+    "delay": 0.8
+   },
+   {
+    "do": "alpha",
+    "id": "p3/dark",
+    "to": 1,
+    "dur": 0.6,
+    "delay": 1.0
+   },
+   {
+    "do": "alpha",
+    "id": "p3/tone",
+    "to": 1,
+    "dur": 0.8,
+    "delay": 1.0
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p4"
+   },
+   {
+    "do": "cam",
+    "panel": "p4",
+    "at": [
+     0.5,
+     0.6
+    ],
+    "z": 0.95,
+    "dur": 4,
+    "ease": "inOut"
+   }
+  ],
+  [
+   {
+    "do": "move",
+    "id": "p4/crack",
+    "scaleX": 0.05,
+    "dur": 0.4,
+    "ease": "in"
+   },
+   {
+    "do": "alpha",
+    "id": "p4/crack",
+    "to": 0,
+    "dur": 0.4
+   },
+   {
+    "do": "start",
+    "id": "p4/spark",
+    "delay": 0.35
+   },
+   {
+    "do": "stop",
+    "id": "p4/spark",
+    "delay": 0.9
+   },
+   {
+    "do": "text",
+    "id": "pita",
+    "enter": "fade",
+    "delay": 0.4
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p4/ahoge",
+    "to": 0,
+    "dur": 1.2
+   },
+   {
+    "do": "text",
+    "id": "q",
+    "enter": "fade",
+    "delay": 0.6
+   },
+   {
+    "do": "untext",
+    "id": "pita",
+    "exit": "fade",
+    "delay": 0.2
+   },
+   {
+    "do": "text",
+    "id": "s4a",
+    "enter": "fade",
+    "delay": 1.2
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "s4b",
+    "enter": "fade",
+    "delay": 0.5
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p5",
+    "dur": 0.6
+   },
+   {
+    "do": "text",
+    "id": "nar",
+    "enter": "fade",
+    "delay": 0.4
+   }
+  ]
+ ]
+}

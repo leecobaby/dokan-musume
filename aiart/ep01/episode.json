@@ -1,0 +1,139 @@
+{
+ "id": "ep01",
+ "number": 1,
+ "series": {
+  "zh": "轰！拟声少女",
+  "ja": "ドカン娘は黙らない!!",
+  "en": "BOOM! The Onomatopoeia Girl"
+ },
+ "title": {
+  "zh": "全世界最大声的早上好",
+  "ja": "世界一大きな声のおはよう",
+  "en": "The Loudest Good Morning in the World"
+ },
+ "subtitle": "ドカン娘は黙らない!!",
+ "lang": "zh",
+ "langs": [
+  "zh",
+  "ja",
+  "en"
+ ],
+ "characters": [
+  "kodama",
+  "shiori",
+  "pukusuke",
+  "ooguchi",
+  "shijima",
+  "students",
+  "kodama-child",
+  "akari"
+ ],
+ "pages": [
+  {
+   "id": "p00",
+   "status": "done",
+   "transition": {
+    "type": "fade",
+    "dur": 300
+   }
+  },
+  {
+   "id": "p01",
+   "status": "done",
+   "transition": {
+    "type": "black",
+    "dur": 800
+   }
+  },
+  {
+   "id": "p02",
+   "status": "done",
+   "transition": {
+    "type": "flash",
+    "dur": 420
+   }
+  },
+  {
+   "id": "p03",
+   "status": "done",
+   "transition": "slide"
+  },
+  {
+   "id": "p04",
+   "status": "done",
+   "transition": "slide"
+  },
+  {
+   "id": "p05",
+   "status": "done",
+   "transition": "fade"
+  },
+  {
+   "id": "p06",
+   "status": "done",
+   "transition": "ink"
+  },
+  {
+   "id": "p07",
+   "status": "done",
+   "transition": "slide"
+  },
+  {
+   "id": "p08",
+   "status": "done",
+   "transition": "slide"
+  },
+  {
+   "id": "p09",
+   "status": "done",
+   "transition": "zoom"
+  },
+  {
+   "id": "p10",
+   "status": "done",
+   "transition": "flash"
+  },
+  {
+   "id": "p11",
+   "status": "done",
+   "transition": "shatter"
+  },
+  {
+   "id": "p12",
+   "status": "done",
+   "transition": "black"
+  },
+  {
+   "id": "p13",
+   "status": "done",
+   "transition": {
+    "type": "black",
+    "color": "#FFFFFF",
+    "dur": 900
+   }
+  },
+  {
+   "id": "p14",
+   "status": "done",
+   "transition": "fade"
+  },
+  {
+   "id": "p15",
+   "status": "done",
+   "transition": "slide"
+  },
+  {
+   "id": "p16",
+   "status": "done",
+   "transition": "ink"
+  },
+  {
+   "id": "p17",
+   "status": "done",
+   "transition": {
+    "type": "fade",
+    "dur": 500
+   }
+  }
+ ]
+}

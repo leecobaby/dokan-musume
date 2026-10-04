@@ -1,0 +1,267 @@
+{
+ "v": 1,
+ "page": 14,
+ "panels": {
+  "p1": {
+   "rect": [
+    40,
+    46,
+    920,
+    433
+   ],
+   "crop": [
+    0,
+    118,
+    1536,
+    723
+   ]
+  },
+  "p2": {
+   "rect": [
+    461,
+    500,
+    499,
+    381
+   ],
+   "crop": [
+    195,
+    0,
+    1341,
+    1024
+   ]
+  },
+  "p3": {
+   "rect": [
+    40,
+    500,
+    408,
+    381
+   ],
+   "crop": [
+    0,
+    41,
+    1254,
+    1171
+   ]
+  },
+  "p4": {
+   "rect": [
+    40,
+    901,
+    920,
+    459
+   ],
+   "crop": [
+    137,
+    0,
+    1642,
+    821
+   ]
+  }
+ },
+ "frames": {
+  "p1/base": {
+   "file": "p1-base.webp",
+   "panel": "p1",
+   "x": 0,
+   "y": 118,
+   "w": 1536,
+   "h": 723,
+   "s": 0.8,
+   "mono": "p1-base-mono.webp"
+  },
+  "p2/base": {
+   "file": "p2-base.webp",
+   "panel": "p2",
+   "x": 195,
+   "y": 0,
+   "w": 1341,
+   "h": 1024,
+   "s": 0.55,
+   "mono": "p2-base-mono.webp"
+  },
+  "p3/base": {
+   "file": "p3-base.webp",
+   "panel": "p3",
+   "x": 0,
+   "y": 41,
+   "w": 1254,
+   "h": 1171,
+   "s": 0.5,
+   "mono": "p3-base-mono.webp"
+  },
+  "p3/flat": {
+   "file": "p3-flat.webp",
+   "panel": "p3",
+   "x": 0,
+   "y": 41,
+   "w": 1254,
+   "h": 1171,
+   "s": 0.5,
+   "mono": "p3-flat-mono.webp"
+  },
+  "p4/plate": {
+   "file": "p4-plate.webp",
+   "panel": "p4",
+   "x": 137,
+   "y": 0,
+   "w": 1642,
+   "h": 821,
+   "s": 0.7,
+   "mono": "p4-plate-mono.webp"
+  },
+  "p4/flowers": {
+   "file": "p4-flowers.webp",
+   "panel": "p4",
+   "x": 137,
+   "y": 0,
+   "w": 1642,
+   "h": 821,
+   "s": 0.7,
+   "mono": "p4-flowers-mono.webp"
+  },
+  "p1/kodama-grin": {
+   "file": "p1-kodama-grin.webp",
+   "panel": "p1",
+   "x": 935,
+   "y": 241,
+   "w": 193,
+   "h": 147,
+   "s": 0.8,
+   "mono": "p1-kodama-grin-mono.webp"
+  },
+  "p1/kodama-v": {
+   "file": "p1-kodama-v.webp",
+   "panel": "p1",
+   "x": 841,
+   "y": 295,
+   "w": 218,
+   "h": 371,
+   "s": 0.8,
+   "mono": "p1-kodama-v-mono.webp"
+  },
+  "p1/puku-cry": {
+   "file": "p1-puku-cry.webp",
+   "panel": "p1",
+   "x": 889,
+   "y": 148,
+   "w": 230,
+   "h": 158,
+   "s": 0.8,
+   "mono": "p1-puku-cry-mono.webp"
+  },
+  "p1/shiori-front": {
+   "file": "p1-shiori-front.webp",
+   "panel": "p1",
+   "x": 408,
+   "y": 171,
+   "w": 176,
+   "h": 218,
+   "s": 0.8,
+   "mono": "p1-shiori-front-mono.webp"
+  },
+  "p2/torso": {
+   "file": "p2-torso.webp",
+   "panel": "p2",
+   "x": 141,
+   "y": 130,
+   "w": 478,
+   "h": 894,
+   "s": 0.55,
+   "mono": "p2-torso-mono.webp"
+  },
+  "p2/arm": {
+   "file": "p2-arm.webp",
+   "panel": "p2",
+   "x": 581,
+   "y": 405,
+   "w": 598,
+   "h": 233,
+   "s": 0.55,
+   "mono": "p2-arm-mono.webp"
+  },
+  "p2/kodama-shock": {
+   "file": "p2-kodama-shock.webp",
+   "panel": "p2",
+   "x": 981,
+   "y": 215,
+   "w": 555,
+   "h": 809,
+   "s": 0.55,
+   "mono": "p2-kodama-shock-mono.webp"
+  },
+  "p2/shiori-away": {
+   "file": "p2-shiori-away.webp",
+   "panel": "p2",
+   "x": 407,
+   "y": 131,
+   "w": 257,
+   "h": 138,
+   "s": 0.55,
+   "mono": "p2-shiori-away-mono.webp"
+  },
+  "p3/puku-cheer": {
+   "file": "p3-puku-cheer.webp",
+   "panel": "p3",
+   "x": 970,
+   "y": 897,
+   "w": 284,
+   "h": 357,
+   "s": 0.5,
+   "mono": "p3-puku-cheer-mono.webp"
+  }
+ },
+ "stats": {
+  "bytes": 1777838,
+  "px": 0,
+  "patchArea": {
+   "p1/kodama-grin": 7006,
+   "p1/kodama-v": 18192,
+   "p1/puku-cry": 9656,
+   "p1/shiori-front": 15201,
+   "p2/torso": 111876,
+   "p2/arm": 56099,
+   "p2/kodama-shock": 305205,
+   "p2/shiori-away": 9352,
+   "p3/puku-cheer": 43177
+  },
+  "monoMatch": {
+   "p1/kodama-grin": [
+    1.033,
+    -6.9
+   ],
+   "p1/kodama-v": [
+    1.041,
+    -11.0
+   ],
+   "p1/puku-cry": [
+    1.186,
+    -36.7
+   ],
+   "p1/shiori-front": [
+    1.0,
+    0.7
+   ],
+   "p2/torso": [
+    0.949,
+    -5.9
+   ],
+   "p2/arm": [
+    0.979,
+    12.3
+   ],
+   "p2/kodama-shock": [
+    0.929,
+    14.9
+   ],
+   "p2/shiori-away": [
+    0.994,
+    2.7
+   ],
+   "p3/puku-cheer": [
+    0.888,
+    19.0
+   ]
+  }
+ }
+}

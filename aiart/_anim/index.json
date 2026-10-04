@@ -1,0 +1,79 @@
+[
+ {
+  "id": "run-a2",
+  "label": "跑 · a 精灵表",
+  "fps": 12
+ },
+ {
+  "id": "run-b",
+  "label": "跑 · b 链式 edit",
+  "fps": 12
+ },
+ {
+  "id": "run-c",
+  "label": "跑 · c 关键帧+补间",
+  "fps": 12
+ },
+ {
+  "id": "run-v",
+  "label": "跑 · 视频抽帧 (Kling)",
+  "fps": 24
+ },
+ {
+  "id": "run-v2",
+  "label": "跑 · 视频抽帧 (Veo)",
+  "fps": 24
+ },
+ {
+  "id": "run-h",
+  "label": "跑 · 视频抽帧 (海螺 H3)",
+  "fps": 24
+ },
+ {
+  "id": "run-v3",
+  "label": "跑 · 视频抽帧 (Veo, 新调用)",
+  "fps": 12
+ },
+ {
+  "id": "cheer-a2",
+  "label": "应援跳 · a 精灵表",
+  "fps": 10
+ },
+ {
+  "id": "cheer-b",
+  "label": "应援跳 · b 链式",
+  "fps": 10
+ },
+ {
+  "id": "cheer-c",
+  "label": "应援跳 · c 关键帧",
+  "fps": 10
+ },
+ {
+  "id": "cheer-v",
+  "label": "应援跳 · 视频抽帧",
+  "fps": 12
+ },
+ {
+  "id": "cheer-h",
+  "label": "应援跳 · 视频抽帧 (海螺 H3)",
+  "fps": 12
+ },
+ {
+  "id": "cheer-v3",
+  "label": "应援跳 · 视频抽帧 (Veo, 新调用)",
+  "fps": 12
+ },
+ {
+  "id": "flag-a",
+  "label": "旗子 · a 精灵表",
+  "fps": 10,
+  "scale": 0.8
+ },
+ {
+  "id": "flag-v",
+  "label": "旗子 · 视频抽帧 (Kling)",
+  "fps": 12,
+  "scale": 0.8
+ }
+]

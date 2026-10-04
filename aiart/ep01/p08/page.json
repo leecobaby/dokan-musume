@@ -1,0 +1,1554 @@
+{
+ "id": "ep01/p08",
+ "paper": "#ffffff",
+ "monoText": "gray",
+ "seed": 8,
+ "panels": [
+  {
+   "id": "p1",
+   "poly": [
+    [
+     391,
+     40
+    ],
+    [
+     960,
+     40
+    ],
+    [
+     960,
+     460
+    ],
+    [
+     480,
+     460
+    ]
+   ],
+   "border": 3,
+   "fill": "#ffffff"
+  },
+  {
+   "id": "p2",
+   "poly": [
+    [
+     40,
+     40
+    ],
+    [
+     375,
+     40
+    ],
+    [
+     464,
+     460
+    ],
+    [
+     129,
+     460
+    ]
+   ],
+   "border": 3,
+   "fill": "#ffffff"
+  },
+  {
+   "id": "p3",
+   "rect": [
+    40,
+    476,
+    920,
+    500
+   ],
+   "bleed": [
+    "l",
+    "r"
+   ],
+   "border": 3
+  },
+  {
+   "id": "p4",
+   "rect": [
+    586,
+    992,
+    374,
+    382
+   ],
+   "border": 3,
+   "fill": "#1a1a1a"
+  },
+  {
+   "id": "p5",
+   "rect": [
+    40,
+    992,
+    530,
+    382
+   ],
+   "border": 3,
+   "fill": "#000000"
+  }
+ ],
+ "layers": [
+  {
+   "id": "s1",
+   "panel": "p1",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.45374800637958534,
+   "idle": false,
+   "states": {
+    "purple": "on"
+   }
+  },
+  {
+   "id": "p1/cage",
+   "panel": "p1",
+   "kind": "sprite",
+   "frame": "cage1",
+   "frames": [
+    "cage1",
+    "cage2",
+    "cage3",
+    "cage4",
+    "cage5",
+    "cage6",
+    "cage7",
+    "cage8",
+    "cage9",
+    "cage10"
+   ],
+   "at": [
+    0.08373205741626794,
+    0.4265360370623528
+   ],
+   "anchor": [
+    0,
+    0
+   ],
+   "scale": 0.45374800637958534,
+   "hidden": true
+  },
+  {
+   "id": "p2/speed",
+   "panel": "p2",
+   "kind": "speed",
+   "angle": 0,
+   "gap": 8,
+   "clear": [
+    0.4,
+    0.5,
+    0.2,
+    0.3
+   ],
+   "hidden": true
+  },
+  {
+   "id": "s2a",
+   "panel": "p2",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.33811802232854865,
+   "idle": false,
+   "states": {
+    "purple": "on"
+   }
+  },
+  {
+   "id": "s2b",
+   "panel": "p2",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.33811802232854865,
+   "idle": false,
+   "states": {
+    "purple": "on"
+   },
+   "hidden": true
+  },
+  {
+   "id": "s2c",
+   "panel": "p2",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.33811802232854865,
+   "idle": false,
+   "states": {
+    "purple": "on"
+   },
+   "hidden": true
+  },
+  {
+   "id": "p2/ink",
+   "panel": "p2",
+   "kind": "particles",
+   "preset": "ink",
+   "n": 26,
+   "area": [
+    0.5,
+    0.45,
+    0.62,
+    0.6
+   ],
+   "speed": 1.3,
+   "size": 0.8
+  },
+  {
+   "id": "p2/dust",
+   "panel": "p2",
+   "kind": "particles",
+   "preset": "dust",
+   "n": 14,
+   "area": [
+    0.3,
+    0.25,
+    0.6,
+    0.55
+   ],
+   "emit": "inside",
+   "colors": [
+    "#8a8a8a",
+    "#b0b0b0"
+   ],
+   "speed": 0.6,
+   "size": 1.4
+  },
+  {
+   "id": "o3",
+   "panel": "p3",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.6510416666666666,
+   "idle": false,
+   "states": {
+    "e1": "closed",
+    "e2": "closed",
+    "e3": "closed",
+    "e4": "closed",
+    "e5": "closed",
+    "e6": "closed"
+   }
+  },
+  {
+   "id": "p3/town",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "er0",
+   "frames": [
+    "er0",
+    "er1",
+    "er2",
+    "er3",
+    "er4"
+   ],
+   "at": [
+    0.0,
+    0.6770833333333333
+   ],
+   "anchor": [
+    0,
+    0
+   ],
+   "scale": 0.6510416666666666
+  },
+  {
+   "id": "p3/glow",
+   "panel": "p3",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.13,
+    0.5
+   ],
+   "r": [
+    0.2,
+    0.13
+   ],
+   "invert": true,
+   "color": "#FF9A4A",
+   "mono": "#ffffff",
+   "strength": 0.55,
+   "blend": "multiply"
+  },
+  {
+   "id": "p3/drip",
+   "panel": "p3",
+   "kind": "particles",
+   "preset": "ink",
+   "n": 4,
+   "area": [
+    0.6,
+    0.31,
+    0.72,
+    0.39
+   ],
+   "dir": 90,
+   "speed": 0.15,
+   "size": 0.45
+  },
+  {
+   "id": "p3/drain",
+   "panel": "p3",
+   "kind": "particles",
+   "preset": "light",
+   "n": 26,
+   "area": [
+    0.02,
+    0.44,
+    0.3,
+    0.58
+   ],
+   "emit": "inside",
+   "dir": -12,
+   "speed": 1.6,
+   "size": 0.9,
+   "colors": [
+    "#FF9A4A",
+    "#FFC07A"
+   ]
+  },
+  {
+   "id": "p3/crumbs",
+   "panel": "p3",
+   "kind": "particles",
+   "preset": "paper",
+   "n": 14,
+   "area": [
+    0.02,
+    0.7,
+    0.4,
+    0.95
+   ],
+   "emit": "inside",
+   "colors": [
+    "#dcdcdc",
+    "#c4c4c4"
+   ],
+   "speed": 0.5,
+   "size": 0.6
+  },
+  {
+   "id": "p4/soft",
+   "panel": "p4",
+   "kind": "frame"
+  },
+  {
+   "id": "p4/dark",
+   "panel": "p4",
+   "kind": "fill",
+   "color": "#000000",
+   "alpha": 0.45
+  },
+  {
+   "id": "k4",
+   "panel": "p4",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.30431244914564687,
+   "idle": false,
+   "states": {
+    "col": "c0"
+   },
+   "hidden": true
+  },
+  {
+   "id": "p4/vig",
+   "panel": "p4",
+   "kind": "tone",
+   "shape": "radial",
+   "strength": 0.5,
+   "depth": 0,
+   "alpha": 0
+  },
+  {
+   "id": "p4/gloom",
+   "panel": "p4",
+   "kind": "gloom",
+   "box": [
+    0.04,
+    0,
+    0.96,
+    0.3
+   ],
+   "n": 20,
+   "alpha": 0,
+   "color": "#d0d0d0"
+  },
+  {
+   "id": "p4/drop",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "drop",
+   "at": [
+    0.42,
+    -0.02
+   ],
+   "scale": 0.32,
+   "anchor": [
+    0.5,
+    1
+   ],
+   "hidden": true
+  },
+  {
+   "id": "p4/splash",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "ink",
+   "n": 12,
+   "area": [
+    0.37,
+    0.75,
+    0.43,
+    0.81
+   ],
+   "size": 0.55,
+   "speed": 0.7
+  },
+  {
+   "id": "e5",
+   "panel": "p5",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    0.52
+   ],
+   "scale": 0.373046875,
+   "idle": false,
+   "states": {
+    "eye": "closed"
+   }
+  },
+  {
+   "id": "p5/flash",
+   "panel": "p5",
+   "kind": "focus",
+   "at": [
+    0.5,
+    0.454
+   ],
+   "inner": [
+    0.46,
+    0.4
+   ],
+   "n": 120,
+   "ink": "#ffffff",
+   "alpha": 0
+  },
+  {
+   "id": "p5/glow",
+   "panel": "p5",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.5,
+    0.46
+   ],
+   "r": [
+    0.22,
+    0.26
+   ],
+   "invert": true,
+   "color": "#FFB36B",
+   "mono": "#000000",
+   "strength": 0.45,
+   "blend": "add",
+   "alpha": 0
+  },
+  {
+   "id": "p5/embers",
+   "panel": "p5",
+   "kind": "particles",
+   "preset": "light",
+   "n": 6,
+   "area": [
+    0.43,
+    0.3,
+    0.57,
+    0.62
+   ],
+   "colors": [
+    "#FFB36B",
+    "#FFB000"
+   ],
+   "size": 1.3,
+   "speed": 0.6
+  }
+ ],
+ "texts": [
+  {
+   "id": "shh1",
+   "panel": "p1",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.56,
+    0.12
+   ],
+   "tail": [
+    0.74,
+    0.17
+   ],
+   "size": 15,
+   "maxW": 110,
+   "maxH": 120,
+   "color": "#555555",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……肃静。",
+    "ja": "……静粛に。",
+    "en": "...Silence."
+   }
+  },
+  {
+   "id": "gakin",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.36,
+    0.33
+   ],
+   "size": 26,
+   "rot": 0,
+   "font": "quiet",
+   "fill": "#111111",
+   "stroke": [],
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "ガキン",
+    "ja": "ガキン",
+    "en": "CLANK"
+   }
+  },
+  {
+   "id": "bakii",
+   "panel": "p2",
+   "type": "sfx",
+   "at": [
+    0.56,
+    0.24
+   ],
+   "size": 50,
+   "rot": -12,
+   "font": "sharp",
+   "fill": "#111111",
+   "stroke": [
+    [
+     "#ffffff",
+     3
+    ]
+   ],
+   "jitter": 0.6,
+   "text": {
+    "zh": "バキィッ!!",
+    "ja": "バキィッ!!",
+    "en": "CRACK!!"
+   }
+  },
+  {
+   "id": "dogaa",
+   "panel": "p2",
+   "type": "sfx",
+   "at": [
+    0.68,
+    0.84
+   ],
+   "size": 50,
+   "rot": -10,
+   "font": "menace",
+   "hollow": true,
+   "dash": [
+    8,
+    5
+   ],
+   "stroke": [
+    [
+     "#111111",
+     4
+    ],
+    [
+     "#ffffff",
+     3
+    ]
+   ],
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "ドガッ",
+    "ja": "ドガッ",
+    "en": "WHAM"
+   }
+  },
+  {
+   "id": "shh2",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.7,
+    0.14
+   ],
+   "tail": [
+    0.48,
+    0.28
+   ],
+   "size": 14,
+   "maxW": 130,
+   "maxH": 150,
+   "color": "#8a8a8a",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……鸣濑谺同学。\n别出声。",
+    "ja": "……鳴瀬こだまさん。\n声を、出さないで。",
+    "en": "...Naruse Kodama.\nDon't make a sound."
+   }
+  },
+  {
+   "id": "puku1",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.86,
+    0.6
+   ],
+   "tail": [
+    1.02,
+    1.03
+   ],
+   "size": 16,
+   "maxW": 170,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "它在把这个町\n「擦掉」噗！",
+    "ja": "町を「消して」\nるプク！",
+    "en": "It's ERASING\nthe town, puku!"
+   }
+  },
+  {
+   "id": "puku2",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.7,
+    0.82
+   ],
+   "tail": [
+    1.02,
+    1.03
+   ],
+   "size": 16,
+   "maxW": 200,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "再这样下去，大家都会\n变成白纸噗!!",
+    "ja": "このままじゃ、みんな\n白紙になっちゃうプク!!",
+    "en": "Everyone'll turn into\nBLANK PAPER, puku!!"
+   }
+  },
+  {
+   "id": "pota",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.34,
+    0.66
+   ],
+   "size": 46,
+   "rot": -6,
+   "font": "round",
+   "hollow": true,
+   "dash": [
+    7,
+    5
+   ],
+   "stroke": [
+    [
+     "#e8e8e8",
+     3
+    ]
+   ],
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "ポタ",
+    "ja": "ポタ",
+    "en": "DRIP"
+   }
+  },
+  {
+   "id": "kq",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.17,
+    0.2
+   ],
+   "tail": [
+    0.4,
+    0.42
+   ],
+   "size": 15,
+   "maxW": 96,
+   "maxH": 150,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……要我，\n闭嘴？",
+    "ja": "……あたしに、\n黙れって？",
+    "en": "...You want me\nto SHUT UP?"
+   }
+  },
+  {
+   "id": "dokun",
+   "panel": "p5",
+   "type": "sfx",
+   "at": [
+    0.9,
+    0.7
+   ],
+   "size": 28,
+   "rot": 4,
+   "font": "round",
+   "fill": "#FF8A1F",
+   "stroke": [],
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "ドクン",
+    "ja": "ドクン",
+    "en": "THUMP"
+   }
+  },
+  {
+   "id": "kat",
+   "panel": "p5",
+   "type": "sfx",
+   "at": [
+    0.84,
+    0.06
+   ],
+   "size": 64,
+   "rot": -8,
+   "font": "impact",
+   "fill": "#FF7A2F",
+   "stroke": [
+    [
+     "#000000",
+     2
+    ],
+    [
+     "#ffffff",
+     3
+    ]
+   ],
+   "jitter": 0.3,
+   "text": {
+    "zh": "カッ!!",
+    "ja": "カッ!!",
+    "en": "FLASH!!"
+   }
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "panel",
+    "id": "p1",
+    "dur": 0.5
+   },
+   {
+    "do": "alpha",
+    "id": "p1/cage",
+    "to": 1,
+    "delay": 0.5,
+    "dur": 0.04
+   },
+   {
+    "do": "frame",
+    "id": "p1/cage",
+    "frame": "cage2",
+    "delay": 0.6
+   },
+   {
+    "do": "frame",
+    "id": "p1/cage",
+    "frame": "cage3",
+    "delay": 0.7
+   },
+   {
+    "do": "frame",
+    "id": "p1/cage",
+    "frame": "cage4",
+    "delay": 0.8
+   },
+   {
+    "do": "frame",
+    "id": "p1/cage",
+    "frame": "cage5",
+    "delay": 0.9
+   },
+   {
+    "do": "frame",
+    "id": "p1/cage",
+    "frame": "cage6",
+    "delay": 1.0
+   },
+   {
+    "do": "frame",
+    "id": "p1/cage",
+    "frame": "cage7",
+    "delay": 1.1
+   },
+   {
+    "do": "frame",
+    "id": "p1/cage",
+    "frame": "cage8",
+    "delay": 1.2
+   },
+   {
+    "do": "frame",
+    "id": "p1/cage",
+    "frame": "cage9",
+    "delay": 1.3
+   },
+   {
+    "do": "frame",
+    "id": "p1/cage",
+    "frame": "cage10",
+    "delay": 1.4
+   },
+   {
+    "do": "text",
+    "id": "gakin",
+    "enter": "fade",
+    "delay": 1.45,
+    "dur": 0.15
+   },
+   {
+    "do": "text",
+    "id": "shh1",
+    "enter": "fade",
+    "delay": 1.8,
+    "dur": 0.5
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "s1",
+    "slot": "eyes",
+    "state": "wide",
+    "style": "fade",
+    "ms": 140,
+    "delay": 0.2
+   },
+   {
+    "do": "push",
+    "panel": "p1",
+    "at": [
+     0.3,
+     0.6
+    ],
+    "z": 1.04,
+    "dur": 1.4,
+    "ease": "inOut"
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p2",
+    "style": "slide",
+    "from": "r",
+    "dist": 40,
+    "dur": 0.35
+   },
+   {
+    "do": "shake",
+    "panel": "p2",
+    "amp": 3,
+    "dur": 0.8,
+    "delay": 0.3
+   },
+   {
+    "do": "push",
+    "panel": "p2",
+    "at": [
+     0.4,
+     0.4
+    ],
+    "z": 1.03,
+    "dur": 1.2
+   }
+  ],
+  [
+   {
+    "do": "flash",
+    "color": "#ffffff",
+    "dur": 0.18
+   },
+   {
+    "do": "alpha",
+    "id": "s2a",
+    "to": 0,
+    "dur": 0.02
+   },
+   {
+    "do": "alpha",
+    "id": "s2b",
+    "to": 1,
+    "dur": 0.02
+   },
+   {
+    "do": "alpha",
+    "id": "p2/speed",
+    "to": 1,
+    "dur": 0.02
+   },
+   {
+    "do": "start",
+    "id": "p2/speed"
+   },
+   {
+    "do": "start",
+    "id": "p2/ink"
+   },
+   {
+    "do": "stop",
+    "id": "p2/ink",
+    "delay": 0.2
+   },
+   {
+    "do": "text",
+    "id": "bakii",
+    "enter": "slam",
+    "dur": 0.14
+   },
+   {
+    "do": "shake",
+    "panel": "p2",
+    "amp": 14,
+    "dur": 0.5
+   },
+   {
+    "do": "shake",
+    "amp": 6,
+    "dur": 0.4
+   },
+   {
+    "do": "push",
+    "panel": "p2",
+    "at": [
+     0.5,
+     0.5
+    ],
+    "z": 1.08,
+    "dur": 0.15,
+    "ease": "out"
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "s2b",
+    "to": 0,
+    "dur": 0.15
+   },
+   {
+    "do": "untext",
+    "id": "bakii",
+    "exit": "fade",
+    "dur": 0.15
+   },
+   {
+    "do": "stop",
+    "id": "p2/speed"
+   },
+   {
+    "do": "alpha",
+    "id": "p2/speed",
+    "to": 0,
+    "dur": 0.15
+   },
+   {
+    "do": "alpha",
+    "id": "s2c",
+    "to": 1,
+    "dur": 0.2
+   },
+   {
+    "do": "push",
+    "panel": "p2",
+    "at": [
+     0.45,
+     0.4
+    ],
+    "z": 1.0,
+    "dur": 0.25,
+    "ease": "out"
+   },
+   {
+    "do": "start",
+    "id": "p2/dust",
+    "delay": 0.1
+   },
+   {
+    "do": "stop",
+    "id": "p2/dust",
+    "delay": 0.5
+   },
+   {
+    "do": "text",
+    "id": "dogaa",
+    "enter": "fade",
+    "delay": 0.25,
+    "dur": 0.3
+   },
+   {
+    "do": "wipe",
+    "to": "mono",
+    "ids": [
+     "s2c"
+    ],
+    "shape": "radial",
+    "at": [
+     0.45,
+     0.4
+    ],
+    "edge": "dots",
+    "delay": 0.8,
+    "dur": 1.4
+   },
+   {
+    "do": "text",
+    "id": "shh2",
+    "enter": "fade",
+    "delay": 1.6,
+    "dur": 0.6
+   }
+  ],
+  [
+   {
+    "do": "push",
+    "panel": "p3",
+    "at": [
+     0.63,
+     0.3
+    ],
+    "z": 1.04,
+    "dur": 0
+   },
+   {
+    "do": "panel",
+    "id": "p3",
+    "dur": 0.8
+   },
+   {
+    "do": "start",
+    "id": "p3/drip",
+    "warm": true
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e3",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 0.6
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e1",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 0.73
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e5",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 0.86
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e2",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 0.99
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e6",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 1.12
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e4",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 1.25
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e1",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.75
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e2",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.75
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e3",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.75
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e4",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.75
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e5",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.75
+   },
+   {
+    "do": "state",
+    "id": "o3",
+    "slot": "e6",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.75
+   }
+  ],
+  [
+   {
+    "do": "start",
+    "id": "p3/drain"
+   },
+   {
+    "do": "stop",
+    "id": "p3/drain",
+    "delay": 0.9
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0,
+    "dur": 0.9
+   },
+   {
+    "do": "text",
+    "id": "puku1",
+    "enter": "pop",
+    "delay": 0.5,
+    "dur": 0.25
+   }
+  ],
+  [
+   {
+    "do": "frame",
+    "id": "p3/town",
+    "frame": "er1",
+    "delay": 0.0
+   },
+   {
+    "do": "frame",
+    "id": "p3/town",
+    "frame": "er2",
+    "delay": 0.28
+   },
+   {
+    "do": "frame",
+    "id": "p3/town",
+    "frame": "er3",
+    "delay": 0.56
+   },
+   {
+    "do": "frame",
+    "id": "p3/town",
+    "frame": "er4",
+    "delay": 0.84
+   },
+   {
+    "do": "alpha",
+    "id": "p3/town",
+    "to": 0,
+    "delay": 1.12,
+    "dur": 0.25
+   },
+   {
+    "do": "start",
+    "id": "p3/crumbs"
+   },
+   {
+    "do": "stop",
+    "id": "p3/crumbs",
+    "delay": 1.3
+   },
+   {
+    "do": "push",
+    "panel": "p3",
+    "at": [
+     0.63,
+     0.3
+    ],
+    "z": 1.0,
+    "dur": 1.6,
+    "ease": "inOut"
+   },
+   {
+    "do": "text",
+    "id": "puku2",
+    "enter": "pop",
+    "delay": 0.6,
+    "dur": 0.25
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p4",
+    "dur": 0.4
+   },
+   {
+    "do": "push",
+    "panel": "p4",
+    "at": [
+     0.5,
+     0.55
+    ],
+    "z": 1.06,
+    "dur": 2.5,
+    "ease": "linear"
+   },
+   {
+    "do": "alpha",
+    "id": "p4/drop",
+    "to": 1,
+    "delay": 0.6,
+    "dur": 0.1
+   },
+   {
+    "do": "move",
+    "id": "p4/drop",
+    "to": [
+     0.4,
+     0.79
+    ],
+    "delay": 0.6,
+    "dur": 0.9,
+    "ease": "in"
+   },
+   {
+    "do": "alpha",
+    "id": "p4/drop",
+    "to": 0,
+    "delay": 1.5,
+    "dur": 0.06
+   },
+   {
+    "do": "start",
+    "id": "p4/splash",
+    "delay": 1.5
+   },
+   {
+    "do": "stop",
+    "id": "p4/splash",
+    "delay": 1.62
+   },
+   {
+    "do": "text",
+    "id": "pota",
+    "enter": "fade",
+    "delay": 1.5,
+    "dur": 0.6
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p4/soft",
+    "to": 0,
+    "dur": 0.6
+   },
+   {
+    "do": "untext",
+    "id": "pota",
+    "exit": "fade",
+    "dur": 0.4
+   },
+   {
+    "do": "alpha",
+    "id": "p4/dark",
+    "to": 0,
+    "dur": 0.6
+   },
+   {
+    "do": "alpha",
+    "id": "k4",
+    "to": 1,
+    "dur": 0.6
+   },
+   {
+    "do": "alpha",
+    "id": "p4/vig",
+    "to": 1,
+    "dur": 0.6
+   },
+   {
+    "do": "alpha",
+    "id": "p4/gloom",
+    "to": 0.6,
+    "delay": 0.5,
+    "dur": 0.5
+   },
+   {
+    "do": "state",
+    "id": "k4",
+    "slot": "col",
+    "state": "c1",
+    "style": "fade",
+    "ms": 200,
+    "delay": 0.7
+   },
+   {
+    "do": "state",
+    "id": "k4",
+    "slot": "col",
+    "state": "c2",
+    "style": "fade",
+    "ms": 200,
+    "delay": 0.9
+   },
+   {
+    "do": "state",
+    "id": "k4",
+    "slot": "col",
+    "state": "c3",
+    "style": "fade",
+    "ms": 200,
+    "delay": 1.1
+   },
+   {
+    "do": "state",
+    "id": "k4",
+    "slot": "col",
+    "state": "c4",
+    "style": "fade",
+    "ms": 200,
+    "delay": 1.3
+   },
+   {
+    "do": "state",
+    "id": "k4",
+    "slot": "col",
+    "state": "c5",
+    "style": "fade",
+    "ms": 200,
+    "delay": 1.5
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "k4",
+    "slot": "mouth",
+    "state": "grit",
+    "style": "fade",
+    "ms": 120
+   },
+   {
+    "do": "shake",
+    "panel": "p4",
+    "amp": 2,
+    "dur": 0.5
+   },
+   {
+    "do": "text",
+    "id": "kq",
+    "enter": "pop",
+    "delay": 0.2,
+    "dur": 0.25
+   },
+   {
+    "do": "push",
+    "panel": "p4",
+    "at": [
+     0.5,
+     0.45
+    ],
+    "z": 1.11,
+    "dur": 1.2
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p5",
+    "dur": 0.4
+   },
+   {
+    "do": "text",
+    "id": "dokun",
+    "enter": "pop",
+    "delay": 0.8,
+    "dur": 0.35
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "e5",
+    "slot": "eye",
+    "state": "star",
+    "style": "fade",
+    "ms": 90
+   },
+   {
+    "do": "alpha",
+    "id": "p5/flash",
+    "to": 1,
+    "dur": 0.05
+   },
+   {
+    "do": "alpha",
+    "id": "p5/flash",
+    "to": 0.35,
+    "delay": 0.4,
+    "dur": 0.5
+   },
+   {
+    "do": "text",
+    "id": "kat",
+    "enter": "slam",
+    "dur": 0.14
+   },
+   {
+    "do": "shake",
+    "panel": "p5",
+    "amp": 8,
+    "dur": 0.4
+   },
+   {
+    "do": "push",
+    "panel": "p5",
+    "at": [
+     0.5,
+     0.454
+    ],
+    "z": 1.08,
+    "dur": 0.18,
+    "ease": "out"
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "e5",
+    "slot": "eye",
+    "state": "fire",
+    "style": "fade",
+    "ms": 300
+   },
+   {
+    "do": "start",
+    "id": "p5/embers",
+    "delay": 0.1
+   },
+   {
+    "do": "alpha",
+    "id": "p5/glow",
+    "to": 1,
+    "dur": 0.5
+   },
+   {
+    "do": "alpha",
+    "id": "p5/flash",
+    "to": 0,
+    "dur": 0.3
+   },
+   {
+    "do": "push",
+    "panel": "p5",
+    "at": [
+     0.5,
+     0.454
+    ],
+    "z": 1.6,
+    "dur": 0.7,
+    "ease": "in",
+    "delay": 0.7
+   }
+  ]
+ ]
+}

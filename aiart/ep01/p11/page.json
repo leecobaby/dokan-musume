@@ -1,0 +1,1956 @@
+{
+ "id": "ep01/p11",
+ "paper": "#000000",
+ "monoText": "gray",
+ "seed": 11,
+ "panels": [
+  {
+   "id": "p1",
+   "rect": [
+    40,
+    40,
+    920,
+    391
+   ],
+   "bleed": [
+    "t",
+    "l",
+    "r"
+   ],
+   "border": 0,
+   "fill": "#000000"
+  },
+  {
+   "id": "p2",
+   "rect": [
+    598,
+    447,
+    362,
+    443
+   ],
+   "border": 2,
+   "ink": "#cfcfd4",
+   "fill": "#000000"
+  },
+  {
+   "id": "p3",
+   "rect": [
+    40,
+    447,
+    542,
+    443
+   ],
+   "border": 2,
+   "ink": "#cfcfd4",
+   "fill": "#000000"
+  },
+  {
+   "id": "p4",
+   "rect": [
+    436,
+    906,
+    524,
+    469
+   ],
+   "border": 2,
+   "ink": "#cfcfd4",
+   "fill": "#000000"
+  },
+  {
+   "id": "p5",
+   "rect": [
+    40,
+    906,
+    380,
+    469
+   ],
+   "border": 2,
+   "ink": "#cfcfd4",
+   "fill": "#000000"
+  },
+  {
+   "id": "p6",
+   "rect": [
+    50,
+    1120,
+    250,
+    225
+   ],
+   "border": 4,
+   "ink": "#ffffff",
+   "fill": "#ffffff"
+  }
+ ],
+ "layers": [
+  {
+   "id": "p1/base",
+   "panel": "p1",
+   "kind": "frame",
+   "frame": "p1-base",
+   "rect": [
+    -0.06,
+    -0.1,
+    1.06,
+    1.632
+   ]
+  },
+  {
+   "id": "p1/roar",
+   "panel": "p1",
+   "kind": "frame",
+   "frame": "p1-roar",
+   "rect": [
+    -0.06,
+    -0.1,
+    1.06,
+    1.632
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p1/c0",
+   "panel": "p1",
+   "kind": "frame",
+   "frame": "p1-c0",
+   "rect": [
+    -0.06,
+    -0.1,
+    1.06,
+    1.632
+   ]
+  },
+  {
+   "id": "p1/c1",
+   "panel": "p1",
+   "kind": "frame",
+   "frame": "p1-c1",
+   "rect": [
+    -0.06,
+    -0.1,
+    1.06,
+    1.632
+   ]
+  },
+  {
+   "id": "p1/c2",
+   "panel": "p1",
+   "kind": "frame",
+   "frame": "p1-c2",
+   "rect": [
+    -0.06,
+    -0.1,
+    1.06,
+    1.632
+   ]
+  },
+  {
+   "id": "p1/c3",
+   "panel": "p1",
+   "kind": "frame",
+   "frame": "p1-c3",
+   "rect": [
+    -0.06,
+    -0.1,
+    1.06,
+    1.632
+   ]
+  },
+  {
+   "id": "p1/c4",
+   "panel": "p1",
+   "kind": "frame",
+   "frame": "p1-c4",
+   "rect": [
+    -0.06,
+    -0.1,
+    1.06,
+    1.632
+   ]
+  },
+  {
+   "id": "p1/aura",
+   "panel": "p1",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.48,
+    0.15
+   ],
+   "r": [
+    0.6,
+    0.7
+   ],
+   "inner": 0.2,
+   "outer": 1,
+   "invert": true,
+   "color": "#000000",
+   "strength": 0.35,
+   "alpha": 0
+  },
+  {
+   "id": "p1/rings",
+   "panel": "p1",
+   "kind": "rings",
+   "at": [
+    0.47,
+    0.12
+   ],
+   "r": 620,
+   "rings": 3,
+   "w": 5,
+   "dash": [
+    18,
+    12
+   ]
+  },
+  {
+   "id": "p1/drip",
+   "panel": "p1",
+   "kind": "particles",
+   "preset": "ink",
+   "n": 14,
+   "area": [
+    0.15,
+    0.3,
+    0.85,
+    0.75
+   ],
+   "dir": 90,
+   "speed": 0.5,
+   "size": 0.7,
+   "emit": "inside"
+  },
+  {
+   "id": "p1/vig",
+   "panel": "p1",
+   "kind": "tone",
+   "shape": "radial",
+   "strength": 0.55,
+   "depth": 0
+  },
+  {
+   "id": "k2",
+   "panel": "p2",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    0.453
+   ],
+   "scale": 0.353515625,
+   "idle": false,
+   "states": {
+    "col": "c0"
+   }
+  },
+  {
+   "id": "p2/press",
+   "panel": "p2",
+   "kind": "tone",
+   "from": [
+    0.5,
+    0.55
+   ],
+   "to": [
+    0.5,
+    0.0
+   ],
+   "strength": 0.75
+  },
+  {
+   "id": "p2/gloom",
+   "panel": "p2",
+   "kind": "gloom",
+   "box": [
+    0.08,
+    0.0,
+    0.92,
+    0.5
+   ],
+   "n": 12,
+   "color": "#9a9aa0",
+   "alpha": 0
+  },
+  {
+   "id": "p3/base",
+   "panel": "p3",
+   "kind": "frame",
+   "frame": "p3-base",
+   "rect": [
+    -0.17,
+    -0.03,
+    1.11,
+    1.03
+   ]
+  },
+  {
+   "id": "p3/fg",
+   "panel": "p3",
+   "kind": "tone",
+   "from": [
+    0.5,
+    0.78
+   ],
+   "to": [
+    0.5,
+    1.0
+   ],
+   "strength": 0.7,
+   "depth": 0
+  },
+  {
+   "id": "p3/dust",
+   "panel": "p3",
+   "kind": "particles",
+   "preset": "dust",
+   "n": 10,
+   "area": [
+    0,
+    0,
+    1,
+    0.8
+   ],
+   "emit": "inside",
+   "dir": 95,
+   "speed": 0.35,
+   "size": 1.1,
+   "colors": [
+    "#9AA0AA",
+    "#b8bcc4"
+   ]
+  },
+  {
+   "id": "p3/spark",
+   "panel": "p3",
+   "kind": "particles",
+   "preset": "sparkle",
+   "n": 4,
+   "area": [
+    0.36,
+    0.08,
+    0.72,
+    0.3
+   ],
+   "emit": "inside",
+   "size": 0.7,
+   "speed": 0.3,
+   "colors": [
+    "#ffffff"
+   ]
+  },
+  {
+   "id": "p4/plate",
+   "panel": "p4",
+   "kind": "frame",
+   "frame": "p4-plate",
+   "rect": [
+    -0.03,
+    0,
+    1.03,
+    1
+   ]
+  },
+  {
+   "id": "p4/stuA",
+   "panel": "p4",
+   "kind": "frame",
+   "frame": "p4-stuA",
+   "rect": [
+    -0.03,
+    0,
+    1.03,
+    1
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p4/stuB",
+   "panel": "p4",
+   "kind": "frame",
+   "frame": "p4-stuB",
+   "rect": [
+    -0.03,
+    0,
+    1.03,
+    1
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p4/far",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "light",
+   "n": 24,
+   "area": [
+    0.05,
+    0.05,
+    0.75,
+    0.45
+   ],
+   "emit": "inside",
+   "dir": -90,
+   "speed": 0.25,
+   "size": 0.8,
+   "colors": [
+    "#FF7A2F",
+    "#FFB36B"
+   ]
+  },
+  {
+   "id": "p4/glow",
+   "panel": "p4",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.66,
+    0.38
+   ],
+   "r": [
+    0.32,
+    0.3
+   ],
+   "invert": true,
+   "color": "#FFB36B",
+   "mono": "#ffffff",
+   "strength": 0.5,
+   "blend": "add",
+   "alpha": 0
+  },
+  {
+   "id": "p4/rings",
+   "panel": "p4",
+   "kind": "rings",
+   "at": [
+    0.62,
+    0.33
+   ],
+   "r": 420,
+   "rings": 3,
+   "w": 4
+  },
+  {
+   "id": "k4a",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "k4a",
+   "at": [
+    0.76,
+    1.0
+   ],
+   "scale": 0.235,
+   "anchor": [
+    0.5,
+    1
+   ]
+  },
+  {
+   "id": "k4b",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "k4b",
+   "at": [
+    0.75,
+    1.07
+   ],
+   "scale": 0.27,
+   "anchor": [
+    0.5,
+    1
+   ],
+   "hidden": true
+  },
+  {
+   "id": "p4/stream",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "light",
+   "n": 40,
+   "area": [
+    0.1,
+    -0.05,
+    0.62,
+    0.5
+   ],
+   "dir": -140,
+   "speed": 1.8,
+   "size": 1.0,
+   "colors": [
+    "#FF7A2F",
+    "#FFB36B",
+    "#FFD36B"
+   ]
+  },
+  {
+   "id": "p5/sky",
+   "panel": "p5",
+   "kind": "frame",
+   "frame": "p5-sky",
+   "rect": [
+    0,
+    -0.215,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "p5/bal",
+   "panel": "p5",
+   "kind": "sprite",
+   "frame": "bal1",
+   "frames": [
+    "bal1",
+    "bal2",
+    "bal3",
+    "bal4",
+    "bal5",
+    "bal6",
+    "bal7",
+    "bal8",
+    "bal9",
+    "bal10",
+    "bal11",
+    "bal12"
+   ],
+   "at": [
+    0,
+    0
+   ],
+   "anchor": [
+    0,
+    0
+   ],
+   "scale": 0.5,
+   "hidden": true
+  },
+  {
+   "id": "s5a",
+   "panel": "p5",
+   "kind": "puppet",
+   "at": [
+    0.8,
+    0.99
+   ],
+   "scale": 0.17,
+   "wind": 0.3
+  },
+  {
+   "id": "s5b",
+   "panel": "p5",
+   "kind": "puppet",
+   "at": [
+    0.8,
+    0.99
+   ],
+   "scale": 0.225,
+   "idle": false,
+   "hidden": true
+  },
+  {
+   "id": "p5/g0",
+   "panel": "p5",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.775,
+    0.52
+   ],
+   "r": [
+    0.06,
+    0.05
+   ],
+   "invert": true,
+   "color": "#B9A3F2",
+   "mono": "#ffffff",
+   "strength": 0.6,
+   "blend": "add",
+   "alpha": 0
+  },
+  {
+   "id": "p5/g1",
+   "panel": "p5",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.73,
+    0.61
+   ],
+   "r": [
+    0.06,
+    0.05
+   ],
+   "invert": true,
+   "color": "#B9A3F2",
+   "mono": "#ffffff",
+   "strength": 0.6,
+   "blend": "add",
+   "alpha": 0
+  },
+  {
+   "id": "p5/g2",
+   "panel": "p5",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.79,
+    0.545
+   ],
+   "r": [
+    0.06,
+    0.05
+   ],
+   "invert": true,
+   "color": "#B9A3F2",
+   "mono": "#ffffff",
+   "strength": 0.6,
+   "blend": "add",
+   "alpha": 0
+  },
+  {
+   "id": "p6/base",
+   "panel": "p6",
+   "kind": "frame",
+   "frame": "p6-base"
+  },
+  {
+   "id": "p6/rings",
+   "panel": "p6",
+   "kind": "rings",
+   "at": [
+    0.42,
+    0.7
+   ],
+   "r": 120,
+   "rings": 2,
+   "w": 3
+  }
+ ],
+ "texts": [
+  {
+   "id": "gogo0",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.14,
+    0.4
+   ],
+   "size": 46,
+   "rot": -10,
+   "font": "impact",
+   "hollow": true,
+   "dash": [
+    12,
+    4
+   ],
+   "stroke": [
+    [
+     "#ffffff",
+     6
+    ]
+   ],
+   "ramp": [
+    0.8,
+    1.15
+   ],
+   "jitter": 0.12,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "ゴゴゴゴ",
+    "ja": "ゴゴゴゴ",
+    "en": "RMMMBLE"
+   }
+  },
+  {
+   "id": "gogo1",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.86,
+    0.3
+   ],
+   "size": 42,
+   "rot": 8,
+   "font": "impact",
+   "hollow": true,
+   "dash": [
+    12,
+    4
+   ],
+   "stroke": [
+    [
+     "#ffffff",
+     6
+    ]
+   ],
+   "ramp": [
+    0.8,
+    1.15
+   ],
+   "jitter": 0.12,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "ゴゴゴゴ",
+    "ja": "ゴゴゴゴ",
+    "en": "RMMMBLE"
+   }
+  },
+  {
+   "id": "gogo2",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.33,
+    0.78
+   ],
+   "size": 36,
+   "rot": -4,
+   "font": "impact",
+   "hollow": true,
+   "dash": [
+    12,
+    4
+   ],
+   "stroke": [
+    [
+     "#ffffff",
+     6
+    ]
+   ],
+   "ramp": [
+    0.8,
+    1.15
+   ],
+   "jitter": 0.12,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "ゴゴゴゴ",
+    "ja": "ゴゴゴゴ",
+    "en": "RMMMBLE"
+   }
+  },
+  {
+   "id": "word0",
+   "panel": "p1",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.2,
+    0.16
+   ],
+   "size": 17,
+   "rot": -8,
+   "font": "hand",
+   "fill": "#8a8a90",
+   "stroke": [],
+   "text": {
+    "zh": "对不起",
+    "ja": "ごめん",
+    "en": "sorry"
+   }
+  },
+  {
+   "id": "word1",
+   "panel": "p1",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.74,
+    0.1
+   ],
+   "size": 17,
+   "rot": 6,
+   "font": "hand",
+   "fill": "#8a8a90",
+   "stroke": [],
+   "text": {
+    "zh": "别走",
+    "ja": "行かないで",
+    "en": "don't go"
+   }
+  },
+  {
+   "id": "word2",
+   "panel": "p1",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.63,
+    0.5
+   ],
+   "size": 17,
+   "rot": -3,
+   "font": "hand",
+   "fill": "#8a8a90",
+   "stroke": [],
+   "text": {
+    "zh": "好累",
+    "ja": "つかれた",
+    "en": "so tired"
+   }
+  },
+  {
+   "id": "roar",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.5,
+    0.45
+   ],
+   "size": 190,
+   "rot": -6,
+   "font": "menace",
+   "hollow": true,
+   "dash": [
+    12,
+    8
+   ],
+   "stroke": [
+    [
+     "#ffffff",
+     6
+    ]
+   ],
+   "text": {
+    "zh": "　　　!!",
+    "ja": "　　　!!",
+    "en": "　　　!!"
+   }
+  },
+  {
+   "id": "k2a",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.72,
+    0.2
+   ],
+   "tail": [
+    0.4,
+    0.62
+   ],
+   "size": 17,
+   "maxW": 110,
+   "maxH": 130,
+   "ink": "#C87A7C",
+   "color": "#222222",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……声音……",
+    "ja": "……声が……",
+    "en": "...My voice..."
+   }
+  },
+  {
+   "id": "k2b",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.42,
+    0.36
+   ],
+   "tail": [
+    0.36,
+    0.62
+   ],
+   "size": 15,
+   "maxW": 100,
+   "maxH": 110,
+   "ink": "#9AA0AA",
+   "color": "#8A8F99",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……不 够……",
+    "ja": "……足 り な い……",
+    "en": "...not... enough..."
+   }
+  },
+  {
+   "id": "puku2",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "cloud",
+   "at": [
+    0.25,
+    0.62
+   ],
+   "tail": [
+    0.16,
+    0.76
+   ],
+   "size": 13,
+   "maxW": 110,
+   "maxH": 120,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "一个人的声音……\n赢不了噗……",
+    "ja": "ひとりの声じゃ……\n勝てないプク……",
+    "en": "One voice alone...\ncan't win, puku..."
+   }
+  },
+  {
+   "id": "e3a",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.62,
+    0.17
+   ],
+   "tail": [
+    0.62,
+    0.3
+   ],
+   "size": 14,
+   "reserve": 4,
+   "text": {
+    "zh": "",
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "e3b",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.86,
+    0.3
+   ],
+   "tail": [
+    0.84,
+    0.42
+   ],
+   "size": 12,
+   "reserve": 3,
+   "text": {
+    "zh": "",
+    "ja": "",
+    "en": ""
+   }
+  },
+  {
+   "id": "k3",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.2,
+    0.22
+   ],
+   "tail": [
+    0.4,
+    0.5
+   ],
+   "size": 15,
+   "maxW": 170,
+   "maxH": 150,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……对啊。只是被吃掉了，\n不是消失了。",
+    "ja": "……そっか。食べられただけで、\n消えたわけじゃない。",
+    "en": "...Right. They were only\nEATEN. Not GONE."
+   }
+  },
+  {
+   "id": "k4",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.6,
+    0.13
+   ],
+   "tail": [
+    0.62,
+    0.36
+   ],
+   "size": 24,
+   "maxW": 260,
+   "ink": "#E8262D",
+   "color": "#111111",
+   "text": {
+    "zh": "大家——加·油————!!!",
+    "ja": "みんな——がん・ばれ————!!!",
+    "en": "EVERYONE——\nHANG IN THERE——!!!"
+   }
+  },
+  {
+   "id": "ganbare",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.42,
+    0.42
+   ],
+   "size": 46,
+   "rot": -6,
+   "font": "brush",
+   "fill": "#FF7A2F",
+   "stroke": [
+    [
+     "#ffffff",
+     3
+    ],
+    [
+     "#111111",
+     2
+    ]
+   ],
+   "depth": 0.08,
+   "jitter": 0.25,
+   "text": {
+    "zh": "がんばれ",
+    "ja": "がんばれ",
+    "en": "GO GO GO"
+   }
+  },
+  {
+   "id": "a4",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.12,
+    0.3
+   ],
+   "tail": [
+    0.12,
+    0.42
+   ],
+   "size": 13,
+   "maxW": 90,
+   "maxH": 90,
+   "color": "#8A8F99",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……好……",
+    "ja": "……うん……",
+    "en": "...Okay..."
+   }
+  },
+  {
+   "id": "b4",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.33,
+    0.27
+   ],
+   "tail": [
+    0.3,
+    0.42
+   ],
+   "size": 13,
+   "maxW": 100,
+   "maxH": 110,
+   "color": "#8A8F99",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "我……在……",
+    "ja": "わたし……ここに……",
+    "en": "I'm...\nhere..."
+   }
+  },
+  {
+   "id": "s5_1",
+   "panel": "p5",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.5,
+    0.42
+   ],
+   "tail": [
+    0.72,
+    0.55
+   ],
+   "size": 14,
+   "maxW": 100,
+   "maxH": 110,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……鸣濑。",
+    "ja": "……鳴瀬。",
+    "en": "...Naruse."
+   }
+  },
+  {
+   "id": "s5_2",
+   "panel": "p5",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.5,
+    0.25
+   ],
+   "tail": [
+    0.72,
+    0.53
+   ],
+   "size": 15,
+   "maxW": 130,
+   "maxH": 140,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "舞台，\n我来画。",
+    "ja": "舞台は、\nわたしが描く。",
+    "en": "I'll draw\nyour stage."
+   }
+  },
+  {
+   "id": "shu",
+   "panel": "p5",
+   "type": "sfx",
+   "at": [
+    0.62,
+    0.3
+   ],
+   "size": 30,
+   "rot": -28,
+   "skew": -0.32,
+   "font": "quiet",
+   "fill": "#111111",
+   "stroke": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "text": {
+    "zh": "シュ————ッ",
+    "ja": "シュ————ッ",
+    "en": "SHHHHK"
+   }
+  },
+  {
+   "id": "pk1",
+   "panel": "p6",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.62,
+    -0.2
+   ],
+   "tail": [
+    0.86,
+    0.1
+   ],
+   "size": 11,
+   "maxW": 150,
+   "maxH": 110,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "等等谺！全校的声音\n会超过极限——",
+    "ja": "待つプク、こだま！\n全校の声なんて限界を——",
+    "en": "Wait, Kodama! The whole\nschool's voices are\npast your limit—"
+   }
+  },
+  {
+   "id": "pk2",
+   "panel": "p6",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.62,
+    0.62
+   ],
+   "tail": [
+    0.86,
+    0.32
+   ],
+   "size": 11,
+   "maxW": 130,
+   "maxH": 100,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "你的‘最后一声’\n会——",
+    "ja": "キミの「最後の一声」が——",
+    "en": "Your \"last voice\"\nwill—"
+   }
+  },
+  {
+   "id": "k6",
+   "panel": "p6",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.24,
+    0.74
+   ],
+   "tail": [
+    0.3,
+    0.4
+   ],
+   "size": 15,
+   "maxW": 150,
+   "ink": "#E8262D",
+   "color": "#111111",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "那种事，\n以后再说!!!",
+    "ja": "そんなの、\nあとで考える!!!",
+    "en": "WORRY ABOUT\nTHAT LATER!!!"
+   }
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "cam",
+    "panel": "p1",
+    "at": [
+     0.62,
+     0.45
+    ],
+    "z": 1.1,
+    "rot": -6,
+    "pan": [
+     0,
+     -0.06
+    ],
+    "dur": 0
+   },
+   {
+    "do": "panel",
+    "id": "p1",
+    "dur": 0.7
+   },
+   {
+    "do": "cam",
+    "panel": "p1",
+    "at": [
+     0.62,
+     0.45
+    ],
+    "z": 1.1,
+    "rot": -6,
+    "pan": [
+     0,
+     0.03
+    ],
+    "dur": 1.5,
+    "ease": "inOut"
+   },
+   {
+    "do": "alpha",
+    "id": "p1/c2",
+    "to": 0,
+    "dur": 0.25,
+    "delay": 0.79
+   },
+   {
+    "do": "alpha",
+    "id": "p1/c0",
+    "to": 0,
+    "dur": 0.25,
+    "delay": 0.35
+   },
+   {
+    "do": "alpha",
+    "id": "p1/c4",
+    "to": 0,
+    "dur": 0.25,
+    "delay": 1.23
+   },
+   {
+    "do": "alpha",
+    "id": "p1/c1",
+    "to": 0,
+    "dur": 0.25,
+    "delay": 0.57
+   },
+   {
+    "do": "alpha",
+    "id": "p1/c3",
+    "to": 0,
+    "dur": 0.25,
+    "delay": 1.01
+   },
+   {
+    "do": "start",
+    "id": "p1/drip"
+   },
+   {
+    "do": "alpha",
+    "id": "p1/aura",
+    "to": 1,
+    "dur": 1.2
+   },
+   {
+    "do": "text",
+    "id": "word0",
+    "enter": "fade",
+    "dur": 0.8,
+    "delay": 0.6
+   },
+   {
+    "do": "text",
+    "id": "word1",
+    "enter": "fade",
+    "dur": 0.8,
+    "delay": 0.8999999999999999
+   },
+   {
+    "do": "text",
+    "id": "word2",
+    "enter": "fade",
+    "dur": 0.8,
+    "delay": 1.2
+   },
+   {
+    "do": "text",
+    "id": "gogo0",
+    "enter": "fade",
+    "dur": 0.5,
+    "delay": 0.9
+   },
+   {
+    "do": "text",
+    "id": "gogo1",
+    "enter": "fade",
+    "dur": 0.5,
+    "delay": 1.15
+   },
+   {
+    "do": "text",
+    "id": "gogo2",
+    "enter": "fade",
+    "dur": 0.5,
+    "delay": 1.4
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p1/roar",
+    "to": 1,
+    "dur": 0.12
+   },
+   {
+    "do": "fire",
+    "id": "p1/rings",
+    "dur": 1.1
+   },
+   {
+    "do": "text",
+    "id": "roar",
+    "enter": "slam",
+    "dur": 0.16,
+    "delay": 0.05
+   },
+   {
+    "do": "shake",
+    "amp": 8,
+    "dur": 0.5
+   },
+   {
+    "do": "cam",
+    "panel": "p1",
+    "at": [
+     0.62,
+     0.45
+    ],
+    "z": 1.14,
+    "rot": -6,
+    "pan": [
+     0,
+     0.03
+    ],
+    "dur": 0.25,
+    "ease": "out"
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p2",
+    "dur": 0.6
+   },
+   {
+    "do": "push",
+    "panel": "p2",
+    "at": [
+     0.45,
+     0.7
+    ],
+    "z": 1.06,
+    "dur": 2.2,
+    "ease": "inOut"
+   },
+   {
+    "do": "state",
+    "id": "k2",
+    "slot": "col",
+    "state": "c1",
+    "style": "fade",
+    "ms": 260,
+    "delay": 0.25
+   },
+   {
+    "do": "state",
+    "id": "k2",
+    "slot": "col",
+    "state": "c2",
+    "style": "fade",
+    "ms": 260,
+    "delay": 0.5
+   },
+   {
+    "do": "state",
+    "id": "k2",
+    "slot": "col",
+    "state": "c3",
+    "style": "fade",
+    "ms": 260,
+    "delay": 0.75
+   },
+   {
+    "do": "state",
+    "id": "k2",
+    "slot": "col",
+    "state": "c4",
+    "style": "fade",
+    "ms": 260,
+    "delay": 1.0
+   },
+   {
+    "do": "state",
+    "id": "k2",
+    "slot": "col",
+    "state": "c5",
+    "style": "fade",
+    "ms": 260,
+    "delay": 1.25
+   },
+   {
+    "do": "text",
+    "id": "k2a",
+    "enter": "pop",
+    "delay": 0.2,
+    "dur": 0.25
+   },
+   {
+    "do": "text",
+    "id": "k2b",
+    "enter": "fade",
+    "delay": 1.1,
+    "dur": 0.4
+   },
+   {
+    "do": "alpha",
+    "id": "p2/gloom",
+    "to": 0.6,
+    "delay": 1.3,
+    "dur": 0.6
+   },
+   {
+    "do": "state",
+    "id": "k2",
+    "slot": "pose",
+    "state": "grit",
+    "style": "fade",
+    "ms": 300,
+    "delay": 1.7
+   },
+   {
+    "do": "text",
+    "id": "puku2",
+    "enter": "fade",
+    "delay": 2.0,
+    "dur": 0.4
+   }
+  ],
+  [
+   {
+    "do": "cam",
+    "panel": "p3",
+    "at": [
+     0.55,
+     0.5
+    ],
+    "z": 1.22,
+    "rot": -9,
+    "dur": 0
+   },
+   {
+    "do": "panel",
+    "id": "p3",
+    "dur": 0.8
+   },
+   {
+    "do": "start",
+    "id": "p3/dust"
+   },
+   {
+    "do": "text",
+    "id": "e3a",
+    "enter": "fade",
+    "delay": 0.6,
+    "dur": 0.5
+   },
+   {
+    "do": "text",
+    "id": "e3b",
+    "enter": "fade",
+    "delay": 0.8,
+    "dur": 0.5
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "k3",
+    "enter": "fade",
+    "dur": 0.6
+   },
+   {
+    "do": "start",
+    "id": "p3/spark",
+    "delay": 0.4
+   },
+   {
+    "do": "stop",
+    "id": "p3/spark",
+    "delay": 0.9
+   },
+   {
+    "do": "cam",
+    "panel": "p3",
+    "at": [
+     0.55,
+     0.5
+    ],
+    "z": 1.27,
+    "rot": -9,
+    "dur": 1.2,
+    "ease": "inOut"
+   }
+  ],
+  [
+   {
+    "do": "cam",
+    "panel": "p4",
+    "at": [
+     0.7,
+     0.6
+    ],
+    "z": 1.12,
+    "dur": 0
+   },
+   {
+    "do": "panel",
+    "id": "p4",
+    "style": "slide",
+    "from": "r",
+    "dist": 40,
+    "dur": 0.35
+   },
+   {
+    "do": "shake",
+    "panel": "p4",
+    "amp": 3,
+    "dur": 0.3,
+    "delay": 0.3
+   }
+  ],
+  [
+   {
+    "do": "swap",
+    "from": "k4a",
+    "to": "k4b",
+    "dur": 0.12
+   },
+   {
+    "do": "text",
+    "id": "k4",
+    "enter": "slam",
+    "dur": 0.14
+   },
+   {
+    "do": "cam",
+    "panel": "p4",
+    "at": [
+     0.6,
+     0.5
+    ],
+    "z": 1.0,
+    "dur": 0.6,
+    "ease": "out"
+   },
+   {
+    "do": "shake",
+    "amp": 5,
+    "dur": 0.4
+   },
+   {
+    "do": "fire",
+    "id": "p4/rings",
+    "dur": 0.7
+   },
+   {
+    "do": "alpha",
+    "id": "p4/glow",
+    "to": 1,
+    "dur": 0.3
+   },
+   {
+    "do": "text",
+    "id": "ganbare",
+    "enter": "slam",
+    "dur": 0.14,
+    "delay": 0.1
+   },
+   {
+    "do": "untext",
+    "id": "ganbare",
+    "exit": "fade",
+    "dur": 0.25,
+    "delay": 0.5
+   },
+   {
+    "do": "start",
+    "id": "p4/stream",
+    "delay": 0.45
+   },
+   {
+    "do": "stop",
+    "id": "p4/stream",
+    "delay": 1.3
+   },
+   {
+    "do": "alpha",
+    "id": "p4/stuA",
+    "to": 1,
+    "dur": 1.2,
+    "delay": 0.6,
+    "ease": "inOut"
+   },
+   {
+    "do": "alpha",
+    "id": "p4/stuB",
+    "to": 1,
+    "dur": 1.2,
+    "delay": 0.8,
+    "ease": "inOut"
+   },
+   {
+    "do": "start",
+    "id": "p4/far",
+    "delay": 0.8
+   },
+   {
+    "do": "text",
+    "id": "a4",
+    "enter": "fade",
+    "delay": 0.9,
+    "dur": 0.4
+   },
+   {
+    "do": "text",
+    "id": "b4",
+    "enter": "fade",
+    "delay": 1.1,
+    "dur": 0.4
+   }
+  ],
+  [
+   {
+    "do": "cam",
+    "panel": "p5",
+    "at": [
+     0.5,
+     0.6
+    ],
+    "z": 1.0,
+    "pan": [
+     0,
+     0.06
+    ],
+    "dur": 0
+   },
+   {
+    "do": "panel",
+    "id": "p5",
+    "dur": 0.5
+   },
+   {
+    "do": "text",
+    "id": "s5_1",
+    "enter": "fade",
+    "delay": 0.4,
+    "dur": 0.5
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "s5a",
+    "slot": "purple",
+    "state": "on",
+    "style": "fade",
+    "ms": 600
+   },
+   {
+    "do": "alpha",
+    "id": "p5/g0",
+    "to": 1,
+    "dur": 0.4,
+    "delay": 0.0
+   },
+   {
+    "do": "alpha",
+    "id": "p5/g1",
+    "to": 1,
+    "dur": 0.4,
+    "delay": 0.1
+   },
+   {
+    "do": "alpha",
+    "id": "p5/g2",
+    "to": 1,
+    "dur": 0.4,
+    "delay": 0.2
+   },
+   {
+    "do": "state",
+    "id": "s5a",
+    "slot": "mouth",
+    "state": "smile",
+    "style": "fade",
+    "ms": 300,
+    "delay": 0.3
+   },
+   {
+    "do": "untext",
+    "id": "s5_1",
+    "exit": "fade",
+    "dur": 0.3,
+    "delay": 0.2
+   },
+   {
+    "do": "text",
+    "id": "s5_2",
+    "enter": "fade",
+    "delay": 0.35,
+    "dur": 0.4
+   },
+   {
+    "do": "alpha",
+    "id": "p5/g0",
+    "to": 0,
+    "dur": 0.3,
+    "delay": 0.8
+   },
+   {
+    "do": "alpha",
+    "id": "p5/g1",
+    "to": 0,
+    "dur": 0.3,
+    "delay": 0.8
+   },
+   {
+    "do": "alpha",
+    "id": "p5/g2",
+    "to": 0,
+    "dur": 0.3,
+    "delay": 0.8
+   },
+   {
+    "do": "swap",
+    "from": "s5a",
+    "to": "s5b",
+    "dur": 0.14,
+    "delay": 1.0
+   },
+   {
+    "do": "untext",
+    "id": "s5_2",
+    "exit": "fade",
+    "dur": 0.3,
+    "delay": 1.0
+   },
+   {
+    "do": "alpha",
+    "id": "p5/bal",
+    "to": 1,
+    "dur": 0.05,
+    "delay": 1.0
+   },
+   {
+    "do": "frame",
+    "id": "p5/bal",
+    "frame": "bal2",
+    "delay": 1.1
+   },
+   {
+    "do": "frame",
+    "id": "p5/bal",
+    "frame": "bal3",
+    "delay": 1.2
+   },
+   {
+    "do": "frame",
+    "id": "p5/bal",
+    "frame": "bal4",
+    "delay": 1.3
+   },
+   {
+    "do": "frame",
+    "id": "p5/bal",
+    "frame": "bal5",
+    "delay": 1.4
+   },
+   {
+    "do": "frame",
+    "id": "p5/bal",
+    "frame": "bal6",
+    "delay": 1.5
+   },
+   {
+    "do": "frame",
+    "id": "p5/bal",
+    "frame": "bal7",
+    "delay": 1.6
+   },
+   {
+    "do": "frame",
+    "id": "p5/bal",
+    "frame": "bal8",
+    "delay": 1.7
+   },
+   {
+    "do": "frame",
+    "id": "p5/bal",
+    "frame": "bal9",
+    "delay": 1.8
+   },
+   {
+    "do": "frame",
+    "id": "p5/bal",
+    "frame": "bal10",
+    "delay": 1.9
+   },
+   {
+    "do": "frame",
+    "id": "p5/bal",
+    "frame": "bal11",
+    "delay": 2.0
+   },
+   {
+    "do": "frame",
+    "id": "p5/bal",
+    "frame": "bal12",
+    "delay": 2.1
+   },
+   {
+    "do": "text",
+    "id": "shu",
+    "enter": "write-l",
+    "dur": 1.1,
+    "delay": 1.0
+   },
+   {
+    "do": "cam",
+    "panel": "p5",
+    "at": [
+     0.5,
+     0.6
+    ],
+    "z": 1.0,
+    "pan": [
+     0,
+     -0.04
+    ],
+    "dur": 0.9,
+    "ease": "inOut",
+    "delay": 1.2
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p6",
+    "style": "cut"
+   },
+   {
+    "do": "shake",
+    "amp": 3,
+    "dur": 0.2
+   },
+   {
+    "do": "text",
+    "id": "pk1",
+    "enter": "pop",
+    "delay": 0.1,
+    "dur": 0.25
+   },
+   {
+    "do": "text",
+    "id": "pk2",
+    "enter": "pop",
+    "delay": 0.7,
+    "dur": 0.25
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "k6",
+    "enter": "slam",
+    "dur": 0.14
+   },
+   {
+    "do": "fire",
+    "id": "p6/rings",
+    "dur": 0.4
+   },
+   {
+    "do": "shake",
+    "amp": 6,
+    "dur": 0.35
+   },
+   {
+    "do": "push",
+    "panel": "p6",
+    "at": [
+     0.3,
+     0.3
+    ],
+    "z": 1.05,
+    "dur": 0.15,
+    "ease": "out"
+   }
+  ]
+ ]
+}

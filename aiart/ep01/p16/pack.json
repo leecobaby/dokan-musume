@@ -1,0 +1,219 @@
+{
+ "v": 2,
+ "page": "ep01/p16",
+ "frames": {
+  "p1-plate": {
+   "file": "p1-plate.webp",
+   "crop": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "s": 0.75,
+   "w": 1152,
+   "h": 768,
+   "mono": "p1-plate-mono.webp"
+  },
+  "p1-fig": {
+   "file": "p1-fig.webp",
+   "crop": [
+    2,
+    1,
+    357,
+    483
+   ],
+   "s": 0.8,
+   "w": 286,
+   "h": 386,
+   "mono": "p1-fig-mono.webp"
+  },
+  "p1-orbs": {
+   "file": "p1-orbs.webp",
+   "crop": [
+    1,
+    1,
+    1484,
+    820
+   ],
+   "s": 0.75,
+   "w": 1113,
+   "h": 615,
+   "mono": "p1-orbs-mono.webp"
+  },
+  "orb1": {
+   "file": "orb1.webp",
+   "crop": [
+    4,
+    4,
+    75,
+    75
+   ],
+   "s": 1,
+   "w": 75,
+   "h": 75,
+   "mono": "orb1-mono.webp"
+  },
+  "orb1-soft": {
+   "file": "orb1-soft.webp",
+   "crop": [
+    4,
+    4,
+    75,
+    75
+   ],
+   "s": 1,
+   "w": 75,
+   "h": 75,
+   "mono": "orb1-soft-mono.webp"
+  },
+  "mote": {
+   "file": "mote.webp",
+   "crop": [
+    0,
+    0,
+    91,
+    240
+   ],
+   "s": 0.5,
+   "w": 46,
+   "h": 120,
+   "mono": "mote-mono.webp"
+  },
+  "p2-open": {
+   "file": "p2-open.webp",
+   "crop": [
+    50,
+    0,
+    1437,
+    1024
+   ],
+   "s": 0.5,
+   "w": 718,
+   "h": 512,
+   "mono": "p2-open-mono.webp"
+  },
+  "p2-half": {
+   "file": "p2-half.webp",
+   "crop": [
+    50,
+    0,
+    1437,
+    1024
+   ],
+   "s": 0.5,
+   "w": 718,
+   "h": 512,
+   "mono": "p2-half-mono.webp"
+  },
+  "p3-bg": {
+   "file": "p3-bg.webp",
+   "crop": [
+    0,
+    120,
+    1536,
+    729
+   ],
+   "s": 0.5,
+   "w": 768,
+   "h": 364,
+   "mono": "p3-bg-mono.webp"
+  }
+ },
+ "puppets": {
+  "hand": "hand",
+  "shijima4": "shijima4"
+ },
+ "align": {
+  "hand/orb/on": [
+   [
+    -0.33,
+    -0.16
+   ]
+  ],
+  "hand/orb/on-mono": [
+   [
+    -0.33,
+    -0.16
+   ]
+  ],
+  "shijima4/eye/smile": [
+   [
+    -0.24,
+    -0.16
+   ],
+   [
+    0.05,
+    -0.14
+   ],
+   [
+    0.58,
+    0.04
+   ],
+   [
+    0.0,
+    -0.2
+   ]
+  ],
+  "shijima4/eye/smile-mono": [
+   [
+    -0.24,
+    -0.16
+   ],
+   [
+    0.05,
+    -0.15
+   ],
+   [
+    0.58,
+    0.04
+   ],
+   [
+    0.0,
+    -0.2
+   ]
+  ]
+ },
+ "stats": {
+  "bytes": 575272
+ },
+ "pairs": {
+  "p1-plate": [
+   0.0,
+   -0.0
+  ],
+  "p1-fig": [
+   0.5,
+   -0.0
+  ],
+  "p1-orbs": [
+   -0.01,
+   0.01
+  ],
+  "orb1": [
+   -0.0,
+   0.02
+  ],
+  "orb1-soft": [
+   -0.0,
+   0.02
+  ],
+  "mote": [
+   -0.0,
+   0.0
+  ],
+  "p2-open": [
+   0.0,
+   -0.0
+  ],
+  "p2-half": [
+   0.0,
+   -0.0
+  ],
+  "p3-bg": [
+   0.0,
+   -0.0
+  ]
+ },
+ "thumb": "thumb.webp"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ep02",
+  "number": 2,
+  "series": { "zh": "轰！拟声少女", "ja": "ドカン娘は黙らない!!", "en": "BOOM! The Onomatopoeia Girl" },
+  "title": { "zh": "把那一声，夺回来!!", "ja": "あの一声を、取り戻せ!!", "en": "Take That Sound Back!!" },
+  "subtitle": "ドカン娘は黙らない!!",
+  "lang": "zh",
+  "langs": ["zh", "ja", "en"],
+  "pages": ["p00"],
+  "_note": "TEMPORARY test manifest written by E4 (reader). Shape follows src/aiart/format.ts EpisodeData plus optional reader fields (number, series, subtitle, lang, langs); E1 may replace it."
+}

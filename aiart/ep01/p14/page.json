@@ -1,0 +1,1239 @@
+{
+ "id": "ep01/p14",
+ "paper": "#ffffff",
+ "monoText": "gray",
+ "seed": 14,
+ "lights": {
+  "dusk": {
+   "grade": 0.22,
+   "rim": 0.55,
+   "dir": [
+    7,
+    -1
+   ],
+   "top": "#ffd9b0",
+   "bot": "#a48cc0",
+   "rimColor": "#ffb25c"
+  }
+ },
+ "panels": [
+  {
+   "id": "p1",
+   "rect": [
+    40,
+    40,
+    920,
+    440
+   ]
+  },
+  {
+   "id": "p2",
+   "rect": [
+    465,
+    500,
+    495,
+    388
+   ]
+  },
+  {
+   "id": "p3",
+   "rect": [
+    40,
+    500,
+    405,
+    388
+   ]
+  },
+  {
+   "id": "p4",
+   "rect": [
+    40,
+    908,
+    920,
+    466
+   ]
+  }
+ ],
+ "layers": [
+  {
+   "id": "p1",
+   "panel": "p1",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.62,
+   "idle": false
+  },
+  {
+   "id": "p1/star",
+   "panel": "p1",
+   "kind": "particles",
+   "preset": "sparkle",
+   "n": 1,
+   "area": [
+    0.78,
+    0.07,
+    0.82,
+    0.13
+   ],
+   "emit": "inside",
+   "colors": [
+    "#ffffff"
+   ]
+  },
+  {
+   "id": "p1/pkspark",
+   "panel": "p1",
+   "kind": "particles",
+   "preset": "sparkle",
+   "n": 4,
+   "area": [
+    0.57,
+    0.18,
+    0.69,
+    0.3
+   ],
+   "emit": "inside",
+   "colors": [
+    "#fff6c8",
+    "#ffffff"
+   ]
+  },
+  {
+   "id": "p1/petals",
+   "panel": "p1",
+   "kind": "particles",
+   "preset": "petals",
+   "shape": "sakura",
+   "n": 6,
+   "dir": 105,
+   "spread": 35,
+   "speed": 0.35,
+   "gust": 0.25,
+   "colors": [
+    "#FFB3C7",
+    "#FFD6E0",
+    "#FFE08A"
+   ]
+  },
+  {
+   "id": "p2/plate",
+   "panel": "p2",
+   "kind": "frame",
+   "rect": [
+    -0.03,
+    -0.03,
+    1.03,
+    1.03
+   ]
+  },
+  {
+   "id": "p2/gloom",
+   "panel": "p2",
+   "kind": "gloom",
+   "box": [
+    0.52,
+    0.0,
+    1.0,
+    0.7
+   ],
+   "n": 22,
+   "color": "#5a5470",
+   "hidden": true
+  },
+  {
+   "id": "kodama2",
+   "panel": "p2",
+   "kind": "puppet",
+   "at": [
+    0.8,
+    1.17
+   ],
+   "scale": 0.25,
+   "wind": 0.1,
+   "light": "dusk"
+  },
+  {
+   "id": "shiori2",
+   "panel": "p2",
+   "kind": "puppet",
+   "at": [
+    0.17,
+    1.04
+   ],
+   "scale": 0.3,
+   "wind": 0.08,
+   "light": "dusk"
+  },
+  {
+   "id": "p3/plate",
+   "panel": "p3",
+   "kind": "frame",
+   "rect": [
+    -0.03,
+    -0.03,
+    1.03,
+    1.03
+   ]
+  },
+  {
+   "id": "p3/flowers",
+   "panel": "p3",
+   "kind": "frame",
+   "frame": "fl-lilac",
+   "alpha": 0.5
+  },
+  {
+   "id": "p3/flat",
+   "panel": "p3",
+   "kind": "fill",
+   "color": "#E6E6EA",
+   "hidden": true
+  },
+  {
+   "id": "shiori3",
+   "panel": "p3",
+   "kind": "puppet",
+   "at": [
+    0.36,
+    1.1
+   ],
+   "scale": 0.33,
+   "wind": 0.12,
+   "light": "dusk"
+  },
+  {
+   "id": "p3/puku",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "pk-cheer",
+   "frames": [
+    "pk-stone"
+   ],
+   "at": [
+    0.86,
+    0.3
+   ],
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.2,
+   "hidden": true
+  },
+  {
+   "id": "p4/plate",
+   "panel": "p4",
+   "kind": "frame",
+   "rect": [
+    -0.02,
+    -0.03,
+    1.02,
+    1.03
+   ]
+  },
+  {
+   "id": "p4/burst",
+   "panel": "p4",
+   "kind": "focus",
+   "at": [
+    0.5,
+    0.26
+   ],
+   "inner": [
+    0.03,
+    0.06
+   ],
+   "n": 64,
+   "ink": "#FFE2B0",
+   "blend": "add",
+   "hidden": true
+  },
+  {
+   "id": "p4/glow",
+   "panel": "p4",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.5,
+    0.28
+   ],
+   "r": [
+    0.42,
+    0.75
+   ],
+   "invert": true,
+   "color": "#FFD9A0",
+   "mono": "#404040",
+   "strength": 0.7,
+   "blend": "add",
+   "hidden": true
+  },
+  {
+   "id": "p4/flL",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "fl-peachL",
+   "at": [
+    0.0,
+    0.5
+   ],
+   "anchor": [
+    0,
+    0.5
+   ],
+   "scale": 0.42,
+   "hidden": true
+  },
+  {
+   "id": "p4/flR",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "fl-peachR",
+   "at": [
+    1.0,
+    0.5
+   ],
+   "anchor": [
+    1,
+    0.5
+   ],
+   "scale": 0.42,
+   "hidden": true
+  },
+  {
+   "id": "p4/bubbles",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "light",
+   "n": 14,
+   "area": [
+    0.05,
+    0.3,
+    0.95,
+    1.0
+   ],
+   "dir": -90,
+   "speed": 0.4,
+   "size": 2.2,
+   "emit": "inside",
+   "colors": [
+    "#ffffff",
+    "#FFE4EC",
+    "#FFF1C2"
+   ]
+  },
+  {
+   "id": "p4/aura",
+   "panel": "p4",
+   "kind": "tone",
+   "from": [
+    0.5,
+    0.45
+   ],
+   "to": [
+    0.5,
+    1.0
+   ],
+   "color": "#FF9A4A",
+   "mono": "#303030",
+   "strength": 0.55,
+   "blend": "add",
+   "hidden": true
+  },
+  {
+   "id": "p4/focus",
+   "panel": "p4",
+   "kind": "focus",
+   "at": [
+    0.5,
+    0.42
+   ],
+   "inner": [
+    0.36,
+    0.42
+   ],
+   "n": 90,
+   "ink": "#7a4a3a",
+   "alpha": 0.8,
+   "hidden": true
+  },
+  {
+   "id": "kodama4",
+   "panel": "p4",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    1.67
+   ],
+   "scale": 0.5,
+   "wind": 0.15,
+   "light": "dusk"
+  },
+  {
+   "id": "p4/eyes",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "sparkle",
+   "n": 3,
+   "area": [
+    0.4,
+    0.66,
+    0.6,
+    0.78
+   ],
+   "emit": "inside",
+   "colors": [
+    "#ffffff",
+    "#FFF1A8"
+   ]
+  },
+  {
+   "id": "p4/suck",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "petals",
+   "shape": "sakura",
+   "n": 10,
+   "area": [
+    0.0,
+    0.35,
+    0.3,
+    1.0
+   ],
+   "dir": 10,
+   "speed": 1.6,
+   "spread": 18,
+   "gust": 0.3,
+   "colors": [
+    "#FFB3C7",
+    "#FFD6E0",
+    "#FFC4A8"
+   ]
+  },
+  {
+   "id": "p4/suck2",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "petals",
+   "shape": "sakura",
+   "n": 10,
+   "area": [
+    0.7,
+    0.35,
+    1.0,
+    1.0
+   ],
+   "dir": 170,
+   "speed": 1.6,
+   "spread": 18,
+   "gust": 0.3,
+   "colors": [
+    "#FFB3C7",
+    "#FFD6E0",
+    "#FFC4A8"
+   ]
+  },
+  {
+   "id": "p4/puku",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "pk-hide",
+   "at": [
+    0.8,
+    1.02
+   ],
+   "anchor": [
+    0.5,
+    1
+   ],
+   "scale": 0.2,
+   "hidden": true
+  }
+ ],
+ "texts": [
+  {
+   "id": "pk1",
+   "panel": "p1",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.83,
+    0.3
+   ],
+   "tail": [
+    0.66,
+    0.33
+   ],
+   "size": {
+    "zh": 15,
+    "ja": 14,
+    "en": 12
+   },
+   "maxW": 170,
+   "vertical": {
+    "ja": true
+   },
+   "maxH": 150,
+   "text": {
+    "zh": "赢了噗……\n真的赢了噗……！",
+    "ja": "勝ったプク……\nほんとに勝ったプク……！",
+    "en": "WE WON, PUKU...\nWE REALLY WON...!"
+   }
+  },
+  {
+   "id": "sh1",
+   "panel": "p1",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.2,
+    0.22
+   ],
+   "tail": [
+    0.33,
+    0.33
+   ],
+   "size": {
+    "zh": 15,
+    "ja": 14,
+    "en": 12
+   },
+   "maxW": 120,
+   "vertical": {
+    "ja": true
+   },
+   "maxH": 110,
+   "text": {
+    "zh": "……吵。",
+    "ja": "……うるさい。",
+    "en": "...NOISY."
+   }
+  },
+  {
+   "id": "tk",
+   "panel": "p2",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.59,
+    0.575
+   ],
+   "size": 7,
+   "vertical": true,
+   "font": "hand",
+   "fill": "#8a2a3a",
+   "stroke": [],
+   "text": {
+    "zh": "罚单 No.100",
+    "ja": "違反切符 No.100",
+    "en": "TICKET No.100"
+   }
+  },
+  {
+   "id": "sh21",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.5,
+    0.13
+   ],
+   "tail": [
+    0.3,
+    0.22
+   ],
+   "size": {
+    "zh": 13,
+    "ja": 12,
+    "en": 11
+   },
+   "maxW": 150,
+   "vertical": {
+    "ja": true
+   },
+   "maxH": 120,
+   "text": {
+    "zh": "噪音违规，\n第一百张。",
+    "ja": "騒音違反、\n百枚目。",
+    "en": "NOISE VIOLATION.\nNUMBER 100."
+   }
+  },
+  {
+   "id": "pk22",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.82,
+    0.3
+   ],
+   "tail": [
+    0.75,
+    0.44
+   ],
+   "size": {
+    "zh": 13,
+    "ja": 12,
+    "en": 11
+   },
+   "maxW": 120,
+   "vertical": {
+    "ja": true
+   },
+   "maxH": 130,
+   "text": {
+    "zh": "一百张的纪念品……\n是停学噗?!",
+    "ja": "百枚の記念品は……\n停学プク?!",
+    "en": "THE 100TH PRIZE...\nIS SUSPENSION?!"
+   }
+  },
+  {
+   "id": "sh23",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.24,
+    0.84
+   ],
+   "tail": [
+    0.24,
+    0.68
+   ],
+   "size": {
+    "zh": 13,
+    "ja": 12,
+    "en": 11
+   },
+   "maxW": 110,
+   "vertical": {
+    "ja": true
+   },
+   "maxH": 110,
+   "text": {
+    "zh": "……还有，\n纪念品。",
+    "ja": "……それと、\n記念品。",
+    "en": "...AND,\nYOUR PRIZE."
+   }
+  },
+  {
+   "id": "gaan",
+   "panel": "p2",
+   "type": "sfx",
+   "at": {
+    "zh": [
+     0.95,
+     0.5
+    ],
+    "en": [
+     0.87,
+     0.64
+    ]
+   },
+   "size": 26,
+   "font": "horror",
+   "vertical": true,
+   "fill": "#3A3A48",
+   "stroke": [
+    [
+     "#ffffff",
+     2.5
+    ]
+   ],
+   "jitter": 0.2,
+   "text": {
+    "zh": "ガーン",
+    "ja": "ガーン",
+    "en": "GAAAN"
+   }
+  },
+  {
+   "id": "paper",
+   "panel": "p3",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.86,
+    0.83
+   ],
+   "size": 10,
+   "rot": -6,
+   "font": "hand",
+   "fill": "#2a2a3a",
+   "stroke": [],
+   "text": {
+    "zh": "入团申请书",
+    "ja": "入団届",
+    "en": "APPLICATION"
+   }
+  },
+  {
+   "id": "sh31",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": {
+    "zh": [
+     0.62,
+     0.11
+    ],
+    "ja": [
+     0.6,
+     0.3
+    ],
+    "en": [
+     0.62,
+     0.11
+    ]
+   },
+   "tail": [
+    0.42,
+    0.24
+   ],
+   "size": {
+    "zh": 13,
+    "ja": 12,
+    "en": 11
+   },
+   "maxW": 150,
+   "vertical": {
+    "ja": true
+   },
+   "maxH": 130,
+   "text": {
+    "zh": "……只是为了\n就近监视你。",
+    "ja": "……近くで\n監視するためよ。",
+    "en": "...ONLY TO KEEP\nAN EYE ON YOU."
+   }
+  },
+  {
+   "id": "pk32",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.73,
+    0.55
+   ],
+   "tail": [
+    0.84,
+    0.38
+   ],
+   "size": {
+    "zh": 13,
+    "ja": 12,
+    "en": 11
+   },
+   "maxW": 140,
+   "vertical": {
+    "ja": true
+   },
+   "maxH": 130,
+   "text": {
+    "zh": "加上本噗，\n三个人凑齐了噗！",
+    "ja": "ボクを入れて\n三人そろったプク！",
+    "en": "WITH ME,\nTHAT MAKES THREE!"
+   }
+  },
+  {
+   "id": "sh33",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": {
+    "zh": [
+     0.2,
+     0.86
+    ],
+    "ja": [
+     0.12,
+     0.6
+    ],
+    "en": [
+     0.2,
+     0.86
+    ]
+   },
+   "tail": [
+    0.27,
+    0.62
+   ],
+   "size": {
+    "zh": 13,
+    "ja": 12,
+    "en": 11
+   },
+   "maxW": 130,
+   "vertical": {
+    "ja": true
+   },
+   "maxH": 120,
+   "text": {
+    "zh": "……吹泡精\n不算人数。",
+    "ja": "……吹き出しは\n数えない。",
+    "en": "...BUBBLE SPIRITS\nDON'T COUNT."
+   }
+  },
+  {
+   "id": "pk41",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.91,
+    0.8
+   ],
+   "tail": [
+    0.84,
+    0.86
+   ],
+   "size": {
+    "zh": 13,
+    "ja": 12,
+    "en": 11
+   },
+   "maxW": 110,
+   "vertical": {
+    "ja": true
+   },
+   "maxH": 110,
+   "text": {
+    "zh": "要、要来了噗……！",
+    "ja": "く、来るプク……！",
+    "en": "H-HERE IT\nCOMES...!"
+   }
+  },
+  {
+   "id": "suu",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.33,
+    0.9
+   ],
+   "size": 26,
+   "rot": -8,
+   "font": "round",
+   "fill": "#FFB36B",
+   "stroke": [
+    [
+     "#ffffff",
+     2.5
+    ]
+   ],
+   "ramp": [
+    1,
+    0.5
+   ],
+   "text": {
+    "zh": "スゥゥ——",
+    "ja": "スゥゥ——",
+    "en": "HUUUP——"
+   }
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "panel",
+    "id": "p1"
+   },
+   {
+    "do": "start",
+    "id": "p1/petals"
+   },
+   {
+    "do": "start",
+    "id": "p1/star",
+    "delay": 0.5
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "p1",
+    "slot": "puku",
+    "state": "cry"
+   },
+   {
+    "do": "start",
+    "id": "p1/pkspark"
+   },
+   {
+    "do": "text",
+    "id": "pk1",
+    "enter": "pop",
+    "delay": 0.15
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "sh1",
+    "enter": "fade"
+   },
+   {
+    "do": "state",
+    "id": "p1",
+    "slot": "ko",
+    "state": "v",
+    "delay": 0.45
+   },
+   {
+    "do": "state",
+    "id": "p1",
+    "slot": "sh",
+    "state": "look",
+    "delay": 0.5
+   },
+   {
+    "do": "state",
+    "id": "p1",
+    "slot": "sh",
+    "state": "default",
+    "delay": 1.0
+   },
+   {
+    "do": "push",
+    "panel": "p1",
+    "at": [
+     0.55,
+     0.5
+    ],
+    "z": 1.06,
+    "dur": 1.2,
+    "ease": "inOut",
+    "delay": 0.45
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p2"
+   },
+   {
+    "do": "move",
+    "id": "shiori2",
+    "by": [
+     -0.08,
+     0
+    ],
+    "dur": 0.001
+   },
+   {
+    "do": "move",
+    "id": "shiori2",
+    "by": [
+     0.08,
+     0
+    ],
+    "dur": 0.2,
+    "ease": "outBack",
+    "delay": 0.05
+   },
+   {
+    "do": "text",
+    "id": "tk",
+    "enter": "fade",
+    "delay": 0.25
+   },
+   {
+    "do": "text",
+    "id": "sh21",
+    "enter": "fade",
+    "delay": 0.3
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "kodama2",
+    "slot": "pose",
+    "state": "chibi",
+    "style": "smear",
+    "ms": 160
+   },
+   {
+    "do": "move",
+    "id": "kodama2",
+    "by": [
+     0,
+     -0.16
+    ],
+    "dur": 0.16,
+    "ease": "outBack"
+   },
+   {
+    "do": "alpha",
+    "id": "p2/gloom",
+    "to": 1,
+    "dur": 0.3
+   },
+   {
+    "do": "text",
+    "id": "gaan",
+    "enter": "write-d",
+    "stagger": 0.08,
+    "delay": 0.1
+   },
+   {
+    "do": "shake",
+    "panel": "p2",
+    "amp": 3,
+    "dur": 0.3
+   },
+   {
+    "do": "text",
+    "id": "pk22",
+    "enter": "shake",
+    "delay": 0.3
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "shiori2",
+    "slot": "face",
+    "state": "away",
+    "delay": 0.3
+   },
+   {
+    "do": "text",
+    "id": "sh23",
+    "enter": "fade",
+    "delay": 0.35
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p3"
+   },
+   {
+    "do": "text",
+    "id": "paper",
+    "enter": "fade",
+    "delay": 0.2
+   },
+   {
+    "do": "text",
+    "id": "sh31",
+    "enter": "fade",
+    "delay": 0.3
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p3/puku",
+    "to": 1,
+    "dur": 0.15
+   },
+   {
+    "do": "move",
+    "id": "p3/puku",
+    "by": [
+     0,
+     -0.06
+    ],
+    "dur": 0.25,
+    "ease": "outBack"
+   },
+   {
+    "do": "push",
+    "panel": "p3",
+    "at": [
+     0.4,
+     0.4
+    ],
+    "z": 1.05,
+    "dur": 0.8,
+    "ease": "inOut"
+   },
+   {
+    "do": "text",
+    "id": "pk32",
+    "enter": "pop",
+    "delay": 0.15
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p3/flat",
+    "to": 1,
+    "dur": 0.04
+   },
+   {
+    "do": "alpha",
+    "id": "p3/flowers",
+    "to": 0,
+    "dur": 0.04
+   },
+   {
+    "do": "state",
+    "id": "shiori3",
+    "slot": "face",
+    "state": "dead"
+   },
+   {
+    "do": "frame",
+    "id": "p3/puku",
+    "frame": "pk-stone",
+    "delay": 0.5
+   },
+   {
+    "do": "text",
+    "id": "sh33",
+    "enter": "fade",
+    "delay": 0.1
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p4"
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "kodama4",
+    "slot": "face",
+    "state": "sparkle"
+   },
+   {
+    "do": "start",
+    "id": "p4/eyes"
+   },
+   {
+    "do": "alpha",
+    "id": "p4/flL",
+    "to": 1,
+    "dur": 0.6
+   },
+   {
+    "do": "alpha",
+    "id": "p4/flR",
+    "to": 1,
+    "dur": 0.6
+   },
+   {
+    "do": "start",
+    "id": "p4/bubbles"
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "kodama4",
+    "slot": "pose",
+    "state": "osu",
+    "style": "smear",
+    "ms": 180
+   },
+   {
+    "do": "stop",
+    "id": "p4/eyes"
+   },
+   {
+    "do": "alpha",
+    "id": "p4/flL",
+    "to": 0,
+    "dur": 0.5
+   },
+   {
+    "do": "alpha",
+    "id": "p4/flR",
+    "to": 0,
+    "dur": 0.5
+   },
+   {
+    "do": "start",
+    "id": "p4/suck"
+   },
+   {
+    "do": "start",
+    "id": "p4/suck2"
+   },
+   {
+    "do": "alpha",
+    "id": "p4/glow",
+    "to": 1,
+    "dur": 0.6
+   },
+   {
+    "do": "alpha",
+    "id": "p4/burst",
+    "to": 0.7,
+    "dur": 0.6,
+    "delay": 0.2
+   },
+   {
+    "do": "alpha",
+    "id": "p4/aura",
+    "to": 1,
+    "dur": 0.8
+   },
+   {
+    "do": "alpha",
+    "id": "p4/focus",
+    "to": 0.8,
+    "dur": 0.4,
+    "delay": 0.3
+   },
+   {
+    "do": "text",
+    "id": "suu",
+    "enter": "write",
+    "stagger": 0.15,
+    "delay": 0.2
+   },
+   {
+    "do": "shake",
+    "panel": "p4",
+    "amp": 2,
+    "dur": 0.6,
+    "delay": 0.4
+   },
+   {
+    "do": "alpha",
+    "id": "p4/puku",
+    "to": 1,
+    "dur": 0.2,
+    "delay": 0.6
+   },
+   {
+    "do": "text",
+    "id": "pk41",
+    "enter": "shake",
+    "delay": 0.8
+   },
+   {
+    "do": "push",
+    "panel": "p4",
+    "at": [
+     0.5,
+     1.0
+    ],
+    "z": 1.08,
+    "dur": 0.9,
+    "ease": "inOut",
+    "delay": 0.3
+   },
+   {
+    "do": "stop",
+    "id": "p4/suck",
+    "delay": 1.4
+   },
+   {
+    "do": "stop",
+    "id": "p4/suck2",
+    "delay": 1.4
+   }
+  ]
+ ]
+}

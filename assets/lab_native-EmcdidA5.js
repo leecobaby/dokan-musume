@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-P2Xu9kJm.js";import{t as e}from"./main-DyaXmqcx.js";e().catch(e=>{console.error(e);let t=document.createElement(`pre`);t.style.cssText=`color:#ff8a8a;padding:24px;white-space:pre-wrap`,t.textContent=String(e?.stack||e),document.body.appendChild(t),window.__ready=!0});

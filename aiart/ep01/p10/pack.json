@@ -1,0 +1,522 @@
+{
+ "v": 2,
+ "page": "ep01/p10",
+ "frames": {
+  "p1": {
+   "file": "p1.webp",
+   "crop": [
+    0,
+    0,
+    2117,
+    743
+   ],
+   "s": 0.6,
+   "w": 1270,
+   "h": 446,
+   "mono": "p1-mono.webp"
+  },
+  "p3": {
+   "file": "p3.webp",
+   "crop": [
+    0,
+    0,
+    1672,
+    941
+   ],
+   "s": 0.75,
+   "w": 1254,
+   "h": 706,
+   "mono": "p3-mono.webp"
+  },
+  "p4": {
+   "file": "p4.webp",
+   "crop": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "s": 0.5,
+   "w": 768,
+   "h": 512,
+   "mono": "p4-mono.webp"
+  },
+  "kB": {
+   "file": "kB.webp",
+   "crop": [
+    0,
+    0,
+    419,
+    961
+   ],
+   "s": 0.7,
+   "w": 293,
+   "h": 673,
+   "mono": "kB-mono.webp"
+  },
+  "kC": {
+   "file": "kC.webp",
+   "crop": [
+    0,
+    0,
+    326,
+    857
+   ],
+   "s": 0.7,
+   "w": 228,
+   "h": 600,
+   "mono": "kC-mono.webp"
+  },
+  "kD": {
+   "file": "kD.webp",
+   "crop": [
+    0,
+    0,
+    436,
+    701
+   ],
+   "s": 0.7,
+   "w": 305,
+   "h": 491,
+   "mono": "kD-mono.webp"
+  },
+  "pFly": {
+   "file": "pFly.webp",
+   "crop": [
+    0,
+    0,
+    524,
+    423
+   ],
+   "s": 0.5,
+   "w": 262,
+   "h": 212,
+   "mono": "pFly-mono.webp"
+  },
+  "pBall": {
+   "file": "pBall.webp",
+   "crop": [
+    0,
+    0,
+    499,
+    405
+   ],
+   "s": 0.5,
+   "w": 250,
+   "h": 202,
+   "mono": "pBall-mono.webp"
+  },
+  "pBallUp": {
+   "file": "pBallUp.webp",
+   "crop": [
+    0,
+    0,
+    365,
+    439
+   ],
+   "s": 0.5,
+   "w": 182,
+   "h": 220,
+   "mono": "pBallUp-mono.webp"
+  },
+  "pUp": {
+   "file": "pUp.webp",
+   "crop": [
+    0,
+    0,
+    339,
+    450
+   ],
+   "s": 0.5,
+   "w": 170,
+   "h": 225,
+   "mono": "pUp-mono.webp"
+  },
+  "pDown": {
+   "file": "pDown.webp",
+   "crop": [
+    0,
+    0,
+    460,
+    447
+   ],
+   "s": 0.4,
+   "w": 184,
+   "h": 179,
+   "mono": "pDown-mono.webp"
+  },
+  "pFlat": {
+   "file": "pFlat.webp",
+   "crop": [
+    0,
+    0,
+    453,
+    244
+   ],
+   "s": 0.5,
+   "w": 226,
+   "h": 122,
+   "mono": "pFlat-mono.webp"
+  },
+  "cRoll": {
+   "file": "cRoll.webp",
+   "crop": [
+    0,
+    0,
+    553,
+    542
+   ],
+   "s": 0.45,
+   "w": 249,
+   "h": 244,
+   "mono": "cRoll-mono.webp"
+  },
+  "cLie": {
+   "file": "cLie.webp",
+   "crop": [
+    0,
+    0,
+    821,
+    449
+   ],
+   "s": 0.5,
+   "w": 410,
+   "h": 224,
+   "mono": "cLie-mono.webp"
+  },
+  "cShio": {
+   "file": "cShio.webp",
+   "crop": [
+    0,
+    0,
+    763,
+    620
+   ],
+   "s": 0.6,
+   "w": 458,
+   "h": 372,
+   "mono": "cShio-mono.webp"
+  },
+  "ooT": {
+   "file": "ooT.webp",
+   "crop": [
+    0,
+    0,
+    534,
+    1024
+   ],
+   "s": 0.7,
+   "w": 374,
+   "h": 717,
+   "mono": "ooT-mono.webp"
+  },
+  "ooT-dz": {
+   "file": "ooT-dz.webp",
+   "crop": [
+    0,
+    0,
+    534,
+    1024
+   ],
+   "s": 0.7,
+   "w": 374,
+   "h": 717,
+   "mono": "ooT-dz-mono.webp"
+  },
+  "ooMaw": {
+   "file": "ooMaw.webp",
+   "crop": [
+    0,
+    0,
+    695,
+    555
+   ],
+   "s": 0.7,
+   "w": 486,
+   "h": 388,
+   "mono": "ooMaw-mono.webp"
+  },
+  "ooSpit": {
+   "file": "ooSpit.webp",
+   "crop": [
+    0,
+    0,
+    844,
+    489
+   ],
+   "s": 0.6,
+   "w": 506,
+   "h": 293,
+   "mono": "ooSpit-mono.webp"
+  },
+  "brick1": {
+   "file": "brick1.webp",
+   "crop": [
+    0,
+    0,
+    249,
+    277
+   ],
+   "s": 0.3,
+   "w": 75,
+   "h": 83,
+   "mono": "brick1-mono.webp"
+  },
+  "brick2": {
+   "file": "brick2.webp",
+   "crop": [
+    0,
+    0,
+    150,
+    256
+   ],
+   "s": 0.3,
+   "w": 45,
+   "h": 77,
+   "mono": "brick2-mono.webp"
+  },
+  "brick3": {
+   "file": "brick3.webp",
+   "crop": [
+    0,
+    0,
+    202,
+    192
+   ],
+   "s": 0.3,
+   "w": 61,
+   "h": 58,
+   "mono": "brick3-mono.webp"
+  },
+  "hole": {
+   "file": "hole.webp",
+   "crop": [
+    0,
+    0,
+    488,
+    528
+   ],
+   "s": 0.4,
+   "w": 195,
+   "h": 211,
+   "mono": "hole-mono.webp"
+  },
+  "aura": {
+   "file": "aura.webp",
+   "crop": [
+    0,
+    0,
+    482,
+    592
+   ],
+   "s": 0.6,
+   "w": 289,
+   "h": 355,
+   "mono": "aura-mono.webp"
+  },
+  "crack": {
+   "file": "crack.webp",
+   "crop": [
+    0,
+    0,
+    488,
+    495
+   ],
+   "s": 0.7,
+   "w": 342,
+   "h": 346,
+   "mono": "crack-mono.webp"
+  },
+  "splash": {
+   "file": "splash.webp",
+   "crop": [
+    0,
+    0,
+    474,
+    454
+   ],
+   "s": 0.6,
+   "w": 284,
+   "h": 272,
+   "mono": "splash-mono.webp"
+  },
+  "trail": {
+   "file": "trail.webp",
+   "crop": [
+    0,
+    0,
+    463,
+    120
+   ],
+   "s": 0.7,
+   "w": 324,
+   "h": 84,
+   "mono": "trail-mono.webp"
+  },
+  "splashW": {
+   "file": "splashW.webp",
+   "crop": [
+    0,
+    0,
+    474,
+    454
+   ],
+   "s": 0.6,
+   "w": 284,
+   "h": 272,
+   "mono": "splashW-mono.webp"
+  },
+  "crackW": {
+   "file": "crackW.webp",
+   "crop": [
+    0,
+    0,
+    488,
+    495
+   ],
+   "s": 0.7,
+   "w": 342,
+   "h": 346,
+   "mono": "crackW-mono.webp"
+  }
+ },
+ "puppets": {
+  "kA": "kA"
+ },
+ "align": {
+  "kA/face/sparkle": [
+   [
+    0.21,
+    0.02
+   ]
+  ],
+  "kA/face/sparkle-mono": [
+   [
+    0.21,
+    0.05
+   ]
+  ]
+ },
+ "stats": {
+  "bytes": 2481038
+ },
+ "pairs": {
+  "p1": [
+   0.0,
+   0.0
+  ],
+  "p3": [
+   0.0,
+   0.0
+  ],
+  "p4": [
+   0.0,
+   0.0
+  ],
+  "kB": [
+   0.88,
+   -0.21
+  ],
+  "kC": [
+   1.3,
+   -0.15
+  ],
+  "kD": [
+   1.21,
+   0.28
+  ],
+  "pFly": [
+   0.94,
+   -0.51
+  ],
+  "pBall": [
+   0.88,
+   0.2
+  ],
+  "pBallUp": [
+   1.25,
+   -0.32
+  ],
+  "pUp": [
+   0.31,
+   0.38
+  ],
+  "pDown": [
+   0.77,
+   -0.01
+  ],
+  "pFlat": [
+   0.7,
+   0.57
+  ],
+  "cRoll": [
+   0.8,
+   -0.16
+  ],
+  "cLie": [
+   0.43,
+   0.19
+  ],
+  "cShio": [
+   0.0,
+   0.5
+  ],
+  "ooT": [
+   0.0,
+   0.0
+  ],
+  "ooT-dz": [
+   0.0,
+   0.0
+  ],
+  "ooMaw": [
+   0.0,
+   0.0
+  ],
+  "ooSpit": [
+   0.0,
+   0.0
+  ],
+  "brick1": [
+   0.0,
+   0.0
+  ],
+  "brick2": [
+   0.0,
+   0.0
+  ],
+  "brick3": [
+   0.0,
+   0.0
+  ],
+  "hole": [
+   0.0,
+   -0.0
+  ],
+  "aura": [
+   0.0,
+   0.0
+  ],
+  "crack": [
+   0.0,
+   0.0
+  ],
+  "splash": [
+   0.0,
+   0.0
+  ],
+  "trail": [
+   0.0,
+   0.0
+  ],
+  "splashW": [
+   0.0,
+   0.0
+  ],
+  "crackW": [
+   0.0,
+   0.0
+  ]
+ },
+ "thumb": "thumb.webp"
+}

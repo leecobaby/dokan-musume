@@ -1,0 +1,120 @@
+{
+ "v": 2,
+ "page": "ep01/p17",
+ "frames": {
+  "fl-row0": {
+   "file": "fl-row0.webp",
+   "crop": [
+    0,
+    0,
+    520,
+    240
+   ],
+   "s": 0.6,
+   "w": 312,
+   "h": 144,
+   "mono": "fl-row0-mono.webp"
+  },
+  "fl-row1": {
+   "file": "fl-row1.webp",
+   "crop": [
+    0,
+    0,
+    520,
+    240
+   ],
+   "s": 0.6,
+   "w": 312,
+   "h": 144,
+   "mono": "fl-row1-mono.webp"
+  },
+  "fl-row2": {
+   "file": "fl-row2.webp",
+   "crop": [
+    0,
+    0,
+    520,
+    240
+   ],
+   "s": 0.6,
+   "w": 312,
+   "h": 144,
+   "mono": "fl-row2-mono.webp"
+  },
+  "fl-tuft0": {
+   "file": "fl-tuft0.webp",
+   "crop": [
+    0,
+    0,
+    200,
+    280
+   ],
+   "s": 0.6,
+   "w": 120,
+   "h": 168,
+   "mono": "fl-tuft0-mono.webp"
+  },
+  "fl-tuft1": {
+   "file": "fl-tuft1.webp",
+   "crop": [
+    0,
+    0,
+    200,
+    280
+   ],
+   "s": 0.6,
+   "w": 120,
+   "h": 168,
+   "mono": "fl-tuft1-mono.webp"
+  },
+  "fl-tuft2": {
+   "file": "fl-tuft2.webp",
+   "crop": [
+    0,
+    0,
+    200,
+    280
+   ],
+   "s": 0.6,
+   "w": 120,
+   "h": 168,
+   "mono": "fl-tuft2-mono.webp"
+  }
+ },
+ "puppets": {
+  "kodama": "kodama",
+  "puku": "puku",
+  "shiori": "shiori"
+ },
+ "align": {},
+ "stats": {
+  "bytes": 614993
+ },
+ "pairs": {
+  "fl-row0": [
+   0.03,
+   0.25
+  ],
+  "fl-row1": [
+   0.01,
+   0.18
+  ],
+  "fl-row2": [
+   -0.02,
+   0.18
+  ],
+  "fl-tuft0": [
+   -0.04,
+   -0.01
+  ],
+  "fl-tuft1": [
+   -0.05,
+   -0.14
+  ],
+  "fl-tuft2": [
+   0.01,
+   0.04
+  ]
+ },
+ "thumb": "thumb.webp"
+}

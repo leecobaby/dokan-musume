@@ -1,0 +1,1502 @@
+{
+ "id": "ep01/p07",
+ "paper": "#ffffff",
+ "seed": 7,
+ "panels": [
+  {
+   "id": "p1",
+   "rect": [
+    553,
+    46,
+    407,
+    333
+   ]
+  },
+  {
+   "id": "p2",
+   "rect": [
+    40,
+    46,
+    497,
+    333
+   ]
+  },
+  {
+   "id": "p3",
+   "poly": [
+    [
+     40,
+     399
+    ],
+    [
+     960,
+     399
+    ],
+    [
+     960,
+     784.8
+    ],
+    [
+     40,
+     559.2
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "poly": [
+    [
+     40,
+     577.2
+    ],
+    [
+     960,
+     802.8
+    ],
+    [
+     960,
+     963
+    ],
+    [
+     40,
+     963
+    ]
+   ]
+  },
+  {
+   "id": "p34",
+   "rect": [
+    40,
+    399,
+    920,
+    564
+   ]
+  },
+  {
+   "id": "p5",
+   "rect": [
+    40,
+    983,
+    920,
+    385
+   ]
+  }
+ ],
+ "layers": [
+  {
+   "id": "p1/k1",
+   "panel": "p1",
+   "kind": "frame",
+   "rect": [
+    -0.333,
+    -1.811,
+    1.2670000000000001,
+    1.1230000000000002
+   ]
+  },
+  {
+   "id": "p1/d1",
+   "panel": "p1",
+   "kind": "frame",
+   "rect": [
+    -0.333,
+    -1.811,
+    1.2670000000000001,
+    1.1230000000000002
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p1/d2",
+   "panel": "p1",
+   "kind": "frame",
+   "rect": [
+    -0.333,
+    -1.811,
+    1.2670000000000001,
+    1.1230000000000002
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p1/d3",
+   "panel": "p1",
+   "kind": "frame",
+   "rect": [
+    -0.333,
+    -1.811,
+    1.2670000000000001,
+    1.1230000000000002
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p1/d4",
+   "panel": "p1",
+   "kind": "frame",
+   "rect": [
+    -0.333,
+    -1.811,
+    1.2670000000000001,
+    1.1230000000000002
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p1/d5",
+   "panel": "p1",
+   "kind": "frame",
+   "rect": [
+    -0.333,
+    -1.811,
+    1.2670000000000001,
+    1.1230000000000002
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p1/gloom",
+   "panel": "p1",
+   "kind": "gloom",
+   "box": [
+    0.04,
+    0,
+    0.96,
+    0.3
+   ],
+   "n": 22,
+   "alpha": 0
+  },
+  {
+   "id": "p1/vig",
+   "panel": "p1",
+   "kind": "tone",
+   "shape": "radial",
+   "strength": 0.55,
+   "depth": 0
+  },
+  {
+   "id": "p2/plate",
+   "panel": "p2",
+   "kind": "frame",
+   "rect": [
+    -0.05,
+    0,
+    1.05,
+    1.0946
+   ]
+  },
+  {
+   "id": "p2/drop",
+   "panel": "p2",
+   "kind": "sprite",
+   "frame": "drop",
+   "at": [
+    0.589,
+    0.09
+   ],
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.09,
+   "alpha": 0
+  },
+  {
+   "id": "p34/r2",
+   "panel": "p34",
+   "kind": "frame",
+   "frame": "r2",
+   "rect": [
+    0.0,
+    -0.0434,
+    1.0,
+    1.0436
+   ]
+  },
+  {
+   "id": "p34/sky",
+   "panel": "p34",
+   "kind": "tone",
+   "from": [
+    0.5,
+    0.5337
+   ],
+   "to": [
+    0.5,
+    0.0018
+   ],
+   "strength": 0.18
+  },
+  {
+   "id": "p3/r2",
+   "panel": "p3",
+   "kind": "frame",
+   "frame": "r2",
+   "rect": [
+    0.0,
+    -0.0635,
+    1.0,
+    1.5257
+   ]
+  },
+  {
+   "id": "p3/sky",
+   "panel": "p3",
+   "kind": "tone",
+   "from": [
+    0.5,
+    0.7802
+   ],
+   "to": [
+    0.5,
+    0.0026
+   ],
+   "strength": 0.18
+  },
+  {
+   "id": "p4/r2",
+   "panel": "p4",
+   "kind": "frame",
+   "frame": "r2",
+   "rect": [
+    0.0,
+    -0.5254,
+    1.0,
+    1.0638
+   ]
+  },
+  {
+   "id": "p4/sky",
+   "panel": "p4",
+   "kind": "tone",
+   "from": [
+    0.5,
+    0.3183
+   ],
+   "to": [
+    0.5,
+    -0.4593
+   ],
+   "strength": 0.18
+  },
+  {
+   "id": "p34/tent",
+   "panel": "p34",
+   "kind": "frame",
+   "frame": "tent",
+   "rect": [
+    -0.0217,
+    -0.0691,
+    1.0217,
+    1.0656
+   ]
+  },
+  {
+   "id": "p34/kodaA",
+   "panel": "p34",
+   "kind": "sprite",
+   "frame": "kodaA",
+   "at": [
+    0.163,
+    0.977
+   ],
+   "scale": 0.295
+  },
+  {
+   "id": "p34/shio",
+   "panel": "p34",
+   "kind": "sprite",
+   "frame": "shioA",
+   "at": [
+    0.6196,
+    0.6046
+   ],
+   "scale": 0.36,
+   "frames": [
+    "shioB"
+   ]
+  },
+  {
+   "id": "p3/tent",
+   "panel": "p3",
+   "kind": "frame",
+   "frame": "tent-up",
+   "rect": [
+    -0.0217,
+    -0.1011,
+    1.0217,
+    1.5578
+   ]
+  },
+  {
+   "id": "p3/shio",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "shioB",
+   "at": [
+    0.6304,
+    0.8968
+   ],
+   "scale": 0.36
+  },
+  {
+   "id": "p4/tent",
+   "panel": "p4",
+   "kind": "frame",
+   "frame": "tent-lo",
+   "rect": [
+    -0.0217,
+    -0.563,
+    1.0217,
+    1.0959
+   ]
+  },
+  {
+   "id": "p4/kodaA",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "kodaA",
+   "at": [
+    0.163,
+    0.9663
+   ],
+   "scale": 0.295
+  },
+  {
+   "id": "p4/kodaB",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "kodaB",
+   "at": [
+    0.1902,
+    0.9819
+   ],
+   "scale": 0.295,
+   "alpha": 0
+  },
+  {
+   "id": "p4/shio",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "shioC",
+   "at": [
+    0.6087,
+    0.9715
+   ],
+   "scale": 0.36,
+   "alpha": 0
+  },
+  {
+   "id": "p4/drop",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "drop",
+   "at": [
+    0.5337,
+    0.9222
+   ],
+   "anchor": [
+    0.5,
+    0
+   ],
+   "scale": 0.05,
+   "alpha": 0
+  },
+  {
+   "id": "stroke",
+   "kind": "sprite",
+   "frame": "stroke1",
+   "frames": [
+    "stroke2",
+    "stroke3",
+    "stroke4",
+    "stroke5",
+    "stroke6"
+   ],
+   "at": [
+    0.02,
+    0.2545968882602546
+   ],
+   "anchor": [
+    0,
+    0
+   ],
+   "scale": 0.5,
+   "alpha": 0
+  },
+  {
+   "id": "splash",
+   "kind": "sprite",
+   "frame": "splash",
+   "at": [
+    0.805,
+    0.5345058729475433
+   ],
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.3,
+   "alpha": 0
+  },
+  {
+   "id": "p5/a",
+   "panel": "p5",
+   "kind": "frame",
+   "frame": "p5/a",
+   "rect": [
+    -0.02,
+    -0.02,
+    1.02,
+    1.02
+   ]
+  },
+  {
+   "id": "p5/b",
+   "panel": "p5",
+   "kind": "frame",
+   "frame": "p5/b",
+   "rect": [
+    -0.02,
+    -0.02,
+    1.02,
+    1.02
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p5/aura",
+   "panel": "p5",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    1.0,
+    0.1
+   ],
+   "r": [
+    0.4,
+    0.9
+   ],
+   "inner": 0.1,
+   "outer": 1,
+   "invert": true,
+   "strength": 0.35,
+   "depth": 0
+  },
+  {
+   "id": "p5/dark",
+   "panel": "p5",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.99,
+    0.12
+   ],
+   "r": [
+    0.16,
+    0.45
+   ],
+   "inner": 0.2,
+   "outer": 1,
+   "invert": true,
+   "strength": 0.9,
+   "alpha": 0,
+   "depth": 0
+  },
+  {
+   "id": "p5/eyes",
+   "panel": "p5",
+   "kind": "sprite",
+   "frame": "eyes",
+   "at": [
+    0.955,
+    0.16
+   ],
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.17,
+   "alpha": 0
+  },
+  {
+   "id": "p5/q",
+   "panel": "p5",
+   "kind": "fill",
+   "color": "#E6E4EA",
+   "mono": "#e8e8e8",
+   "alpha": 0
+  },
+  {
+   "id": "p5/qlines",
+   "panel": "p5",
+   "kind": "focus",
+   "at": [
+    0.3,
+    0.5
+   ],
+   "inner": [
+    0.22,
+    0.42
+   ],
+   "n": 60,
+   "alpha": 0
+  },
+  {
+   "id": "p5/chibiK",
+   "panel": "p5",
+   "kind": "sprite",
+   "frame": "chibiK",
+   "at": [
+    0.27,
+    1.0
+   ],
+   "scale": 0.4,
+   "alpha": 0
+  },
+  {
+   "id": "p5/chibiS",
+   "panel": "p5",
+   "kind": "sprite",
+   "frame": "chibiS",
+   "at": [
+    0.74,
+    1.0
+   ],
+   "scale": 0.4,
+   "alpha": 0
+  }
+ ],
+ "texts": [
+  {
+   "type": "sfx",
+   "id": "zuru",
+   "panel": "p1",
+   "at": [
+    0.72,
+    0.62
+   ],
+   "size": 24,
+   "rot": 14,
+   "font": "horror",
+   "hollow": true,
+   "dash": [
+    6,
+    4
+   ],
+   "stroke": [
+    [
+     "#2c2a30",
+     2.6
+    ],
+    [
+     "#ffffff",
+     3.2
+    ]
+   ],
+   "jitter": 0.2,
+   "text": {
+    "zh": "ズル……",
+    "ja": "ズル……",
+    "en": "SHLLK..."
+   }
+  },
+  {
+   "type": "bubble",
+   "id": "k1b",
+   "panel": "p1",
+   "shape": "oval",
+   "at": [
+    0.17,
+    0.2
+   ],
+   "tail": [
+    0.36,
+    0.32
+   ],
+   "size": {
+    "zh": 14,
+    "ja": 13,
+    "en": 12
+   },
+   "maxW": 80,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……!!",
+    "ja": "……!!",
+    "en": "...!!"
+   }
+  },
+  {
+   "type": "sfx",
+   "id": "shu",
+   "at": [
+    0.47,
+    0.6
+   ],
+   "panel": "p3",
+   "size": 26,
+   "rot": 14,
+   "font": "quiet",
+   "skew": -0.32,
+   "fill": "#111111",
+   "stroke": [
+    [
+     "#ffffff",
+     2.4
+    ]
+   ],
+   "text": {
+    "zh": "シュッ",
+    "ja": "シュッ",
+    "en": "SHHK"
+   }
+  },
+  {
+   "type": "sfx",
+   "id": "bota",
+   "panel": "p4",
+   "at": [
+    0.413,
+    0.8885
+   ],
+   "size": 32,
+   "rot": 6,
+   "font": "horror",
+   "hollow": true,
+   "dash": [
+    6,
+    4
+   ],
+   "stroke": [
+    [
+     "#2c2a30",
+     2.6
+    ],
+    [
+     "#ffffff",
+     3.2
+    ]
+   ],
+   "text": {
+    "zh": "ボタッ",
+    "ja": "ボタッ",
+    "en": "SPLAT"
+   }
+  },
+  {
+   "type": "bubble",
+   "panel": "p5",
+   "shape": "whisper",
+   "font": "whisper",
+   "size": {
+    "zh": 15,
+    "ja": 14,
+    "en": 13
+   },
+   "vertical": {
+    "ja": true
+   },
+   "id": "sh1",
+   "at": [
+    0.5,
+    0.26
+   ],
+   "tail": [
+    0.66,
+    0.2
+   ],
+   "maxW": 200,
+   "text": {
+    "zh": "……我说过吧。太吵，会被它们找到。",
+    "ja": "……言ったでしょう。うるさいと、あれらに見つかるって。",
+    "en": "...I TOLD YOU. MAKE TOO MUCH NOISE AND THEY'LL FIND YOU."
+   }
+  },
+  {
+   "type": "bubble",
+   "id": "kq",
+   "panel": "p5",
+   "shape": "burst",
+   "at": [
+    0.1,
+    0.36
+   ],
+   "tail": [
+    0.2,
+    0.42
+   ],
+   "size": {
+    "zh": 16,
+    "ja": 15,
+    "en": 13
+   },
+   "maxW": 150,
+   "ink": "#E8262D",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "委、委员长?!\n你到底是什么人?!",
+    "ja": "い、委員長?!\nあんた一体何者なの?!",
+    "en": "P-PREZ?! WHAT ARE YOU, ANYWAY?!"
+   }
+  },
+  {
+   "type": "sfx",
+   "id": "pq",
+   "panel": "p5",
+   "at": [
+    0.38,
+    0.12
+   ],
+   "size": 22,
+   "rot": 8,
+   "font": "gag",
+   "fill": "#FFE14D",
+   "stroke": [
+    [
+     "#111111",
+     2.2
+    ]
+   ],
+   "mono": {
+    "fill": "#ffffff"
+   },
+   "text": {
+    "zh": "?!",
+    "ja": "?!",
+    "en": "?!"
+   }
+  },
+  {
+   "type": "bubble",
+   "panel": "p5",
+   "shape": "whisper",
+   "font": "whisper",
+   "size": {
+    "zh": 17,
+    "ja": 16,
+    "en": 15
+   },
+   "vertical": {
+    "ja": true
+   },
+   "id": "sh2",
+   "at": [
+    0.5,
+    0.24
+   ],
+   "tail": [
+    0.62,
+    0.22
+   ],
+   "maxW": 130,
+   "text": {
+    "zh": "……修正师。",
+    "ja": "……修正師。",
+    "en": "...A CORRECTOR."
+   }
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "panel",
+    "id": "p1",
+    "style": "slide",
+    "from": "r",
+    "dist": 50,
+    "dur": 0.5
+   },
+   {
+    "do": "text",
+    "id": "zuru",
+    "enter": "fade",
+    "delay": 0.5,
+    "dur": 0.6
+   },
+   {
+    "do": "alpha",
+    "id": "p1/d1",
+    "to": 1,
+    "dur": 0.5,
+    "delay": 0.9
+   }
+  ],
+  [
+   {
+    "do": "move",
+    "id": "p1/k1",
+    "by": [
+     0.067,
+     1.791
+    ],
+    "dur": 1.4,
+    "ease": "inOut"
+   },
+   {
+    "do": "move",
+    "id": "p1/d1",
+    "by": [
+     0.067,
+     1.791
+    ],
+    "dur": 1.4,
+    "ease": "inOut"
+   },
+   {
+    "do": "move",
+    "id": "p1/d2",
+    "by": [
+     0.067,
+     1.791
+    ],
+    "dur": 1.4,
+    "ease": "inOut"
+   },
+   {
+    "do": "move",
+    "id": "p1/d3",
+    "by": [
+     0.067,
+     1.791
+    ],
+    "dur": 1.4,
+    "ease": "inOut"
+   },
+   {
+    "do": "move",
+    "id": "p1/d4",
+    "by": [
+     0.067,
+     1.791
+    ],
+    "dur": 1.4,
+    "ease": "inOut"
+   },
+   {
+    "do": "move",
+    "id": "p1/d5",
+    "by": [
+     0.067,
+     1.791
+    ],
+    "dur": 1.4,
+    "ease": "inOut"
+   },
+   {
+    "do": "alpha",
+    "id": "p1/d2",
+    "to": 1,
+    "dur": 0.3,
+    "delay": 0.1
+   },
+   {
+    "do": "alpha",
+    "id": "p1/d3",
+    "to": 1,
+    "dur": 0.3,
+    "delay": 0.38
+   },
+   {
+    "do": "alpha",
+    "id": "p1/d4",
+    "to": 1,
+    "dur": 0.3,
+    "delay": 0.66
+   },
+   {
+    "do": "alpha",
+    "id": "p1/d5",
+    "to": 1,
+    "dur": 0.3,
+    "delay": 0.9400000000000001
+   },
+   {
+    "do": "untext",
+    "id": "zuru",
+    "exit": "fade",
+    "dur": 0.4
+   },
+   {
+    "do": "alpha",
+    "id": "p1/gloom",
+    "to": 1,
+    "dur": 0.5,
+    "delay": 1.2
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "k1b",
+    "enter": "shake",
+    "dur": 0.3
+   },
+   {
+    "do": "shake",
+    "amp": 3,
+    "dur": 0.5,
+    "panel": "p1"
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p2",
+    "style": "cut"
+   },
+   {
+    "do": "flash",
+    "color": "#ffffff",
+    "dur": 0.35,
+    "peak": 0.8
+   }
+  ],
+  [
+   {
+    "do": "move",
+    "id": "p2/plate",
+    "by": [
+     0,
+     -0.08
+    ],
+    "dur": 0.9,
+    "ease": "inOut"
+   },
+   {
+    "do": "alpha",
+    "id": "p2/drop",
+    "to": 1,
+    "dur": 0.1,
+    "delay": 0.2
+   },
+   {
+    "do": "move",
+    "id": "p2/drop",
+    "by": [
+     0,
+     0.95
+    ],
+    "dur": 1.1,
+    "ease": "in",
+    "delay": 0.25
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p34",
+    "dur": 0.45
+   },
+   {
+    "do": "move",
+    "id": "p34/shio",
+    "by": [
+     0,
+     -0.015
+    ],
+    "dur": 1.6,
+    "ease": "inOut"
+   },
+   {
+    "do": "move",
+    "id": "p34/kodaA",
+    "rot": -1.5,
+    "dur": 0.08,
+    "delay": 0.6
+   },
+   {
+    "do": "move",
+    "id": "p34/kodaA",
+    "rot": 1.5,
+    "dur": 0.08,
+    "delay": 0.68
+   },
+   {
+    "do": "move",
+    "id": "p34/kodaA",
+    "rot": 0,
+    "dur": 0.08,
+    "delay": 0.76
+   }
+  ],
+  [
+   {
+    "do": "frame",
+    "id": "p34/shio",
+    "frame": "shioB"
+   },
+   {
+    "do": "alpha",
+    "id": "stroke",
+    "to": 1,
+    "dur": 0.01
+   },
+   {
+    "do": "frame",
+    "id": "stroke",
+    "frame": "stroke1",
+    "delay": 0.0
+   },
+   {
+    "do": "frame",
+    "id": "stroke",
+    "frame": "stroke2",
+    "delay": 0.03
+   },
+   {
+    "do": "frame",
+    "id": "stroke",
+    "frame": "stroke3",
+    "delay": 0.06
+   },
+   {
+    "do": "frame",
+    "id": "stroke",
+    "frame": "stroke4",
+    "delay": 0.09
+   },
+   {
+    "do": "frame",
+    "id": "stroke",
+    "frame": "stroke5",
+    "delay": 0.12
+   },
+   {
+    "do": "frame",
+    "id": "stroke",
+    "frame": "stroke6",
+    "delay": 0.15
+   },
+   {
+    "do": "text",
+    "id": "shu",
+    "enter": "fade",
+    "dur": 0.1,
+    "delay": 0.08
+   },
+   {
+    "do": "flash",
+    "color": "#ffffff",
+    "dur": 0.12,
+    "delay": 0.18000000000000002,
+    "peak": 0.9
+   },
+   {
+    "do": "shake",
+    "amp": 5,
+    "dur": 0.3,
+    "delay": 0.2
+   },
+   {
+    "do": "panel",
+    "id": "p3",
+    "style": "cut",
+    "delay": 0.2
+   },
+   {
+    "do": "panel",
+    "id": "p4",
+    "style": "cut",
+    "delay": 0.2
+   },
+   {
+    "do": "unpanel",
+    "id": "p34",
+    "dur": 0.05,
+    "delay": 0.2
+   },
+   {
+    "do": "move",
+    "id": "splash",
+    "scale": 0.05,
+    "dur": 0
+   },
+   {
+    "do": "alpha",
+    "id": "splash",
+    "to": 1,
+    "dur": 0.04,
+    "delay": 0.2
+   },
+   {
+    "do": "move",
+    "id": "splash",
+    "scale": 1,
+    "dur": 0.25,
+    "ease": "outExpo",
+    "delay": 0.2
+   },
+   {
+    "do": "move",
+    "id": "p4/tent",
+    "by": [
+     -0.03,
+     0.3
+    ],
+    "rot": 6,
+    "dur": 0.55,
+    "ease": "in",
+    "delay": 0.22
+   },
+   {
+    "do": "alpha",
+    "id": "p4/tent",
+    "to": 0,
+    "dur": 0.25,
+    "delay": 0.6000000000000001
+   },
+   {
+    "do": "move",
+    "id": "p3/tent",
+    "by": [
+     0.06,
+     -0.05
+    ],
+    "dur": 0.5,
+    "ease": "out",
+    "delay": 0.22
+   },
+   {
+    "do": "alpha",
+    "id": "p3/tent",
+    "to": 0,
+    "dur": 0.4,
+    "delay": 0.30000000000000004
+   },
+   {
+    "do": "text",
+    "id": "bota",
+    "enter": "fade",
+    "dur": 0.15,
+    "delay": 0.7
+   },
+   {
+    "do": "swap",
+    "from": "p4/kodaA",
+    "to": "p4/kodaB",
+    "dur": 0.12,
+    "delay": 0.35
+   },
+   {
+    "do": "move",
+    "id": "p3/shio",
+    "by": [
+     -0.02,
+     0.25
+    ],
+    "dur": 0.25,
+    "ease": "in",
+    "delay": 0.45
+   },
+   {
+    "do": "alpha",
+    "id": "p3/shio",
+    "to": 0,
+    "dur": 0.1,
+    "delay": 0.6000000000000001
+   },
+   {
+    "do": "move",
+    "id": "p4/shio",
+    "by": [
+     0,
+     -0.12
+    ],
+    "dur": 0
+   },
+   {
+    "do": "alpha",
+    "id": "p4/shio",
+    "to": 1,
+    "dur": 0.08,
+    "delay": 0.65
+   },
+   {
+    "do": "move",
+    "id": "p4/shio",
+    "by": [
+     0,
+     0.12
+    ],
+    "dur": 0.2,
+    "ease": "out",
+    "delay": 0.65
+   },
+   {
+    "do": "shake",
+    "amp": 2,
+    "dur": 0.2,
+    "panel": "p4",
+    "delay": 0.8600000000000001
+   },
+   {
+    "do": "move",
+    "id": "p4/shio",
+    "by": [
+     0,
+     0.006
+    ],
+    "dur": 0.25,
+    "ease": "out",
+    "delay": 1.1
+   },
+   {
+    "do": "move",
+    "id": "p4/shio",
+    "by": [
+     0,
+     -0.006
+    ],
+    "dur": 0.4,
+    "ease": "inOut",
+    "delay": 1.3499999999999999
+   }
+  ],
+  [
+   {
+    "do": "cam",
+    "panel": "p4",
+    "at": [
+     0.5,
+     0.6
+    ],
+    "z": 0.97,
+    "dur": 1.6,
+    "ease": "inOut"
+   },
+   {
+    "do": "untext",
+    "id": "shu",
+    "exit": "fade",
+    "dur": 0.6
+   },
+   {
+    "do": "move",
+    "id": "p4/drop",
+    "scale": 0.0,
+    "dur": 0
+   },
+   {
+    "do": "alpha",
+    "id": "p4/drop",
+    "to": 1,
+    "dur": 0.1
+   },
+   {
+    "do": "move",
+    "id": "p4/drop",
+    "scale": 1,
+    "dur": 0.5,
+    "ease": "out"
+   },
+   {
+    "do": "move",
+    "id": "p4/drop",
+    "by": [
+     0,
+     0.045
+    ],
+    "dur": 0.25,
+    "ease": "in",
+    "delay": 0.8
+   },
+   {
+    "do": "alpha",
+    "id": "p4/drop",
+    "to": 0,
+    "dur": 0.1,
+    "delay": 1.02
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p5",
+    "style": "fade",
+    "dur": 0.5
+   },
+   {
+    "do": "text",
+    "id": "sh1",
+    "enter": "fade",
+    "dur": 0.6,
+    "delay": 0.4
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p5/q",
+    "to": 1,
+    "dur": 0.06
+   },
+   {
+    "do": "alpha",
+    "id": "p5/qlines",
+    "to": 1,
+    "dur": 0.06
+   },
+   {
+    "do": "alpha",
+    "id": "p5/aura",
+    "to": 0,
+    "dur": 0.06
+   },
+   {
+    "do": "alpha",
+    "id": "p5/chibiS",
+    "to": 1,
+    "dur": 0.06
+   },
+   {
+    "do": "alpha",
+    "id": "p5/chibiK",
+    "to": 1,
+    "dur": 0.06
+   },
+   {
+    "do": "move",
+    "id": "p5/chibiK",
+    "by": [
+     0,
+     -0.08
+    ],
+    "dur": 0.12,
+    "ease": "out"
+   },
+   {
+    "do": "move",
+    "id": "p5/chibiK",
+    "by": [
+     0,
+     0.08
+    ],
+    "dur": 0.16,
+    "ease": "in",
+    "delay": 0.12
+   },
+   {
+    "do": "text",
+    "id": "kq",
+    "enter": "shake",
+    "delay": 0.1
+   },
+   {
+    "do": "text",
+    "id": "pq",
+    "enter": "pop",
+    "delay": 0.3
+   },
+   {
+    "do": "untext",
+    "id": "sh1",
+    "exit": "fade",
+    "dur": 0.1
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p5/q",
+    "to": 0,
+    "dur": 0.15
+   },
+   {
+    "do": "alpha",
+    "id": "p5/qlines",
+    "to": 0,
+    "dur": 0.15
+   },
+   {
+    "do": "alpha",
+    "id": "p5/chibiK",
+    "to": 0,
+    "dur": 0.15
+   },
+   {
+    "do": "alpha",
+    "id": "p5/chibiS",
+    "to": 0,
+    "dur": 0.15
+   },
+   {
+    "do": "untext",
+    "id": "kq",
+    "exit": "fade",
+    "dur": 0.15
+   },
+   {
+    "do": "untext",
+    "id": "pq",
+    "exit": "fade",
+    "dur": 0.15
+   },
+   {
+    "do": "alpha",
+    "id": "p5/aura",
+    "to": 1,
+    "dur": 0.3
+   },
+   {
+    "do": "swap",
+    "from": "p5/a",
+    "to": "p5/b",
+    "dur": 0.18,
+    "delay": 0.1
+   },
+   {
+    "do": "text",
+    "id": "sh2",
+    "enter": "fade",
+    "dur": 0.5,
+    "delay": 0.35
+   },
+   {
+    "do": "push",
+    "panel": "p5",
+    "at": [
+     0.72,
+     0.35
+    ],
+    "z": 1.05,
+    "dur": 1.6,
+    "ease": "inOut",
+    "delay": 0.2
+   },
+   {
+    "do": "alpha",
+    "id": "p5/dark",
+    "to": 1,
+    "dur": 0.8,
+    "delay": 0.8
+   },
+   {
+    "do": "move",
+    "id": "p5/eyes",
+    "scale": 0.0,
+    "dur": 0
+   },
+   {
+    "do": "alpha",
+    "id": "p5/eyes",
+    "to": 1,
+    "dur": 0.2,
+    "delay": 1.1
+   },
+   {
+    "do": "move",
+    "id": "p5/eyes",
+    "scale": 1,
+    "dur": 0.35,
+    "ease": "outBack",
+    "delay": 1.1
+   }
+  ]
+ ]
+}

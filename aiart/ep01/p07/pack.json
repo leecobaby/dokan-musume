@@ -1,0 +1,516 @@
+{
+ "v": 2,
+ "page": "ep01/p07",
+ "frames": {
+  "p1/k1": {
+   "file": "p1-k1.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.75,
+   "w": 768,
+   "h": 1152,
+   "panel": "p1",
+   "mono": "p1-k1-mono.webp"
+  },
+  "p2/plate": {
+   "file": "p2-plate.webp",
+   "crop": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "s": 0.6,
+   "w": 922,
+   "h": 614,
+   "panel": "p2",
+   "mono": "p2-plate-mono.webp"
+  },
+  "r2": {
+   "file": "r2.webp",
+   "crop": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "s": 0.75,
+   "w": 1152,
+   "h": 768,
+   "mono": "r2-mono.webp"
+  },
+  "p5/a": {
+   "file": "p5-a.webp",
+   "crop": [
+    0,
+    64,
+    1536,
+    643
+   ],
+   "s": 0.75,
+   "w": 1152,
+   "h": 482,
+   "panel": "p5",
+   "mono": "p5-a-mono.webp"
+  },
+  "p5/b": {
+   "file": "p5-b.webp",
+   "crop": [
+    0,
+    64,
+    1536,
+    643
+   ],
+   "s": 0.75,
+   "w": 1152,
+   "h": 482,
+   "panel": "p5",
+   "mono": "p5-b-mono.webp"
+  },
+  "tent": {
+   "file": "tent.webp",
+   "crop": [
+    0,
+    0,
+    1920,
+    1280
+   ],
+   "s": 0.5,
+   "w": 960,
+   "h": 640,
+   "mono": "tent-mono.webp"
+  },
+  "tent-up": {
+   "file": "tent-up.webp",
+   "crop": [
+    0,
+    0,
+    1920,
+    1280
+   ],
+   "s": 0.5,
+   "w": 960,
+   "h": 640,
+   "mono": "tent-up-mono.webp"
+  },
+  "tent-lo": {
+   "file": "tent-lo.webp",
+   "crop": [
+    0,
+    0,
+    1920,
+    1280
+   ],
+   "s": 0.5,
+   "w": 960,
+   "h": 640,
+   "mono": "tent-lo-mono.webp"
+  },
+  "splash": {
+   "file": "splash.webp",
+   "crop": [
+    26,
+    431,
+    620,
+    569
+   ],
+   "s": 0.6,
+   "w": 372,
+   "h": 341,
+   "mono": "splash-mono.webp"
+  },
+  "drop": {
+   "file": "drop.webp",
+   "crop": [
+    671,
+    730,
+    96,
+    102
+   ],
+   "s": 1,
+   "w": 96,
+   "h": 102,
+   "mono": "drop-mono.webp"
+  },
+  "eyes": {
+   "file": "eyes.webp",
+   "crop": [
+    1062,
+    509,
+    453,
+    448
+   ],
+   "s": 0.6,
+   "w": 272,
+   "h": 269,
+   "mono": "eyes-mono.webp"
+  },
+  "kodaA": {
+   "file": "kodaA.webp",
+   "crop": [
+    91,
+    8,
+    653,
+    985
+   ],
+   "s": 0.6,
+   "w": 392,
+   "h": 591,
+   "mono": "kodaA-mono.webp"
+  },
+  "p1/d1": {
+   "file": "p1-d1.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.5,
+   "w": 512,
+   "h": 768,
+   "panel": "p1",
+   "mono": "p1-d1-mono.webp"
+  },
+  "p1/d2": {
+   "file": "p1-d2.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.5,
+   "w": 512,
+   "h": 768,
+   "panel": "p1",
+   "mono": "p1-d2-mono.webp"
+  },
+  "p1/d3": {
+   "file": "p1-d3.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.5,
+   "w": 512,
+   "h": 768,
+   "panel": "p1",
+   "mono": "p1-d3-mono.webp"
+  },
+  "p1/d4": {
+   "file": "p1-d4.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.5,
+   "w": 512,
+   "h": 768,
+   "panel": "p1",
+   "mono": "p1-d4-mono.webp"
+  },
+  "p1/d5": {
+   "file": "p1-d5.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.5,
+   "w": 512,
+   "h": 768,
+   "panel": "p1",
+   "mono": "p1-d5-mono.webp"
+  },
+  "stroke1": {
+   "file": "stroke1.webp",
+   "crop": [
+    0,
+    0,
+    1920,
+    1280
+   ],
+   "s": 0.5,
+   "w": 960,
+   "h": 640,
+   "mono": "stroke1-mono.webp"
+  },
+  "stroke2": {
+   "file": "stroke2.webp",
+   "crop": [
+    0,
+    0,
+    1920,
+    1280
+   ],
+   "s": 0.5,
+   "w": 960,
+   "h": 640,
+   "mono": "stroke2-mono.webp"
+  },
+  "stroke3": {
+   "file": "stroke3.webp",
+   "crop": [
+    0,
+    0,
+    1920,
+    1280
+   ],
+   "s": 0.5,
+   "w": 960,
+   "h": 640,
+   "mono": "stroke3-mono.webp"
+  },
+  "stroke4": {
+   "file": "stroke4.webp",
+   "crop": [
+    0,
+    0,
+    1920,
+    1280
+   ],
+   "s": 0.5,
+   "w": 960,
+   "h": 640,
+   "mono": "stroke4-mono.webp"
+  },
+  "stroke5": {
+   "file": "stroke5.webp",
+   "crop": [
+    0,
+    0,
+    1920,
+    1280
+   ],
+   "s": 0.5,
+   "w": 960,
+   "h": 640,
+   "mono": "stroke5-mono.webp"
+  },
+  "stroke6": {
+   "file": "stroke6.webp",
+   "crop": [
+    0,
+    0,
+    1920,
+    1280
+   ],
+   "s": 0.5,
+   "w": 960,
+   "h": 640,
+   "mono": "stroke6-mono.webp"
+  },
+  "shioA": {
+   "file": "shioA.webp",
+   "crop": [
+    49,
+    68,
+    438,
+    894
+   ],
+   "s": 0.6,
+   "w": 263,
+   "h": 536,
+   "mono": "shioA-mono.webp"
+  },
+  "shioB": {
+   "file": "shioB.webp",
+   "crop": [
+    432,
+    4,
+    713,
+    965
+   ],
+   "s": 0.6,
+   "w": 428,
+   "h": 579,
+   "mono": "shioB-mono.webp"
+  },
+  "shioC": {
+   "file": "shioC.webp",
+   "crop": [
+    1004,
+    314,
+    522,
+    674
+   ],
+   "s": 0.6,
+   "w": 313,
+   "h": 404,
+   "mono": "shioC-mono.webp"
+  },
+  "kodaB": {
+   "file": "kodaB.webp",
+   "crop": [
+    718,
+    302,
+    788,
+    696
+   ],
+   "s": 0.6,
+   "w": 473,
+   "h": 418,
+   "mono": "kodaB-mono.webp"
+  },
+  "chibiK": {
+   "file": "chibiK.webp",
+   "crop": [
+    179,
+    21,
+    637,
+    904
+   ],
+   "s": 0.6,
+   "w": 382,
+   "h": 542,
+   "mono": "chibiK-mono.webp"
+  },
+  "chibiS": {
+   "file": "chibiS.webp",
+   "crop": [
+    865,
+    207,
+    515,
+    800
+   ],
+   "s": 0.6,
+   "w": 309,
+   "h": 480,
+   "mono": "chibiS-mono.webp"
+  }
+ },
+ "puppets": {},
+ "align": {},
+ "stats": {
+  "bytes": 3722332
+ },
+ "pairs": {
+  "p1/k1": [
+   -0.23,
+   0.04
+  ],
+  "p2/plate": [
+   0.06,
+   0.1
+  ],
+  "r2": [
+   0.0,
+   0.0
+  ],
+  "p5/a": [
+   0.06,
+   0.08
+  ],
+  "p5/b": [
+   -0.06,
+   0.06
+  ],
+  "tent": [
+   0.0,
+   0.0
+  ],
+  "tent-up": [
+   -0.0,
+   -0.0
+  ],
+  "tent-lo": [
+   -0.0,
+   -0.0
+  ],
+  "splash": [
+   0.0,
+   0.0
+  ],
+  "drop": [
+   0.0,
+   0.0
+  ],
+  "eyes": [
+   0.0,
+   0.0
+  ],
+  "kodaA": [
+   0.03,
+   -0.01
+  ],
+  "p1/d1": [
+   0.0,
+   0.0
+  ],
+  "p1/d2": [
+   0.0,
+   0.0
+  ],
+  "p1/d3": [
+   0.0,
+   0.0
+  ],
+  "p1/d4": [
+   -0.0,
+   0.0
+  ],
+  "p1/d5": [
+   0.0,
+   0.0
+  ],
+  "stroke1": [
+   -0.0,
+   -0.0
+  ],
+  "stroke2": [
+   -0.0,
+   0.0
+  ],
+  "stroke3": [
+   -0.0,
+   -0.0
+  ],
+  "stroke4": [
+   0.0,
+   -0.0
+  ],
+  "stroke5": [
+   0.0,
+   0.0
+  ],
+  "stroke6": [
+   0.0,
+   -0.0
+  ],
+  "shioA": [
+   0.01,
+   -0.04
+  ],
+  "shioB": [
+   0.04,
+   0.08
+  ],
+  "shioC": [
+   -0.23,
+   0.0
+  ],
+  "kodaB": [
+   0.0,
+   0.0
+  ],
+  "chibiK": [
+   -0.17,
+   -0.07
+  ],
+  "chibiS": [
+   -0.11,
+   -0.21
+  ]
+ },
+ "thumb": "thumb.webp"
+}

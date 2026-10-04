@@ -1,0 +1,202 @@
+{
+ "v": 2,
+ "page": "ep01/p04",
+ "frames": {
+  "p1/full": {
+   "file": "p1-full.webp",
+   "crop": [
+    0,
+    160,
+    1536,
+    703
+   ],
+   "s": 1.0,
+   "w": 1536,
+   "h": 703,
+   "panel": "p1",
+   "mono": "p1-full-mono.webp"
+  },
+  "p2/a": {
+   "file": "p2-a.webp",
+   "crop": [
+    90,
+    0,
+    1116,
+    1254
+   ],
+   "s": 0.6,
+   "w": 670,
+   "h": 752,
+   "panel": "p2",
+   "mono": "p2-a-mono.webp"
+  },
+  "p2/b": {
+   "file": "p2-b.webp",
+   "crop": [
+    90,
+    0,
+    1116,
+    1254
+   ],
+   "s": 0.6,
+   "w": 670,
+   "h": 752,
+   "panel": "p2",
+   "mono": "p2-b-mono.webp"
+  },
+  "p3/bg": {
+   "file": "p3-bg.webp",
+   "crop": [
+    0,
+    72,
+    1254,
+    1105
+   ],
+   "s": 0.5,
+   "w": 627,
+   "h": 552,
+   "panel": "p3",
+   "mono": "p3-bg-mono.webp"
+  },
+  "p4/plate": {
+   "file": "p4-plate.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1311
+   ],
+   "s": 0.6,
+   "w": 614,
+   "h": 787,
+   "panel": "p4",
+   "mono": "p4-plate-mono.webp"
+  },
+  "p5/plate": {
+   "file": "p5-plate.webp",
+   "crop": [
+    0,
+    94,
+    1254,
+    1071
+   ],
+   "s": 0.6,
+   "w": 752,
+   "h": 643,
+   "panel": "p5",
+   "mono": "p5-plate-mono.webp"
+  },
+  "puku4": {
+   "file": "puku4.webp",
+   "crop": [
+    140,
+    30,
+    960,
+    1100
+   ],
+   "s": 0.35,
+   "w": 336,
+   "h": 385,
+   "mono": "puku4-mono.webp"
+  },
+  "puku5": {
+   "file": "puku5.webp",
+   "crop": [
+    20,
+    30,
+    1220,
+    1100
+   ],
+   "s": 0.35,
+   "w": 427,
+   "h": 385,
+   "mono": "puku5-mono.webp"
+  },
+  "puku5flat": {
+   "file": "puku5flat.webp",
+   "crop": [
+    20,
+    30,
+    1220,
+    1100
+   ],
+   "s": 0.35,
+   "w": 427,
+   "h": 385,
+   "mono": "puku5flat-mono.webp"
+  }
+ },
+ "puppets": {
+  "kodama3": "kodama3",
+  "kodama4": "kodama4",
+  "kodama5": "kodama5"
+ },
+ "align": {
+  "kodama4/face/dot": [
+   [
+    0.14,
+    -0.03
+   ]
+  ],
+  "kodama4/face/dot-mono": [
+   [
+    0.21,
+    -0.02
+   ]
+  ],
+  "kodama4/face/shock": [
+   [
+    0.12,
+    0.1
+   ]
+  ],
+  "kodama4/face/shock-mono": [
+   [
+    0.2,
+    -0.02
+   ]
+  ]
+ },
+ "stats": {
+  "bytes": 4374619
+ },
+ "pairs": {
+  "p1/full": [
+   0.67,
+   0.35
+  ],
+  "p2/a": [
+   0.0,
+   0.0
+  ],
+  "p2/b": [
+   0.0,
+   0.0
+  ],
+  "p3/bg": [
+   0.62,
+   -0.39
+  ],
+  "p4/plate": [
+   0.31,
+   -0.36
+  ],
+  "p5/plate": [
+   0.34,
+   -0.0
+  ],
+  "puku4": [
+   -0.07,
+   0.33
+  ],
+  "puku5": [
+   -0.12,
+   0.49
+  ],
+  "puku5flat": [
+   0.09,
+   0.5
+  ]
+ },
+ "thumb": "thumb.webp"
+}

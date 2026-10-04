@@ -1,0 +1,1546 @@
+{
+ "id": "ep01/p03",
+ "paper": "#ffffff",
+ "seed": 3,
+ "lights": {
+  "sun": {
+   "grade": 0.14,
+   "rim": 0.45,
+   "dir": [
+    -7,
+    -3
+   ],
+   "top": "#fff3d6",
+   "bot": "#e6ecfa",
+   "rimColor": "#fff0c2"
+  }
+ },
+ "panels": [
+  {
+   "id": "p1",
+   "rect": [
+    465,
+    40,
+    495,
+    388
+   ]
+  },
+  {
+   "id": "p2",
+   "rect": [
+    40,
+    40,
+    405,
+    388
+   ]
+  },
+  {
+   "id": "p3",
+   "rect": [
+    40,
+    448,
+    920,
+    362
+   ]
+  },
+  {
+   "id": "p4",
+   "rect": [
+    402,
+    830,
+    558,
+    544
+   ],
+   "fill": "#2c2440"
+  },
+  {
+   "id": "p5",
+   "rect": [
+    40,
+    830,
+    342,
+    544
+   ]
+  }
+ ],
+ "layers": [
+  {
+   "id": "p1/plate",
+   "panel": "p1",
+   "kind": "frame"
+  },
+  {
+   "id": "p1/speed",
+   "panel": "p1",
+   "kind": "speed",
+   "angle": 215,
+   "gap": 9,
+   "clear": [
+    0.75,
+    0.5,
+    0.22,
+    0.4
+   ],
+   "hidden": true
+  },
+  {
+   "id": "kodama1",
+   "panel": "p1",
+   "kind": "puppet",
+   "at": [
+    0.74,
+    0.985
+   ],
+   "scale": 0.225,
+   "wind": 0.15,
+   "light": "sun"
+  },
+  {
+   "id": "p1/paper",
+   "panel": "p1",
+   "kind": "particles",
+   "preset": "paper",
+   "n": 14,
+   "area": [
+    0.05,
+    0.25,
+    0.55,
+    0.85
+   ],
+   "dir": 215,
+   "speed": 1.6,
+   "emit": "inside",
+   "colors": [
+    "#ffffff",
+    "#fff6cf"
+   ]
+  },
+  {
+   "id": "student",
+   "kind": "sprite",
+   "frame": "student",
+   "at": [
+    0.612,
+    0.2885
+   ],
+   "scale": 0.19,
+   "hidden": true,
+   "light": "sun"
+  },
+  {
+   "id": "p2/a",
+   "panel": "p2",
+   "kind": "frame"
+  },
+  {
+   "id": "p2/b",
+   "panel": "p2",
+   "kind": "frame",
+   "hidden": true
+  },
+  {
+   "id": "p2/spark",
+   "panel": "p2",
+   "kind": "particles",
+   "preset": "sparkle",
+   "n": 10,
+   "area": [
+    0.0,
+    0.1,
+    0.5,
+    0.6
+   ]
+  },
+  {
+   "id": "p2/petals",
+   "panel": "p2",
+   "kind": "particles",
+   "preset": "petals",
+   "shape": "sakura",
+   "n": 10,
+   "dir": 100,
+   "spread": 40,
+   "speed": 0.7,
+   "gust": 0.2,
+   "colors": [
+    "#ffc4dc",
+    "#ffe3ef"
+   ]
+  },
+  {
+   "id": "p3/plate",
+   "panel": "p3",
+   "kind": "frame",
+   "rect": [
+    -0.04,
+    -0.04,
+    1.04,
+    1.04
+   ]
+  },
+  {
+   "id": "p3/wilt",
+   "panel": "p3",
+   "kind": "frame",
+   "rect": [
+    0.8741,
+    0.4249,
+    0.9514,
+    0.6752
+   ],
+   "hidden": true
+  },
+  {
+   "id": "p3/dim",
+   "panel": "p3",
+   "kind": "tone",
+   "from": [
+    0.72,
+    0.5
+   ],
+   "to": [
+    0.0,
+    0.5
+   ],
+   "color": "#1c1230",
+   "strength": 0.6,
+   "hidden": true
+  },
+  {
+   "id": "p3/aura1",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "aura",
+   "at": [
+    0.1,
+    1.05
+   ],
+   "scale": 0.8,
+   "hidden": true
+  },
+  {
+   "id": "p3/aura2",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "aura",
+   "at": [
+    0.33,
+    1.08
+   ],
+   "scale": 0.7,
+   "flip": true,
+   "hidden": true
+  },
+  {
+   "id": "p3/gloom",
+   "panel": "p3",
+   "kind": "gloom",
+   "box": [
+    0.5,
+    0,
+    0.92,
+    0.42
+   ],
+   "n": 26,
+   "color": "#3b3560",
+   "hidden": true
+  },
+  {
+   "id": "shiori3",
+   "panel": "p3",
+   "kind": "puppet",
+   "at": [
+    -0.14,
+    1.02
+   ],
+   "scale": 0.285,
+   "wind": 0.1,
+   "hidden": true
+  },
+  {
+   "id": "kodama3",
+   "panel": "p3",
+   "kind": "puppet",
+   "at": [
+    0.665,
+    1.02
+   ],
+   "scale": 0.28,
+   "wind": 0.12,
+   "light": "sun"
+  },
+  {
+   "id": "p3/slash",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "slash",
+   "at": [
+    0.47,
+    0.2
+   ],
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.62,
+   "rot": -14,
+   "hidden": true
+  },
+  {
+   "id": "p4/focus",
+   "panel": "p4",
+   "kind": "focus",
+   "at": [
+    0.55,
+    0.42
+   ],
+   "inner": [
+    0.3,
+    0.26
+   ],
+   "n": 110,
+   "ink": "#4d3f73"
+  },
+  {
+   "id": "p4/aura",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "aura",
+   "at": [
+    0.1,
+    1.02
+   ],
+   "scale": 1.0,
+   "alpha": 0.85
+  },
+  {
+   "id": "p4/gloom",
+   "panel": "p4",
+   "kind": "gloom",
+   "box": [
+    0.48,
+    0.0,
+    1.0,
+    0.45
+   ],
+   "n": 22,
+   "color": "#c9c3e6",
+   "hidden": true
+  },
+  {
+   "id": "p4/vig",
+   "panel": "p4",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.55,
+    0.5
+   ],
+   "strength": 0.7,
+   "color": "#120c22",
+   "depth": 0
+  },
+  {
+   "id": "kodama4",
+   "panel": "p4",
+   "kind": "puppet",
+   "at": [
+    0.8,
+    1.17
+   ],
+   "scale": 0.34,
+   "wind": 0.1
+  },
+  {
+   "id": "shiori4",
+   "panel": "p4",
+   "kind": "puppet",
+   "at": [
+    0.16,
+    1.0
+   ],
+   "scale": 0.45,
+   "wind": 0.08
+  },
+  {
+   "id": "vein",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "vein",
+   "at": [
+    0.21,
+    0.13
+   ],
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.13,
+   "hidden": true
+  },
+  {
+   "id": "crack",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "crack",
+   "at": [
+    0.79,
+    0.67
+   ],
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.62,
+   "hidden": true
+  },
+  {
+   "id": "p5/plate",
+   "panel": "p5",
+   "kind": "frame"
+  },
+  {
+   "id": "dot",
+   "panel": "p5",
+   "kind": "sprite",
+   "frame": "dot-open",
+   "frames": [
+    "dot-shut"
+   ],
+   "at": [
+    0.72,
+    0.145
+   ],
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.03,
+   "hidden": true
+  },
+  {
+   "id": "shiori5",
+   "panel": "p5",
+   "kind": "puppet",
+   "at": [
+    0.42,
+    0.72
+   ],
+   "scale": 0.2,
+   "wind": 0.2,
+   "light": "sun"
+  },
+  {
+   "id": "p5/gloom",
+   "panel": "p5",
+   "kind": "gloom",
+   "box": [
+    0.4,
+    0.52,
+    1.0,
+    0.82
+   ],
+   "n": 22,
+   "color": "#3b3560",
+   "hidden": true
+  },
+  {
+   "id": "chibi5",
+   "panel": "p5",
+   "kind": "puppet",
+   "at": [
+    0.66,
+    1.0
+   ],
+   "scale": 0.17,
+   "wind": 0.1
+  }
+ ],
+ "texts": [
+  {
+   "id": "gu",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.44,
+    0.31
+   ],
+   "size": 18,
+   "rot": -6,
+   "font": "round",
+   "fill": "#9aa3b0c0",
+   "stroke": [
+    [
+     "#ffffffb3",
+     1.5
+    ]
+   ],
+   "mono": {
+    "fill": "#8a8a8ac0"
+   },
+   "text": {
+    "zh": "ぐー",
+    "ja": "ぐー",
+    "en": "zzz"
+   }
+  },
+  {
+   "id": "ganbare",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.33,
+    0.33
+   ],
+   "size": 40,
+   "rot": -22,
+   "font": "impact",
+   "skew": -0.18,
+   "tracking": -0.06,
+   "ramp": [
+    1.3,
+    0.8
+   ],
+   "jitter": {
+    "size": 0.05,
+    "rot": 4,
+    "off": 0.06
+   },
+   "fill": "#FF8A3DB0",
+   "stroke": [
+    [
+     "#ffffffb3",
+     2
+    ]
+   ],
+   "mono": {
+    "fill": "#666666a0",
+    "stroke": [
+     [
+      "#ffffffb3",
+      2
+     ]
+    ]
+   },
+   "text": {
+    "zh": "ガンバレーッ!!",
+    "ja": "ガンバレーッ!!",
+    "en": "GO FOR IT!!"
+   }
+  },
+  {
+   "id": "bub11",
+   "maxH": 150,
+   "panel": "p1",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.84,
+    0.21
+   ],
+   "tail": [
+    0.63,
+    0.25
+   ],
+   "size": 19,
+   "maxW": 170,
+   "ink": "#E8262D",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "起——床——\n加——油——!!",
+    "ja": "おーきーてー\nがんばれーっ!!",
+    "en": "WAKE—UP—YOU—\nCAN—DO—IT—!!"
+   }
+  },
+  {
+   "id": "doon",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.1,
+    0.1
+   ],
+   "size": 40,
+   "rot": -8,
+   "font": "impact",
+   "fill": "#c8ccd4d0",
+   "stroke": [
+    [
+     "#ffffff",
+     2
+    ],
+    [
+     "#55596688",
+     4
+    ]
+   ],
+   "jitter": 0.25,
+   "text": {
+    "zh": "ドーン",
+    "ja": "ドーン",
+    "en": "WHAM"
+   }
+  },
+  {
+   "id": "gu2",
+   "panel": "p2",
+   "type": "sfx",
+   "at": [
+    0.06,
+    0.05
+   ],
+   "size": 16,
+   "rot": -30,
+   "font": "round",
+   "fill": "#9aa3b0c0",
+   "stroke": [
+    [
+     "#ffffffb3",
+     1.5
+    ]
+   ],
+   "mono": {
+    "fill": "#8a8a8ac0"
+   },
+   "text": {
+    "zh": "ぐー",
+    "ja": "ぐー",
+    "en": "zzz"
+   }
+  },
+  {
+   "id": "fight",
+   "panel": "p2",
+   "type": "sfx",
+   "at": [
+    0.43,
+    0.05
+   ],
+   "size": 24,
+   "rot": -10,
+   "font": "pop",
+   "ramp": [
+    0.8,
+    1.2
+   ],
+   "fill": "#FF8A3DB0",
+   "stroke": [
+    [
+     "#ffffffb3",
+     2
+    ]
+   ],
+   "mono": {
+    "fill": "#666666a0",
+    "stroke": [
+     [
+      "#ffffffb3",
+      2
+     ]
+    ]
+   },
+   "text": {
+    "zh": "ファイトーッ!!",
+    "ja": "ファイトーッ!!",
+    "en": "FIIIGHT!!"
+   }
+  },
+  {
+   "id": "bub21",
+   "maxH": 140,
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.83,
+    0.2
+   ],
+   "tail": [
+    0.6,
+    0.28
+   ],
+   "size": 19,
+   "maxW": 150,
+   "ink": "#E8262D",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "挺起胸膛\n来——!!",
+    "ja": "胸を張れ\nーーっ!!",
+    "en": "CHIN UP—!!"
+   }
+  },
+  {
+   "id": "piin",
+   "panel": "p2",
+   "type": "sfx",
+   "at": [
+    0.1,
+    0.48
+   ],
+   "size": 26,
+   "rot": 4,
+   "font": "pop",
+   "fill": "#B8E04Ac8",
+   "stroke": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "mono": {
+    "fill": "#777777c8"
+   },
+   "text": {
+    "zh": "ピーン!",
+    "ja": "ピーン!",
+    "en": "BOING!"
+   }
+  },
+  {
+   "id": "shio31",
+   "maxH": 130,
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.09,
+    0.13
+   ],
+   "tail": [
+    -0.06,
+    0.3
+   ],
+   "size": 16,
+   "maxW": 120,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "鸣濑谺同学。",
+    "ja": "鳴瀬こだまさん。",
+    "en": "Naruse Kodama."
+   }
+  },
+  {
+   "id": "fight3",
+   "panel": "p3",
+   "type": "sfx",
+   "at": [
+    0.44,
+    0.17
+   ],
+   "size": 30,
+   "rot": -8,
+   "font": "pop",
+   "fill": "#FF8A3D80",
+   "stroke": [
+    [
+     "#ffffff80",
+     2
+    ]
+   ],
+   "mono": {
+    "fill": "#66666680"
+   },
+   "text": {
+    "zh": "ファイトーッ!!",
+    "ja": "ファイトーッ!!",
+    "en": "FIIIGHT!!"
+   }
+  },
+  {
+   "id": "fight3s",
+   "panel": "p3",
+   "type": "sfx",
+   "at": [
+    0.44,
+    0.19
+   ],
+   "size": 11,
+   "rot": 12,
+   "font": "pop",
+   "fill": "#FF8A3D70",
+   "stroke": [
+    [
+     "#ffffff70",
+     1
+    ]
+   ],
+   "mono": {
+    "fill": "#66666670"
+   },
+   "jitter": 0.6,
+   "text": {
+    "zh": "ファイト…",
+    "ja": "ファイト…",
+    "en": "fight…"
+   }
+  },
+  {
+   "id": "gogo1",
+   "panel": "p3",
+   "type": "sfx",
+   "at": [
+    0.035,
+    0.62
+   ],
+   "size": 34,
+   "font": "menace",
+   "fill": "#3a2a5c",
+   "stroke": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "vertical": true,
+   "jitter": 0.3,
+   "mono": {
+    "fill": "#222222"
+   },
+   "text": {
+    "zh": "ゴゴゴ",
+    "ja": "ゴゴゴ",
+    "en": "GOGOGO"
+   }
+  },
+  {
+   "id": "gogo2",
+   "panel": "p3",
+   "type": "sfx",
+   "at": [
+    0.4,
+    0.66
+   ],
+   "size": 28,
+   "rot": 6,
+   "font": "menace",
+   "fill": "#3a2a5c",
+   "stroke": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "jitter": 0.3,
+   "mono": {
+    "fill": "#222222"
+   },
+   "text": {
+    "zh": "ゴゴゴ",
+    "ja": "ゴゴゴ",
+    "en": "GOGOGO"
+   }
+  },
+  {
+   "id": "tk1",
+   "panel": "p4",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.7,
+    0.47
+   ],
+   "size": 7,
+   "rot": -8,
+   "font": "hand",
+   "fill": "#8a2a3a",
+   "stroke": [],
+   "text": {
+    "zh": "罚单 No.099",
+    "ja": "違反切符 No.099",
+    "en": "TICKET No.099"
+   }
+  },
+  {
+   "id": "shio41",
+   "maxH": 130,
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.56,
+    0.1
+   ],
+   "tail": [
+    0.33,
+    0.2
+   ],
+   "size": 16,
+   "maxW": 130,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "噪音违规，\n第九十九张。",
+    "ja": "騒音違反、\n九十九枚目。",
+    "en": "Noise violation.\nTicket No. 99."
+   }
+  },
+  {
+   "id": "ko41",
+   "maxH": 160,
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.8,
+    0.27
+   ],
+   "tail": [
+    0.84,
+    0.62
+   ],
+   "size": 17,
+   "maxW": 150,
+   "ink": "#E8262D",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "再一张就满一百张了！\n有纪念品吗?!",
+    "ja": "あと一枚で百枚！\n記念品ある?!",
+    "en": "One more makes\na hundred! Do I\nget a prize?!"
+   }
+  },
+  {
+   "id": "shio42",
+   "maxH": 120,
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.2,
+    0.86
+   ],
+   "tail": [
+    0.24,
+    0.68
+   ],
+   "size": 16,
+   "maxW": 110,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "有。停学。",
+    "ja": "あります。停学。",
+    "en": "Yes.\nSuspension."
+   }
+  },
+  {
+   "id": "pishi",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.55,
+    0.62
+   ],
+   "size": 24,
+   "rot": -15,
+   "font": "sharp",
+   "fill": "#ffffff",
+   "stroke": [
+    [
+     "#2a2440",
+     3
+    ]
+   ],
+   "text": {
+    "zh": "ピシッ",
+    "ja": "ピシッ",
+    "en": "CRACK"
+   }
+  },
+  {
+   "id": "gaan",
+   "panel": "p5",
+   "type": "sfx",
+   "at": [
+    0.9,
+    0.5
+   ],
+   "size": 30,
+   "font": "horror",
+   "fill": "#c7cbd6",
+   "stroke": [
+    [
+     "#2E2E3C",
+     3
+    ]
+   ],
+   "vertical": {
+    "zh": true,
+    "ja": true
+   },
+   "jitter": 0.3,
+   "mono": {
+    "fill": "#bbbbbb"
+   },
+   "text": {
+    "zh": "ガーン",
+    "ja": "ガーン",
+    "en": "GAAN!"
+   }
+  },
+  {
+   "id": "fasa",
+   "panel": "p5",
+   "type": "sfx",
+   "at": [
+    0.76,
+    0.3
+   ],
+   "size": 17,
+   "rot": -18,
+   "font": "brush",
+   "fill": "#9a8cb8c0",
+   "stroke": [
+    [
+     "#ffffffaa",
+     1.5
+    ]
+   ],
+   "text": {
+    "zh": "ファサッ",
+    "ja": "ファサッ",
+    "en": "FWSH"
+   }
+  },
+  {
+   "id": "think",
+   "maxH": 150,
+   "panel": "p5",
+   "type": "bubble",
+   "shape": "cloud",
+   "at": [
+    0.5,
+    0.43
+   ],
+   "tail": [
+    0.12,
+    0.3
+   ],
+   "size": 13,
+   "maxW": 120,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……太吵了。\n会被“它们”\n听见的。",
+    "ja": "……うるさすぎる。\n「あれら」に\n聞かれてしまう。",
+    "en": "…Too loud.\n*They* will\nhear it."
+   }
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "panel",
+    "id": "p1"
+   },
+   {
+    "do": "alpha",
+    "id": "student",
+    "to": 1,
+    "dur": 0.4
+   },
+   {
+    "do": "text",
+    "id": "gu",
+    "enter": "fade",
+    "delay": 0.4
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "kodama1",
+    "slot": "pose",
+    "state": "shout",
+    "style": "smear",
+    "ms": 120
+   },
+   {
+    "do": "alpha",
+    "id": "p1/speed",
+    "to": 1,
+    "dur": 0.08
+   },
+   {
+    "do": "start",
+    "id": "p1/speed"
+   },
+   {
+    "do": "text",
+    "id": "ganbare",
+    "enter": "slam",
+    "delay": 0.04
+   },
+   {
+    "do": "text",
+    "id": "bub11",
+    "enter": "pop",
+    "delay": 0.08
+   },
+   {
+    "do": "untext",
+    "id": "gu",
+    "exit": "fade",
+    "dur": 0.1,
+    "delay": 0.05
+   },
+   {
+    "do": "move",
+    "id": "student",
+    "by": [
+     -0.62,
+     -0.5
+    ],
+    "rot": -540,
+    "dur": 0.34,
+    "ease": "in",
+    "delay": 0.05
+   },
+   {
+    "do": "alpha",
+    "id": "student",
+    "to": 0,
+    "dur": 0.05,
+    "delay": 0.4
+   },
+   {
+    "do": "start",
+    "id": "p1/paper",
+    "delay": 0.05
+   },
+   {
+    "do": "shake",
+    "amp": 10,
+    "panel": "p1",
+    "dur": 0.4,
+    "delay": 0.05
+   },
+   {
+    "do": "text",
+    "id": "doon",
+    "enter": "slam",
+    "delay": 0.15
+   },
+   {
+    "do": "stop",
+    "id": "p1/speed",
+    "delay": 1.2
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p2"
+   },
+   {
+    "do": "text",
+    "id": "gu2",
+    "enter": "fade",
+    "delay": 0.2
+   },
+   {
+    "do": "text",
+    "id": "fight",
+    "enter": "pop",
+    "delay": 0.25
+   },
+   {
+    "do": "text",
+    "id": "bub21",
+    "enter": "pop",
+    "delay": 0.4
+   }
+  ],
+  [
+   {
+    "do": "flash",
+    "color": "#fff4fa",
+    "peak": 0.6,
+    "dur": 0.25
+   },
+   {
+    "do": "alpha",
+    "id": "p2/b",
+    "to": 1,
+    "dur": 0.12
+   },
+   {
+    "do": "text",
+    "id": "piin",
+    "enter": "slam",
+    "delay": 0.08
+   },
+   {
+    "do": "start",
+    "id": "p2/spark",
+    "delay": 0.1
+   },
+   {
+    "do": "start",
+    "id": "p2/petals",
+    "delay": 0.1
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p3",
+    "style": "slide",
+    "from": "r",
+    "dist": 30
+   },
+   {
+    "do": "text",
+    "id": "fight3",
+    "enter": "fade",
+    "delay": 0.2
+   },
+   {
+    "do": "text",
+    "id": "shio31",
+    "enter": "fade",
+    "dur": 0.9,
+    "delay": 0.6
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p3/dim",
+    "to": 1,
+    "dur": 0.3
+   },
+   {
+    "do": "alpha",
+    "id": "p3/aura1",
+    "to": 0.9,
+    "dur": 0.3
+   },
+   {
+    "do": "alpha",
+    "id": "p3/aura2",
+    "to": 0.8,
+    "dur": 0.3
+   },
+   {
+    "do": "alpha",
+    "id": "shiori3",
+    "to": 1,
+    "dur": 0.12
+   },
+   {
+    "do": "move",
+    "id": "shiori3",
+    "to": [
+     0.21,
+     1.02
+    ],
+    "dur": 0.3,
+    "ease": "out"
+   },
+   {
+    "do": "cam",
+    "panel": "p3",
+    "at": [
+     0.5,
+     0.5
+    ],
+    "z": 0.965,
+    "dur": 0.5,
+    "ease": "out"
+   },
+   {
+    "do": "state",
+    "id": "kodama3",
+    "slot": "face",
+    "state": "shock",
+    "delay": 0.15
+   },
+   {
+    "do": "alpha",
+    "id": "p3/gloom",
+    "to": 1,
+    "dur": 0.3,
+    "delay": 0.15
+   },
+   {
+    "do": "alpha",
+    "id": "p3/wilt",
+    "to": 1,
+    "dur": 0.4,
+    "delay": 0.2
+   },
+   {
+    "do": "text",
+    "id": "gogo1",
+    "enter": "shake",
+    "delay": 0.2
+   },
+   {
+    "do": "text",
+    "id": "gogo2",
+    "enter": "shake",
+    "delay": 0.3
+   },
+   {
+    "do": "bone",
+    "id": "shiori3",
+    "bone": "chest",
+    "r": -3,
+    "dur": 0.15,
+    "delay": 0.7
+   },
+   {
+    "do": "alpha",
+    "id": "p3/slash",
+    "to": 1,
+    "dur": 0.15,
+    "delay": 0.72
+   },
+   {
+    "do": "untext",
+    "id": "fight3",
+    "exit": "pop",
+    "dur": 0.2,
+    "delay": 0.85
+   },
+   {
+    "do": "text",
+    "id": "fight3s",
+    "enter": "fade",
+    "dur": 0.15,
+    "delay": 0.95
+   },
+   {
+    "do": "alpha",
+    "id": "p3/slash",
+    "to": 0,
+    "dur": 0.4,
+    "delay": 1.1
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p4"
+   },
+   {
+    "do": "move",
+    "id": "shiori4",
+    "by": [
+     -0.06,
+     0
+    ],
+    "dur": 0.001
+   },
+   {
+    "do": "move",
+    "id": "shiori4",
+    "by": [
+     0.06,
+     0
+    ],
+    "dur": 0.2,
+    "ease": "outBack",
+    "delay": 0.05
+   },
+   {
+    "do": "text",
+    "id": "tk1",
+    "enter": "fade",
+    "delay": 0.2
+   },
+   {
+    "do": "text",
+    "id": "shio41",
+    "enter": "fade",
+    "delay": 0.35
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "kodama4",
+    "slot": "face",
+    "state": "sparkle"
+   },
+   {
+    "do": "text",
+    "id": "ko41",
+    "enter": "pop",
+    "delay": 0.05
+   },
+   {
+    "do": "alpha",
+    "id": "vein",
+    "to": 1,
+    "dur": 0.06,
+    "delay": 0.4
+   },
+   {
+    "do": "alpha",
+    "id": "vein",
+    "to": 0,
+    "dur": 0.12,
+    "delay": 0.75
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "shio42",
+    "enter": "fade",
+    "dur": 0.3,
+    "delay": 0.25
+   },
+   {
+    "do": "alpha",
+    "id": "crack",
+    "to": 1,
+    "dur": 0.05,
+    "delay": 0.75
+   },
+   {
+    "do": "text",
+    "id": "pishi",
+    "enter": "slam",
+    "delay": 0.78
+   },
+   {
+    "do": "alpha",
+    "id": "p4/gloom",
+    "to": 1,
+    "dur": 0.3,
+    "delay": 0.8
+   },
+   {
+    "do": "push",
+    "panel": "p4",
+    "at": [
+     0.78,
+     0.66
+    ],
+    "z": 1.08,
+    "dur": 0.12,
+    "ease": "outExpo",
+    "delay": 0.75
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p5"
+   },
+   {
+    "do": "alpha",
+    "id": "p5/gloom",
+    "to": 1,
+    "dur": 0.3,
+    "delay": 0.1
+   },
+   {
+    "do": "text",
+    "id": "gaan",
+    "enter": "slam",
+    "delay": 0.15
+   },
+   {
+    "do": "wind",
+    "id": "shiori5",
+    "v": 0.9,
+    "delay": 0.4
+   },
+   {
+    "do": "wind",
+    "id": "shiori5",
+    "v": 0.2,
+    "delay": 1.0
+   },
+   {
+    "do": "text",
+    "id": "fasa",
+    "enter": "fade",
+    "delay": 0.45
+   }
+  ],
+  [
+   {
+    "do": "move",
+    "id": "shiori5",
+    "to": [
+     0.12,
+     0.72
+    ],
+    "dur": 1.1,
+    "ease": "inOut"
+   },
+   {
+    "do": "untext",
+    "id": "fasa",
+    "exit": "fade",
+    "dur": 0.3
+   },
+   {
+    "do": "text",
+    "id": "think",
+    "enter": "fade",
+    "dur": 0.6,
+    "delay": 0.9
+   }
+  ],
+  [
+   {
+    "do": "push",
+    "panel": "p5",
+    "at": [
+     0.76,
+     0.17
+    ],
+    "z": 1.7,
+    "dur": 1.2,
+    "ease": "inOut"
+   },
+   {
+    "do": "alpha",
+    "id": "p5/gloom",
+    "to": 0,
+    "dur": 0.5
+   },
+   {
+    "do": "untext",
+    "id": "gaan",
+    "exit": "fade",
+    "dur": 0.4
+   },
+   {
+    "do": "alpha",
+    "id": "dot",
+    "to": 1,
+    "dur": 0.3,
+    "delay": 1.2
+   },
+   {
+    "do": "frame",
+    "id": "dot",
+    "frame": "dot-shut",
+    "delay": 1.8
+   },
+   {
+    "do": "frame",
+    "id": "dot",
+    "frame": "dot-open",
+    "delay": 1.95
+   }
+  ]
+ ]
+}

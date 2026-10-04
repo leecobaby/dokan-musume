@@ -1,0 +1,1197 @@
+{
+ "id": "ep01/p02",
+ "panels": [
+  {
+   "id": "p1",
+   "rect": [
+    40,
+    46,
+    920,
+    204
+   ]
+  },
+  {
+   "id": "p2",
+   "poly": [
+    [
+     0,
+     270
+    ],
+    [
+     1000,
+     270
+    ],
+    [
+     1000,
+     938
+    ],
+    [
+     0,
+     978
+    ]
+   ],
+   "border": 4
+  },
+  {
+   "id": "p3",
+   "poly": [
+    [
+     402,
+     981.9
+    ],
+    [
+     960,
+     959.6
+    ],
+    [
+     960,
+     1368
+    ],
+    [
+     402,
+     1368
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "poly": [
+    [
+     40,
+     996.4
+    ],
+    [
+     382,
+     982.7
+    ],
+    [
+     382,
+     1368
+    ],
+    [
+     40,
+     1368
+    ]
+   ]
+  }
+ ],
+ "layers": [
+  {
+   "id": "p1/plate",
+   "panel": "p1",
+   "kind": "frame",
+   "rect": [
+    -0.05,
+    -0.18,
+    1.05,
+    1.18
+   ]
+  },
+  {
+   "id": "p1/petals",
+   "panel": "p1",
+   "kind": "particles",
+   "preset": "petals",
+   "n": 7,
+   "size": 0.7,
+   "speed": 0.6,
+   "shape": "sakura"
+  },
+  {
+   "id": "p2/plate",
+   "panel": "p2",
+   "kind": "frame",
+   "rect": [
+    -0.0908,
+    -0.0565,
+    1.0908,
+    1.0565
+   ]
+  },
+  {
+   "id": "p2/speed",
+   "panel": "p2",
+   "kind": "speed",
+   "angle": 19,
+   "clear": [
+    0.68,
+    0.5,
+    0.14,
+    0.42
+   ],
+   "gap": 9,
+   "hidden": true
+  },
+  {
+   "id": "p2/rings",
+   "panel": "p2",
+   "kind": "rings",
+   "at": [
+    0.79,
+    0.37
+   ],
+   "r": 900,
+   "rings": 3,
+   "w": 10
+  },
+  {
+   "id": "p2/glass",
+   "panel": "p2",
+   "kind": "particles",
+   "preset": "ink",
+   "n": 46,
+   "area": [
+    0.03,
+    0.42,
+    0.38,
+    0.24
+   ],
+   "colors": [
+    "#e4f6ff",
+    "#a9dcff",
+    "#ffffff",
+    "#7cc4f5"
+   ],
+   "size": 0.75
+  },
+  {
+   "id": "kodama2i",
+   "panel": "p2",
+   "kind": "puppet",
+   "at": [
+    0.81,
+    0.76
+   ],
+   "scale": 0.26,
+   "wind": 0.1
+  },
+  {
+   "id": "kodama2",
+   "panel": "p2",
+   "kind": "puppet",
+   "at": [
+    0.81,
+    0.76
+   ],
+   "scale": 0.26,
+   "wind": 0,
+   "hidden": true
+  },
+  {
+   "id": "p2/storm",
+   "panel": "p2",
+   "kind": "particles",
+   "preset": "storm",
+   "n": 190,
+   "area": [
+    0.0,
+    0.26,
+    0.66,
+    0.66
+   ],
+   "dir": 197,
+   "spread": 13,
+   "speed": 1.1,
+   "gust": 0.7,
+   "size": 1.1
+  },
+  {
+   "id": "p2/fall",
+   "panel": "p2",
+   "kind": "particles",
+   "preset": "petals",
+   "n": 20,
+   "area": [
+    0,
+    -0.1,
+    1,
+    1
+   ],
+   "shape": "sakura"
+  },
+  {
+   "id": "p2/spark",
+   "panel": "p2",
+   "kind": "particles",
+   "preset": "sparkle",
+   "n": 10,
+   "area": [
+    0.7,
+    0.2,
+    0.22,
+    0.3
+   ],
+   "size": 1.2
+  },
+  {
+   "id": "p3/wall",
+   "panel": "p3",
+   "kind": "frame",
+   "frame": "p3/wall"
+  },
+  {
+   "id": "p3/petals",
+   "panel": "p3",
+   "kind": "particles",
+   "preset": "petals",
+   "n": 8,
+   "area": [
+    0.05,
+    0.2,
+    0.9,
+    0.7
+   ],
+   "speed": 0.5,
+   "shape": "sakura"
+  },
+  {
+   "id": "p4/plate",
+   "panel": "p4",
+   "kind": "frame"
+  },
+  {
+   "id": "p4/glow",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "light",
+   "n": 10,
+   "area": [
+    0.1,
+    0.3,
+    0.8,
+    0.6
+   ]
+  },
+  {
+   "id": "puku4",
+   "panel": "p4",
+   "kind": "puppet",
+   "at": [
+    0.52,
+    1.9
+   ],
+   "scale": 0.19,
+   "idle": true
+  },
+  {
+   "id": "p4/leaf",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "ink",
+   "n": 18,
+   "area": [
+    0.3,
+    0.55,
+    0.4,
+    0.25
+   ],
+   "colors": [
+    "#5c9a48",
+    "#7cbf5a",
+    "#3f7a34"
+   ],
+   "size": 0.9
+  },
+  {
+   "id": "p4/spark",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "sparkle",
+   "n": 10,
+   "area": [
+    0.15,
+    0.25,
+    0.7,
+    0.5
+   ],
+   "size": 1.1
+  }
+ ],
+ "texts": [
+  {
+   "id": "cap1",
+   "panel": "p1",
+   "type": "bubble",
+   "shape": "rect",
+   "font": "narration",
+   "at": [
+    0.87,
+    0.2
+   ],
+   "size": 17,
+   "maxW": 170,
+   "text": {
+    "zh": "那天早上，7:58。",
+    "ja": "その日の朝、7時58分。",
+    "en": "That morning, 7:58."
+   }
+  },
+  {
+   "id": "chun",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.73,
+    0.13
+   ],
+   "size": 15,
+   "rot": -8,
+   "font": "round",
+   "fill": "#9fb6d6cc",
+   "stroke": [
+    [
+     "#ffffff99",
+     1.2
+    ]
+   ],
+   "text": {
+    "zh": "チュン",
+    "ja": "チュン",
+    "en": "tweet"
+   }
+  },
+  {
+   "id": "suu",
+   "panel": "p2",
+   "type": "sfx",
+   "at": [
+    0.7,
+    0.33
+   ],
+   "size": 34,
+   "rot": 14,
+   "font": "round",
+   "fill": "#FF8A3DC8",
+   "stroke": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "ramp": [
+    1.3,
+    0.6
+   ],
+   "text": {
+    "zh": "スゥーッ",
+    "ja": "スゥーッ",
+    "en": "HHHUP"
+   },
+   "mono": {
+    "fill": "#77777799"
+   }
+  },
+  {
+   "id": "bub1",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.52,
+    0.13
+   ],
+   "tail": [
+    0.8,
+    0.25
+   ],
+   "size": 22,
+   "maxW": 200,
+   "ink": "#E8262D",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "全校的各位——",
+    "ja": "全校のみなさーん——",
+    "en": "Hey, everyone—"
+   }
+  },
+  {
+   "id": "bub2",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.76,
+    0.02
+   ],
+   "tail": [
+    0.79,
+    0.3
+   ],
+   "size": 30,
+   "maxW": 400,
+   "ink": "#E8262D",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "早·上·好————!!!!",
+    "ja": "お・は・よ————!!!!",
+    "en": "GOOD·MOR·NING!!!!"
+   }
+  },
+  {
+   "id": "ohayo",
+   "panel": "p2",
+   "type": "sfx",
+   "at": [
+    0.31,
+    0.23
+   ],
+   "size": 74,
+   "rot": 19,
+   "font": "impact",
+   "fill": "#FF7A2FA6",
+   "stroke": [
+    [
+     "#ffffffb3",
+     2
+    ]
+   ],
+   "skew": -0.21,
+   "tracking": -0.1,
+   "ramp": [
+    0.9,
+    1.6
+   ],
+   "jitter": {
+    "size": 0.06,
+    "rot": 4,
+    "off": 0.08
+   },
+   "text": {
+    "zh": "オハヨーーーッ!!!",
+    "ja": "オハヨーーーッ!!!",
+    "en": "MORNIIIING!!!"
+   },
+   "mono": {
+    "fill": "#555555a6",
+    "stroke": [
+     [
+      "#ffffffb3",
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "pariin",
+   "panel": "p2",
+   "type": "sfx",
+   "at": [
+    0.2,
+    0.4
+   ],
+   "size": 34,
+   "rot": 15,
+   "font": "sharp",
+   "fill": "#9fe0f5b3",
+   "stroke": [
+    [
+     "#ffffffcc",
+     1.5
+    ]
+   ],
+   "jitter": 0.15,
+   "text": {
+    "zh": "パリーン!",
+    "ja": "パリーン!",
+    "en": "KRSSH!"
+   },
+   "mono": {
+    "fill": "#88888899"
+   }
+  },
+  {
+   "id": "pera",
+   "panel": "p3",
+   "type": "sfx",
+   "at": [
+    0.63,
+    0.33
+   ],
+   "size": 30,
+   "rot": -6,
+   "font": "cute",
+   "fill": "#9a9aa6c0",
+   "stroke": [
+    [
+     "#ffffff",
+     1.5
+    ]
+   ],
+   "jitter": 0.25,
+   "text": {
+    "zh": "ペラ～",
+    "ja": "ペラ～",
+    "en": "FLAP~"
+   }
+  },
+  {
+   "id": "stuA",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.8,
+    0.12
+   ],
+   "tail": [
+    0.8,
+    0.3
+   ],
+   "size": 15,
+   "maxW": 200,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……今天也好有精神啊……",
+    "ja": "……今日も元気だねぇ……",
+    "en": "…So peppy again today…"
+   }
+  },
+  {
+   "id": "stuC",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.22,
+    0.12
+   ],
+   "tail": [
+    0.18,
+    0.42
+   ],
+   "size": 14,
+   "maxW": 190,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……7点58分，准时呢……",
+    "ja": "……7時58分、時間どおり……",
+    "en": "…7:58. Right on time…"
+   }
+  },
+  {
+   "id": "gasa",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.62,
+    0.52
+   ],
+   "size": 26,
+   "rot": 8,
+   "font": "brush",
+   "fill": "#4f9a3fd0",
+   "stroke": [
+    [
+     "#ffffff",
+     1.5
+    ]
+   ],
+   "text": {
+    "zh": "ガサッ",
+    "ja": "ガサッ",
+    "en": "RUSTLE"
+   }
+  },
+  {
+   "id": "shard",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.5,
+    0.62
+   ],
+   "size": 70,
+   "rot": 0,
+   "font": "impact",
+   "fill": "#FF7A2FA6",
+   "stroke": [
+    [
+     "#ffffffb3",
+     2
+    ]
+   ],
+   "text": "ー",
+   "mono": {
+    "fill": "#555555a6"
+   }
+  },
+  {
+   "id": "kari",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.78,
+    0.55
+   ],
+   "size": 22,
+   "rot": -10,
+   "font": "pop",
+   "fill": "#FFB37AD0",
+   "stroke": [
+    [
+     "#ffffff",
+     1.5
+    ]
+   ],
+   "text": {
+    "zh": "カリッ",
+    "ja": "カリッ",
+    "en": "CRUNCH"
+   }
+  },
+  {
+   "id": "puku1",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.72,
+    0.13
+   ],
+   "tail": [
+    0.56,
+    0.6
+   ],
+   "size": 13,
+   "maxW": 110,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "找……找到了噗……！",
+    "ja": "み……見つけたプク……！",
+    "en": "F-found it, puku…!"
+   }
+  },
+  {
+   "id": "puku2",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.28,
+    0.33
+   ],
+   "tail": [
+    0.42,
+    0.62
+   ],
+   "size": 13,
+   "maxW": 110,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "世界上最大的声音……噗！",
+    "ja": "世界でいちばん大きな声……プク！",
+    "en": "The loudest voice in the world… puku!"
+   }
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "flash",
+    "color": "#ffffff",
+    "dur": 0.35,
+    "top": true
+   },
+   {
+    "do": "cam",
+    "panel": "p1",
+    "pan": [
+     0.04,
+     0
+    ],
+    "z": 1.0,
+    "dur": 0
+   },
+   {
+    "do": "panel",
+    "id": "p1",
+    "dur": 0.5
+   },
+   {
+    "do": "cam",
+    "panel": "p1",
+    "pan": [
+     -0.04,
+     0
+    ],
+    "z": 1.0,
+    "dur": 2.6,
+    "ease": "linear",
+    "delay": 0.02
+   },
+   {
+    "do": "start",
+    "id": "p1/petals"
+   },
+   {
+    "do": "text",
+    "id": "cap1",
+    "enter": "fade",
+    "delay": 0.35
+   },
+   {
+    "do": "text",
+    "id": "chun",
+    "enter": "fade",
+    "delay": 1.1,
+    "dur": 0.3
+   },
+   {
+    "do": "untext",
+    "id": "chun",
+    "exit": "fade",
+    "delay": 2.0,
+    "dur": 1.5
+   }
+  ],
+  [
+   {
+    "do": "cam",
+    "panel": "p2",
+    "at": [
+     0.8,
+     0.45
+    ],
+    "z": 1.55,
+    "rot": 6,
+    "dur": 0
+   },
+   {
+    "do": "panel",
+    "id": "p2",
+    "dur": 0.25
+   },
+   {
+    "do": "bone",
+    "id": "kodama2i",
+    "bone": "chest",
+    "s": 1.04,
+    "dur": 0.9,
+    "delay": 0.1
+   },
+   {
+    "do": "state",
+    "id": "kodama2i",
+    "slot": "face",
+    "state": "puff",
+    "delay": 0.65
+   },
+   {
+    "do": "text",
+    "id": "suu",
+    "enter": "fade",
+    "delay": 0.25,
+    "dur": 0.5
+   },
+   {
+    "do": "text",
+    "id": "bub1",
+    "enter": "pop",
+    "delay": 0.85
+   }
+  ],
+  [
+   {
+    "do": "swap",
+    "from": "kodama2i",
+    "to": "kodama2",
+    "dur": 0.12
+   },
+   {
+    "do": "flash",
+    "color": "#ffffff",
+    "peak": 0.55,
+    "dur": 0.18
+   },
+   {
+    "do": "wind",
+    "id": "kodama2",
+    "v": 0.6
+   },
+   {
+    "do": "untext",
+    "id": "suu",
+    "exit": "fade",
+    "dur": 0.1
+   },
+   {
+    "do": "untext",
+    "id": "bub1",
+    "exit": "pop",
+    "dur": 0.12,
+    "delay": 0.05
+   },
+   {
+    "do": "cam",
+    "panel": "p2",
+    "at": [
+     0.5,
+     0.5
+    ],
+    "z": 1.14,
+    "rot": 6,
+    "dur": 0.25,
+    "ease": "outExpo"
+   },
+   {
+    "do": "alpha",
+    "id": "p2/speed",
+    "to": 1,
+    "dur": 0.08
+   },
+   {
+    "do": "start",
+    "id": "p2/speed"
+   },
+   {
+    "do": "fire",
+    "id": "p2/rings",
+    "dur": 0.8
+   },
+   {
+    "do": "shake",
+    "amp": 16,
+    "dur": 0.5,
+    "panel": "p2"
+   },
+   {
+    "do": "shake",
+    "amp": 8,
+    "dur": 0.45
+   },
+   {
+    "do": "text",
+    "id": "bub2",
+    "enter": "slam",
+    "delay": 0.05
+   },
+   {
+    "do": "text",
+    "id": "ohayo",
+    "enter": "slam",
+    "delay": 0.12
+   },
+   {
+    "do": "start",
+    "id": "p2/glass",
+    "delay": 0.35
+   },
+   {
+    "do": "text",
+    "id": "pariin",
+    "enter": "slam",
+    "delay": 0.38
+   },
+   {
+    "do": "start",
+    "id": "p2/storm",
+    "delay": 0.35,
+    "warm": false
+   },
+   {
+    "do": "alpha",
+    "id": "p2/speed",
+    "to": 0,
+    "delay": 1.1,
+    "dur": 0.6
+   }
+  ],
+  [
+   {
+    "do": "untext",
+    "id": "bub2",
+    "exit": "fade",
+    "dur": 0.4,
+    "delay": 0.25
+   },
+   {
+    "do": "untext",
+    "id": "ohayo",
+    "exit": "fade",
+    "dur": 1.5
+   },
+   {
+    "do": "untext",
+    "id": "pariin",
+    "exit": "fade",
+    "dur": 0.6
+   },
+   {
+    "do": "stop",
+    "id": "p2/storm"
+   },
+   {
+    "do": "stop",
+    "id": "p2/glass"
+   },
+   {
+    "do": "start",
+    "id": "p2/fall",
+    "delay": 0.2
+   },
+   {
+    "do": "state",
+    "id": "kodama2",
+    "slot": "pose",
+    "state": "grin",
+    "style": "smear",
+    "ms": 160,
+    "delay": 0.35
+   },
+   {
+    "do": "wind",
+    "id": "kodama2",
+    "v": 0.35,
+    "delay": 0.35
+   },
+   {
+    "do": "start",
+    "id": "p2/spark",
+    "delay": 0.55
+   },
+   {
+    "do": "cam",
+    "panel": "p2",
+    "at": [
+     0.8,
+     0.42
+    ],
+    "z": 1.4,
+    "rot": 6,
+    "dur": 1.2,
+    "ease": "inOut",
+    "delay": 0.3
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p3",
+    "dur": 0.35
+   },
+   {
+    "do": "start",
+    "id": "p3/petals"
+   },
+   {
+    "do": "text",
+    "id": "pera",
+    "enter": "fade",
+    "delay": 0.3,
+    "dur": 0.3
+   },
+   {
+    "do": "frame",
+    "id": "p3/wall",
+    "frame": "p3/flap",
+    "delay": 0.45
+   },
+   {
+    "do": "frame",
+    "id": "p3/wall",
+    "frame": "p3/wall",
+    "delay": 0.75
+   },
+   {
+    "do": "frame",
+    "id": "p3/wall",
+    "frame": "p3/flap",
+    "delay": 1.05
+   },
+   {
+    "do": "frame",
+    "id": "p3/wall",
+    "frame": "p3/wall",
+    "delay": 1.35
+   },
+   {
+    "do": "text",
+    "id": "stuA",
+    "enter": "pop",
+    "delay": 0.8
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "stuC",
+    "enter": "pop"
+   },
+   {
+    "do": "frame",
+    "id": "p3/wall",
+    "frame": "p3/flap",
+    "delay": 0.3
+   },
+   {
+    "do": "frame",
+    "id": "p3/wall",
+    "frame": "p3/wall",
+    "delay": 0.6
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p4",
+    "dur": 0.35
+   },
+   {
+    "do": "text",
+    "id": "shard",
+    "enter": "fade",
+    "delay": 0.2,
+    "dur": 0.4
+   },
+   {
+    "do": "text",
+    "id": "gasa",
+    "enter": "pop",
+    "delay": 0.8
+   },
+   {
+    "do": "start",
+    "id": "p4/glow"
+   }
+  ],
+  [
+   {
+    "do": "move",
+    "id": "puku4",
+    "to": [
+     0.52,
+     0.99
+    ],
+    "dur": 0.28,
+    "ease": "outBack"
+   },
+   {
+    "do": "start",
+    "id": "p4/leaf",
+    "delay": 0.05
+   },
+   {
+    "do": "untext",
+    "id": "gasa",
+    "exit": "fade",
+    "dur": 0.3
+   },
+   {
+    "do": "untext",
+    "id": "shard",
+    "exit": "pop",
+    "delay": 0.35,
+    "dur": 0.1
+   },
+   {
+    "do": "text",
+    "id": "kari",
+    "enter": "slam",
+    "delay": 0.35
+   },
+   {
+    "do": "state",
+    "id": "puku4",
+    "slot": "pose",
+    "state": "bar",
+    "style": "smear",
+    "ms": 90,
+    "delay": 0.42
+   },
+   {
+    "do": "state",
+    "id": "puku4",
+    "slot": "pose",
+    "state": "base",
+    "style": "smear",
+    "ms": 120,
+    "delay": 0.95
+   },
+   {
+    "do": "state",
+    "id": "puku4",
+    "slot": "face",
+    "state": "spark",
+    "delay": 1.0
+   },
+   {
+    "do": "stop",
+    "id": "p4/leaf",
+    "delay": 0.6
+   },
+   {
+    "do": "text",
+    "id": "puku1",
+    "enter": "pop",
+    "delay": 1.15
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "puku2",
+    "enter": "pop"
+   },
+   {
+    "do": "start",
+    "id": "p4/spark",
+    "delay": 0.1
+   },
+   {
+    "do": "bone",
+    "id": "puku4",
+    "bone": "hip",
+    "y": -30,
+    "dur": 0.18,
+    "delay": 0.15
+   },
+   {
+    "do": "bone",
+    "id": "puku4",
+    "bone": "hip",
+    "y": 0,
+    "dur": 0.25,
+    "delay": 0.35
+   },
+   {
+    "do": "bone",
+    "id": "puku4",
+    "bone": "hip",
+    "y": -24,
+    "dur": 0.18,
+    "delay": 0.6
+   },
+   {
+    "do": "bone",
+    "id": "puku4",
+    "bone": "hip",
+    "y": 0,
+    "dur": 0.25,
+    "delay": 0.8
+   },
+   {
+    "do": "push",
+    "panel": "p4",
+    "at": [
+     0.5,
+     0.7
+    ],
+    "z": 1.08,
+    "dur": 1.4
+   }
+  ]
+ ],
+ "seed": 11
+}

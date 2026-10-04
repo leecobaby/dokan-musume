@@ -1,0 +1,681 @@
+{
+ "id": "ep01/p01",
+ "paper": "#000000",
+ "panels": [
+  {
+   "id": "p1",
+   "rect": [
+    40,
+    40,
+    920,
+    466
+   ],
+   "bleed": [
+    "t",
+    "l",
+    "r"
+   ],
+   "border": 2,
+   "ink": "#ffffff"
+  },
+  {
+   "id": "p2",
+   "rect": [
+    436,
+    526,
+    524,
+    388
+   ],
+   "border": 2,
+   "ink": "#ffffff"
+  },
+  {
+   "id": "p3",
+   "rect": [
+    40,
+    526,
+    380,
+    388
+   ],
+   "border": 2,
+   "ink": "#ffffff"
+  },
+  {
+   "id": "p4",
+   "rect": [
+    40,
+    934,
+    920,
+    440
+   ],
+   "border": 2,
+   "ink": "#ffffff"
+  }
+ ],
+ "layers": [
+  {
+   "id": "ooguchi1",
+   "panel": "p1",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    1.0
+   ],
+   "scale": 0.6510416666666666,
+   "idle": false,
+   "states": {
+    "e1": "closed",
+    "e2": "closed",
+    "e3": "closed",
+    "e4": "closed",
+    "e5": "closed",
+    "e6": "closed"
+   }
+  },
+  {
+   "id": "p1/drip",
+   "panel": "p1",
+   "kind": "particles",
+   "preset": "ink",
+   "n": 4,
+   "area": [
+    0.6,
+    0.36,
+    0.72,
+    0.44
+   ],
+   "dir": 90,
+   "speed": 0.15,
+   "size": 0.45
+  },
+  {
+   "id": "p1/petals",
+   "panel": "p1",
+   "kind": "particles",
+   "preset": "petals",
+   "n": 5,
+   "colors": [
+    "#d6d6d6",
+    "#bfbfbf"
+   ],
+   "speed": 0.25,
+   "size": 0.8
+  },
+  {
+   "id": "p2/base",
+   "panel": "p2",
+   "kind": "frame"
+  },
+  {
+   "id": "p2/specks",
+   "panel": "p2",
+   "kind": "particles",
+   "preset": "dust",
+   "n": 10,
+   "area": [
+    0.05,
+    0.15,
+    0.95,
+    0.75
+   ],
+   "colors": [
+    "#9a9a9a",
+    "#bdbdbd"
+   ],
+   "speed": 0.02,
+   "size": 1.6
+  },
+  {
+   "id": "p3/base",
+   "panel": "p3",
+   "kind": "frame"
+  },
+  {
+   "id": "p3/dark",
+   "panel": "p3",
+   "kind": "fill",
+   "color": "#000000",
+   "alpha": 0.45
+  },
+  {
+   "id": "p3/drop",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "drop",
+   "at": [
+    0.42,
+    -0.02
+   ],
+   "scale": 0.32,
+   "anchor": [
+    0.5,
+    1
+   ],
+   "hidden": true
+  },
+  {
+   "id": "p3/splash",
+   "panel": "p3",
+   "kind": "particles",
+   "preset": "ink",
+   "n": 12,
+   "area": [
+    0.37,
+    0.75,
+    0.43,
+    0.81
+   ],
+   "size": 0.55,
+   "speed": 0.7
+  },
+  {
+   "id": "p4/bg",
+   "panel": "p4",
+   "kind": "fill",
+   "color": "#000000"
+  },
+  {
+   "id": "eye4",
+   "panel": "p4",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    1.0
+   ],
+   "scale": 0.5989583333333334,
+   "idle": false,
+   "states": {
+    "eye": "closed"
+   }
+  },
+  {
+   "id": "p4/embers",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "light",
+   "n": 5,
+   "area": [
+    0.43,
+    0.3,
+    0.57,
+    0.7
+   ],
+   "colors": [
+    "#FFB36B",
+    "#FFB000"
+   ],
+   "size": 1.3,
+   "speed": 0.6
+  }
+ ],
+ "texts": [
+  {
+   "id": "cap1",
+   "panel": "p1",
+   "at": [
+    0.86,
+    0.2
+   ],
+   "size": 17,
+   "maxW": 180,
+   "maxH": 150,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "那一天，\n响丘町的「声音」\n被吃掉了。",
+    "ja": "その日、\n響丘町の「音」は喰われた。",
+    "en": "That day,\nthe SOUND of Hibikioka was eaten."
+   },
+   "type": "bubble",
+   "shape": "rect",
+   "font": "narration",
+   "paper": "#000000",
+   "ink": "#ffffff",
+   "color": "#ffffff",
+   "line": 2
+  },
+  {
+   "id": "void-a",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.79,
+    0.24
+   ],
+   "tail": [
+    0.735,
+    0.41
+   ],
+   "size": 17,
+   "maxW": 100,
+   "text": {
+    "zh": "啊啊啊——",
+    "ja": "いやあ——",
+    "en": "AAAH—"
+   },
+   "color": "#ffffff"
+  },
+  {
+   "id": "void-b",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.37,
+    0.13
+   ],
+   "tail": [
+    0.505,
+    0.3
+   ],
+   "size": 17,
+   "maxW": 100,
+   "text": {
+    "zh": "啊啊啊——",
+    "ja": "いやあ——",
+    "en": "AAAH—"
+   },
+   "color": "#ffffff"
+  },
+  {
+   "id": "void-c",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.15,
+    0.27
+   ],
+   "tail": [
+    0.19,
+    0.53
+   ],
+   "size": 17,
+   "maxW": 100,
+   "text": {
+    "zh": "救、救命",
+    "ja": "た、たすけ",
+    "en": "H-HELP"
+   },
+   "color": "#ffffff"
+  },
+  {
+   "id": "pota",
+   "panel": "p3",
+   "type": "sfx",
+   "at": [
+    0.34,
+    0.66
+   ],
+   "size": 46,
+   "rot": -6,
+   "font": "round",
+   "fill": "rgba(0,0,0,0)",
+   "stroke": [
+    [
+     "#e8e8e8",
+     0.8
+    ]
+   ],
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "ポタ",
+    "ja": "ポタ",
+    "en": "DRIP"
+   }
+  },
+  {
+   "id": "dokun",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.9,
+    0.7
+   ],
+   "size": 30,
+   "rot": 4,
+   "font": "round",
+   "fill": "#FF8A1F",
+   "stroke": [],
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "ドクン",
+    "ja": "ドクン",
+    "en": "THUMP"
+   }
+  },
+  {
+   "id": "cap2",
+   "panel": "p4",
+   "at": [
+    0.13,
+    0.66
+   ],
+   "size": 16,
+   "maxW": 200,
+   "maxH": 150,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "只有一个人，\n还没有被夺走声音。",
+    "ja": "ただ一人だけ、\nまだ声を奪われていない。",
+    "en": "Only one person\nstill had her voice."
+   },
+   "type": "bubble",
+   "shape": "rect",
+   "font": "narration",
+   "paper": "#000000",
+   "ink": "#ffffff",
+   "color": "#ffffff",
+   "line": 2
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "panel",
+    "id": "p1",
+    "dur": 0.8
+   },
+   {
+    "do": "start",
+    "id": "p1/drip",
+    "warm": true
+   },
+   {
+    "do": "start",
+    "id": "p1/petals",
+    "warm": true
+   },
+   {
+    "do": "text",
+    "id": "cap1",
+    "enter": "fade",
+    "delay": 0.7,
+    "dur": 0.6
+   }
+  ],
+  [
+   {
+    "do": "push",
+    "panel": "p1",
+    "at": [
+     0.66,
+     0.25
+    ],
+    "z": 1.04,
+    "dur": 1.6,
+    "ease": "inOut"
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e3",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 0
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e1",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 0.13
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e5",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 0.26
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e2",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 0.39
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e6",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 0.52
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e4",
+    "state": "default",
+    "style": "fade",
+    "ms": 120,
+    "delay": 0.65
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e1",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.15
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e2",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.15
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e3",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.15
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e4",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.15
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e5",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.15
+   },
+   {
+    "do": "state",
+    "id": "ooguchi1",
+    "slot": "e6",
+    "state": "wide",
+    "style": "fade",
+    "ms": 220,
+    "delay": 1.15
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p2",
+    "dur": 0.4
+   },
+   {
+    "do": "start",
+    "id": "p2/specks",
+    "warm": true
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "void-a",
+    "enter": "pop",
+    "dur": 0.22
+   },
+   {
+    "do": "text",
+    "id": "void-b",
+    "enter": "pop",
+    "dur": 0.22,
+    "delay": 0.25
+   },
+   {
+    "do": "text",
+    "id": "void-c",
+    "enter": "pop",
+    "dur": 0.22,
+    "delay": 0.5
+   },
+   {
+    "do": "push",
+    "panel": "p2",
+    "at": [
+     0.45,
+     0.45
+    ],
+    "z": 1.04,
+    "dur": 2.0,
+    "ease": "inOut"
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p3",
+    "dur": 0.4
+   },
+   {
+    "do": "push",
+    "panel": "p3",
+    "at": [
+     0.5,
+     0.55
+    ],
+    "z": 1.06,
+    "dur": 2.5,
+    "ease": "linear"
+   },
+   {
+    "do": "alpha",
+    "id": "p3/drop",
+    "to": 1,
+    "delay": 0.6,
+    "dur": 0.1
+   },
+   {
+    "do": "move",
+    "id": "p3/drop",
+    "to": [
+     0.4,
+     0.79
+    ],
+    "delay": 0.6,
+    "dur": 0.9,
+    "ease": "in"
+   },
+   {
+    "do": "alpha",
+    "id": "p3/drop",
+    "to": 0,
+    "delay": 1.5,
+    "dur": 0.06
+   },
+   {
+    "do": "start",
+    "id": "p3/splash",
+    "delay": 1.5
+   },
+   {
+    "do": "stop",
+    "id": "p3/splash",
+    "delay": 1.62
+   },
+   {
+    "do": "text",
+    "id": "pota",
+    "enter": "fade",
+    "delay": 1.5,
+    "dur": 0.6
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p4",
+    "dur": 0.4
+   },
+   {
+    "do": "text",
+    "id": "dokun",
+    "enter": "pop",
+    "delay": 1.2,
+    "dur": 0.35
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "eye4",
+    "slot": "eye",
+    "state": "fire",
+    "style": "fade",
+    "ms": 80
+   },
+   {
+    "do": "push",
+    "panel": "p4",
+    "at": [
+     0.5,
+     0.52
+    ],
+    "z": 1.12,
+    "dur": 0.2,
+    "ease": "out"
+   },
+   {
+    "do": "start",
+    "id": "p4/embers",
+    "delay": 0.1
+   },
+   {
+    "do": "text",
+    "id": "cap2",
+    "enter": "fade",
+    "delay": 0.4,
+    "dur": 0.5
+   }
+  ]
+ ],
+ "monoText": "gray",
+ "seed": 11
+}
