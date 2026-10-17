@@ -1,0 +1,281 @@
+{
+ "v": 2,
+ "page": "ep01/p14",
+ "frames": {
+  "p2/plate": {
+   "file": "p2-plate.webp",
+   "crop": [
+    560,
+    60,
+    1000,
+    784
+   ],
+   "s": 0.6,
+   "w": 600,
+   "h": 470,
+   "panel": "p2",
+   "mono": "p2-plate-mono.webp"
+  },
+  "p3/plate": {
+   "file": "p3-plate.webp",
+   "crop": [
+    180,
+    120,
+    800,
+    766
+   ],
+   "s": 0.6,
+   "w": 480,
+   "h": 460,
+   "panel": "p3",
+   "mono": "p3-plate-mono.webp"
+  },
+  "p4/plate": {
+   "file": "p4-plate.webp",
+   "crop": [
+    0,
+    180,
+    1672,
+    848
+   ],
+   "s": 0.6,
+   "w": 1003,
+   "h": 457,
+   "panel": "p4",
+   "mono": "p4-plate-mono.webp"
+  },
+  "pk-cheer": {
+   "file": "pk-cheer.webp",
+   "crop": [
+    64,
+    56,
+    550,
+    606
+   ],
+   "s": 0.4,
+   "w": 220,
+   "h": 242,
+   "mono": "pk-cheer-mono.webp"
+  },
+  "pk-stone": {
+   "file": "pk-stone.webp",
+   "crop": [
+    857,
+    56,
+    462,
+    606
+   ],
+   "s": 0.4,
+   "w": 185,
+   "h": 242,
+   "mono": "pk-stone-mono.webp"
+  },
+  "pk-hide": {
+   "file": "pk-hide.webp",
+   "crop": [
+    1595,
+    56,
+    475,
+    604
+   ],
+   "s": 0.4,
+   "w": 190,
+   "h": 242,
+   "mono": "pk-hide-mono.webp"
+  },
+  "fl-lilac": {
+   "file": "fl-lilac.webp",
+   "crop": [
+    0,
+    0,
+    1223,
+    1286
+   ],
+   "s": 0.5,
+   "w": 612,
+   "h": 643,
+   "mono": "fl-lilac-mono.webp"
+  },
+  "fl-peachL": {
+   "file": "fl-peachL.webp",
+   "crop": [
+    0,
+    0,
+    640,
+    1199
+   ],
+   "s": 0.5,
+   "w": 320,
+   "h": 600,
+   "mono": "fl-peachL-mono.webp"
+  },
+  "fl-peachR": {
+   "file": "fl-peachR.webp",
+   "crop": [
+    672,
+    0,
+    640,
+    1199
+   ],
+   "s": 0.5,
+   "w": 320,
+   "h": 600,
+   "mono": "fl-peachR-mono.webp"
+  }
+ },
+ "puppets": {
+  "p1": "p1",
+  "shiori2": "shiori2",
+  "kodama2": "kodama2",
+  "shiori3": "shiori3",
+  "kodama4": "kodama4"
+ },
+ "align": {
+  "p1/puku/cry": [
+   [
+    -0.01,
+    0.13
+   ]
+  ],
+  "p1/puku/cry-mono": [
+   [
+    0.15,
+    0.21
+   ]
+  ],
+  "p1/ko/v": [
+   [
+    -0.12,
+    -0.01
+   ]
+  ],
+  "p1/ko/v-mono": [
+   [
+    -0.04,
+    -0.15
+   ]
+  ],
+  "p1/sh/look": [
+   [
+    0.64,
+    0.12
+   ]
+  ],
+  "p1/sh/look-mono": [
+   [
+    -0.05,
+    0.32
+   ]
+  ],
+  "shiori2/face/away": [
+   [
+    0.3,
+    -1.2
+   ]
+  ],
+  "shiori2/face/away-mono": [
+   [
+    0.06,
+    0.63
+   ]
+  ],
+  "shiori3/face/dead": [
+   [
+    0.64,
+    0.36
+   ],
+   [
+    0.34,
+    -0.11
+   ],
+   [
+    0.7,
+    0.13
+   ]
+  ],
+  "shiori3/face/dead-mono": [
+   [
+    0.6,
+    0.1
+   ],
+   [
+    0.2,
+    -0.06
+   ],
+   [
+    0.25,
+    -0.15
+   ]
+  ],
+  "kodama4/face/sparkle": [
+   [
+    0.1,
+    -0.02
+   ],
+   [
+    0.28,
+    -0.15
+   ],
+   [
+    0.03,
+    0.02
+   ]
+  ],
+  "kodama4/face/sparkle-mono": [
+   [
+    -0.18,
+    -0.15
+   ],
+   [
+    0.03,
+    0.01
+   ],
+   [
+    -0.09,
+    0.0
+   ]
+  ]
+ },
+ "stats": {
+  "bytes": 3203937
+ },
+ "pairs": {
+  "p2/plate": [
+   -0.1,
+   0.45
+  ],
+  "p3/plate": [
+   -0.1,
+   0.45
+  ],
+  "p4/plate": [
+   -0.1,
+   0.45
+  ],
+  "pk-cheer": [
+   3.18,
+   0.22
+  ],
+  "pk-stone": [
+   3.18,
+   0.22
+  ],
+  "pk-hide": [
+   3.18,
+   0.22
+  ],
+  "fl-lilac": [
+   -0.0,
+   -0.0
+  ],
+  "fl-peachL": [
+   0.0,
+   -0.0
+  ],
+  "fl-peachR": [
+   0.0,
+   -0.0
+  ]
+ },
+ "thumb": "thumb.webp"
+}

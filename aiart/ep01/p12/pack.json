@@ -1,0 +1,354 @@
+{
+ "v": 2,
+ "page": "ep01/p12",
+ "frames": {
+  "plate": {
+   "file": "plate.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 1.0,
+   "w": 1024,
+   "h": 1536,
+   "mono": "plate-mono.webp"
+  },
+  "hurt": {
+   "file": "hurt.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 1.0,
+   "w": 1024,
+   "h": 1536,
+   "mono": "hurt-mono.webp"
+  },
+  "k-det": {
+   "file": "k-det.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.6,
+   "w": 614,
+   "h": 922,
+   "mono": "k-det-mono.webp"
+  },
+  "k-grin": {
+   "file": "k-grin.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.6,
+   "w": 614,
+   "h": 922,
+   "mono": "k-grin-mono.webp"
+  },
+  "k-shout": {
+   "file": "k-shout.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.6,
+   "w": 614,
+   "h": 922,
+   "mono": "k-shout-mono.webp"
+  },
+  "k-det-keep": {
+   "file": "k-det-keep.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.6,
+   "w": 614,
+   "h": 922,
+   "mono": "k-det-keep-mono.webp"
+  },
+  "k-grin-keep": {
+   "file": "k-grin-keep.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.6,
+   "w": 614,
+   "h": 922,
+   "mono": "k-grin-keep-mono.webp"
+  },
+  "k-shout-keep": {
+   "file": "k-shout-keep.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.6,
+   "w": 614,
+   "h": 922,
+   "mono": "k-shout-keep-mono.webp"
+  },
+  "s-guard": {
+   "file": "s-guard.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.6,
+   "w": 614,
+   "h": 922,
+   "mono": "s-guard-mono.webp"
+  },
+  "s-wide": {
+   "file": "s-wide.webp",
+   "crop": [
+    0,
+    0,
+    1024,
+    1536
+   ],
+   "s": 0.6,
+   "w": 614,
+   "h": 922,
+   "mono": "s-wide-mono.webp"
+  },
+  "puku-a": {
+   "file": "puku-a.webp",
+   "crop": [
+    158,
+    65,
+    513,
+    588
+   ],
+   "s": 0.6,
+   "w": 308,
+   "h": 353,
+   "mono": "puku-a-mono.webp"
+  },
+  "puku-b": {
+   "file": "puku-b.webp",
+   "crop": [
+    843,
+    69,
+    527,
+    594
+   ],
+   "s": 0.6,
+   "w": 316,
+   "h": 356,
+   "mono": "puku-b-mono.webp"
+  },
+  "puku-c": {
+   "file": "puku-c.webp",
+   "crop": [
+    1545,
+    14,
+    559,
+    653
+   ],
+   "s": 0.6,
+   "w": 335,
+   "h": 392,
+   "mono": "puku-c-mono.webp"
+  },
+  "eye": {
+   "file": "eye.webp",
+   "crop": [
+    200,
+    0,
+    1048,
+    1024
+   ],
+   "s": 0.45,
+   "w": 472,
+   "h": 461,
+   "mono": "eye-mono.webp"
+  },
+  "eye-keep": {
+   "file": "eye-keep.webp",
+   "crop": [
+    200,
+    0,
+    1048,
+    1024
+   ],
+   "s": 0.45,
+   "w": 472,
+   "h": 461,
+   "mono": "eye-keep-mono.webp"
+  },
+  "town": {
+   "file": "town.webp",
+   "crop": [
+    560,
+    0,
+    1082,
+    941
+   ],
+   "s": 0.5,
+   "w": 541,
+   "h": 470,
+   "mono": "town-mono.webp"
+  },
+  "fx-frame": {
+   "file": "fx-frame.webp",
+   "crop": [
+    14,
+    9,
+    723,
+    366
+   ],
+   "s": 0.6,
+   "w": 434,
+   "h": 220,
+   "mono": "fx-frame-mono.webp"
+  },
+  "fx-boom": {
+   "file": "fx-boom.webp",
+   "crop": [
+    614,
+    13,
+    904,
+    901
+   ],
+   "s": 0.6,
+   "w": 542,
+   "h": 541,
+   "mono": "fx-boom-mono.webp"
+  },
+  "fx-ink": {
+   "file": "fx-ink.webp",
+   "crop": [
+    15,
+    380,
+    682,
+    577
+   ],
+   "s": 0.6,
+   "w": 409,
+   "h": 346,
+   "mono": "fx-ink-mono.webp"
+  },
+  "fx-line": {
+   "file": "fx-line.webp",
+   "crop": [
+    51,
+    958,
+    1447,
+    37
+   ],
+   "s": 0.6,
+   "w": 868,
+   "h": 22,
+   "mono": "fx-line-mono.webp"
+  }
+ },
+ "puppets": {},
+ "align": {},
+ "stats": {
+  "bytes": 3971306
+ },
+ "pairs": {
+  "plate": [
+   0.0,
+   0.0
+  ],
+  "hurt": [
+   -0.03,
+   0.19
+  ],
+  "k-det": [
+   1.1,
+   0.12
+  ],
+  "k-grin": [
+   0.88,
+   0.21
+  ],
+  "k-shout": [
+   1.27,
+   0.11
+  ],
+  "k-det-keep": [
+   1.14,
+   0.68
+  ],
+  "k-grin-keep": [
+   0.28,
+   0.67
+  ],
+  "k-shout-keep": [
+   0.6,
+   0.18
+  ],
+  "s-guard": [
+   1.25,
+   0.11
+  ],
+  "s-wide": [
+   1.05,
+   1.05
+  ],
+  "puku-a": [
+   0.47,
+   0.23
+  ],
+  "puku-b": [
+   1.17,
+   0.51
+  ],
+  "puku-c": [
+   0.36,
+   -0.3
+  ],
+  "eye": [
+   -0.65,
+   0.08
+  ],
+  "eye-keep": [
+   0.0,
+   -0.0
+  ],
+  "town": [
+   0.07,
+   0.12
+  ],
+  "fx-frame": [
+   -0.59,
+   -0.81
+  ],
+  "fx-boom": [
+   -0.0,
+   0.14
+  ],
+  "fx-ink": [
+   -0.12,
+   0.05
+  ],
+  "fx-line": [
+   -1.24,
+   0.34
+  ]
+ },
+ "thumb": "thumb.webp"
+}

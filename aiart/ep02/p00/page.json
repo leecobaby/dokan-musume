@@ -1,0 +1,864 @@
+{
+ "id": "ep02/p00",
+ "panels": [
+  {
+   "id": "p1",
+   "rect": [
+    40,
+    46,
+    920,
+    480
+   ]
+  },
+  {
+   "id": "p2",
+   "rect": [
+    461,
+    546,
+    499,
+    360
+   ]
+  },
+  {
+   "id": "p3",
+   "rect": [
+    40,
+    546,
+    408,
+    360
+   ]
+  },
+  {
+   "id": "p4",
+   "rect": [
+    40,
+    926,
+    920,
+    434
+   ]
+  }
+ ],
+ "layers": [
+  {
+   "kind": "frame",
+   "id": "p1/base",
+   "panel": "p1"
+  },
+  {
+   "kind": "focus",
+   "id": "p1/speed",
+   "panel": "p1",
+   "at": [
+    0.742,
+    0.09
+   ],
+   "inner": [
+    0.07,
+    0.12
+   ],
+   "n": 150,
+   "hidden": true
+  },
+  {
+   "kind": "petals",
+   "id": "p1/petals",
+   "panel": "p1",
+   "n": 10
+  },
+  {
+   "kind": "frame",
+   "id": "p2/plate",
+   "panel": "p2"
+  },
+  {
+   "kind": "puppet",
+   "id": "shiori2",
+   "panel": "p2",
+   "at": [
+    0.48,
+    1.02
+   ],
+   "scale": 0.3,
+   "wind": 0.2
+  },
+  {
+   "kind": "fill",
+   "id": "p3/bg",
+   "panel": "p3",
+   "color": "#FFE08A",
+   "mono": "#ededed"
+  },
+  {
+   "kind": "stripes",
+   "id": "p3/stripes",
+   "panel": "p3",
+   "color": "#FFC94D",
+   "mono": "#d2d2d2",
+   "angle": -35,
+   "gap": 22,
+   "width": 7
+  },
+  {
+   "kind": "fill",
+   "id": "p3/grey",
+   "panel": "p3",
+   "color": "#8E93A6",
+   "mono": "#9c9c9c",
+   "hidden": true
+  },
+  {
+   "kind": "gloom",
+   "id": "p3/gloom",
+   "panel": "p3",
+   "box": [
+    0.04,
+    0,
+    0.96,
+    0.62
+   ],
+   "n": 34,
+   "color": "#2b2840",
+   "hidden": true
+  },
+  {
+   "kind": "puppet",
+   "id": "chibi3",
+   "panel": "p3",
+   "at": [
+    0.5,
+    1.0
+   ],
+   "scale": 0.28,
+   "idle": false
+  },
+  {
+   "kind": "frame",
+   "id": "p4/plate",
+   "panel": "p4"
+  },
+  {
+   "kind": "petals",
+   "id": "p4/petals",
+   "panel": "p4",
+   "n": 8
+  },
+  {
+   "kind": "puppet",
+   "id": "kodama4",
+   "panel": "p4",
+   "at": [
+    0.668,
+    1.17
+   ],
+   "scale": 0.48,
+   "wind": 0.25
+  }
+ ],
+ "texts": [
+  {
+   "id": "title",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.37,
+    0.14
+   ],
+   "size": 30,
+   "rot": -4,
+   "font": "pop",
+   "fill": {
+    "gradient": [
+     "#FF9A3C",
+     "#E8262D"
+    ],
+    "angle": 90
+   },
+   "stroke": [
+    [
+     "#ffffff",
+     3
+    ],
+    [
+     "#111111",
+     5
+    ]
+   ],
+   "depth": 0.1,
+   "text": {
+    "zh": "第2话　把那一声，夺回来!!",
+    "ja": "第2話　あの一声を、取り戻せ!!",
+    "en": "EP.2  TAKE THAT VOICE BACK!!"
+   }
+  },
+  {
+   "id": "cap1",
+   "panel": "p1",
+   "type": "bubble",
+   "shape": "rect",
+   "at": [
+    0.12,
+    0.07
+   ],
+   "size": 17,
+   "maxW": 150,
+   "font": "narration",
+   "text": {
+    "zh": "第二天早上。",
+    "ja": "翌朝。",
+    "en": "The next morning."
+   }
+  },
+  {
+   "id": "bang",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.875,
+    0.13
+   ],
+   "size": 40,
+   "rot": 12,
+   "font": "impact",
+   "fill": "#FF7A2F",
+   "stroke": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "jitter": 0.3,
+   "text": {
+    "zh": "バンッ!!",
+    "ja": "バンッ!!",
+    "en": "BAM!!"
+   }
+  },
+  {
+   "id": "board1.0",
+   "panel": "p1",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.742,
+    0.06025208333333333
+   ],
+   "size": 14,
+   "font": "hand",
+   "fill": "#1a1a1a",
+   "stroke": [],
+   "jitter": 0.15,
+   "text": {
+    "zh": "全校的各位",
+    "ja": "全校のみなさん",
+    "en": "MORNING,"
+   }
+  },
+  {
+   "id": "board1.1",
+   "panel": "p1",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.742,
+    0.09671041666666667
+   ],
+   "size": 14,
+   "font": "hand",
+   "fill": "#1a1a1a",
+   "stroke": [],
+   "jitter": 0.15,
+   "text": {
+    "zh": "早·上·好!!!!",
+    "ja": "お・は・よ・う!!!!",
+    "en": "EVERYONE!!!"
+   }
+  },
+  {
+   "id": "puku1",
+   "panel": "p1",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.57,
+    0.33
+   ],
+   "tail": [
+    0.725,
+    0.2
+   ],
+   "size": 17,
+   "maxW": 190,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "她说「全校的各位，\n早上好」噗！",
+    "ja": "「全校のみなさん、\nおはよう」だってプク！",
+    "en": "SHE SAYS \"GOOD MORNING,\nEVERYONE,\" PUKU!"
+   }
+  },
+  {
+   "id": "stud1",
+   "panel": "p1",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.38,
+    0.66
+   ],
+   "tail": [
+    0.2,
+    0.83
+   ],
+   "size": 15,
+   "maxW": 120,
+   "text": {
+    "zh": "……白板?",
+    "ja": "……ホワイトボード?",
+    "en": "…A whiteboard?"
+   }
+  },
+  {
+   "id": "shio1",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.8,
+    0.22
+   ],
+   "tail": [
+    0.58,
+    0.33
+   ],
+   "size": 17,
+   "maxW": 150,
+   "text": {
+    "zh": "鸣濑谺同学。\n噪音违规，\n第一百零一——",
+    "ja": "鳴瀬こだまさん。\n騒音違反、\n百一枚目——",
+    "en": "Naruse Kodama.\nNoise violation,\nticket No. 101—"
+   }
+  },
+  {
+   "id": "shio2",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.82,
+    0.74
+   ],
+   "tail": [
+    0.6,
+    0.4
+   ],
+   "size": 17,
+   "maxW": 140,
+   "text": {
+    "zh": "……没有噪音。",
+    "ja": "……騒音が、ない。",
+    "en": "…There's no noise."
+   }
+  },
+  {
+   "id": "board3.0",
+   "panel": "p3",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.745,
+    0.4104861111111111
+   ],
+   "size": 17,
+   "rot": -3,
+   "font": "hand",
+   "fill": "#1a1a1a",
+   "stroke": [],
+   "jitter": 0.2,
+   "text": {
+    "zh": "开罚单啊!!!",
+    "ja": "違反切って!!!",
+    "en": "TICKET ME!!!"
+   }
+  },
+  {
+   "id": "board3.1",
+   "panel": "p3",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.745,
+    0.4695138888888889
+   ],
+   "size": 17,
+   "rot": -3,
+   "font": "hand",
+   "fill": "#1a1a1a",
+   "stroke": [],
+   "jitter": 0.2,
+   "text": {
+    "zh": "我很吵的!!!",
+    "ja": "うるさいでしょ!!!",
+    "en": "I'M LOUD!!!"
+   }
+  },
+  {
+   "id": "kyu",
+   "panel": "p3",
+   "type": "sfx",
+   "at": [
+    0.86,
+    0.72
+   ],
+   "size": 20,
+   "rot": -10,
+   "font": "round",
+   "fill": "#FF9A4A",
+   "stroke": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "text": {
+    "zh": "キュキュッ",
+    "ja": "キュキュッ",
+    "en": "SKRITCH"
+   }
+  },
+  {
+   "id": "puku3",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.27,
+    0.13
+   ],
+   "tail": [
+    0.2,
+    0.66
+   ],
+   "size": 15,
+   "maxW": 140,
+   "text": {
+    "zh": "你是想被罚吗噗?!",
+    "ja": "罰されたいプク?!",
+    "en": "YOU WANT A\nTICKET, PUKU?!"
+   }
+  },
+  {
+   "id": "shio3",
+   "panel": "p3",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.68,
+    0.11
+   ],
+   "tail": [
+    1.08,
+    0.25
+   ],
+   "size": 16,
+   "maxW": 130,
+   "text": {
+    "zh": "……开不了。",
+    "ja": "……切れない。",
+    "en": "…I can't write one."
+   }
+  },
+  {
+   "id": "gaan",
+   "panel": "p3",
+   "type": "sfx",
+   "at": [
+    0.12,
+    0.38
+   ],
+   "size": 30,
+   "rot": 4,
+   "font": "horror",
+   "fill": "#2E2E3C",
+   "stroke": [
+    [
+     "#ffffff",
+     4
+    ]
+   ],
+   "vertical": {
+    "zh": true,
+    "ja": true
+   },
+   "jitter": 0.3,
+   "text": {
+    "zh": "ガーン",
+    "ja": "ガーン",
+    "en": "GAAN!"
+   }
+  },
+  {
+   "id": "empty",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.27,
+    0.33
+   ],
+   "tail": [
+    0.62,
+    0.66
+   ],
+   "size": 46,
+   "maxW": 200,
+   "ink": "#E8262D",
+   "text": "　　　"
+  },
+  {
+   "id": "board4",
+   "panel": "p4",
+   "type": "sfx",
+   "masked": true,
+   "at": [
+    0.683,
+    0.91
+   ],
+   "size": 34,
+   "rot": -2,
+   "font": "hand",
+   "fill": "#1a1a1a",
+   "stroke": [],
+   "jitter": 0.2,
+   "text": {
+    "zh": "我没事!!!",
+    "ja": "平気!!!",
+    "en": "I'M FINE!!!"
+   }
+  },
+  {
+   "id": "kyu4",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.42,
+    0.8
+   ],
+   "size": 22,
+   "rot": -8,
+   "font": "round",
+   "fill": "#FF9A4A",
+   "stroke": [
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "text": {
+    "zh": "キュッ",
+    "ja": "キュッ",
+    "en": "SKRT"
+   }
+  },
+  {
+   "id": "cap4",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "rect",
+   "at": [
+    0.15,
+    0.86
+   ],
+   "size": 19,
+   "maxW": 200,
+   "font": "narration",
+   "text": {
+    "zh": "失去声音的鸣字师——",
+    "ja": "声を失った鳴字師——",
+    "en": "A word-caller who lost her voice—"
+   }
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "panel",
+    "id": "p1"
+   },
+   {
+    "do": "start",
+    "id": "p1/petals"
+   },
+   {
+    "do": "text",
+    "id": "cap1",
+    "enter": "fade",
+    "delay": 0.1
+   },
+   {
+    "do": "text",
+    "id": "title",
+    "enter": "slam",
+    "delay": 0.35
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "bang",
+    "enter": "slam"
+   },
+   {
+    "do": "text",
+    "id": "board1.0",
+    "enter": "pop",
+    "delay": 0.05
+   },
+   {
+    "do": "text",
+    "id": "board1.1",
+    "enter": "pop",
+    "delay": 0.16999999999999998
+   },
+   {
+    "do": "alpha",
+    "id": "p1/speed",
+    "to": 1,
+    "dur": 0.12
+   },
+   {
+    "do": "shake",
+    "amp": 4,
+    "dur": 0.4
+   },
+   {
+    "do": "push",
+    "panel": "p1",
+    "at": [
+     0.74,
+     0.25
+    ],
+    "z": 1.07,
+    "dur": 0.5,
+    "ease": "outExpo"
+   },
+   {
+    "do": "alpha",
+    "id": "p1/speed",
+    "to": 0,
+    "delay": 0.6,
+    "dur": 0.5
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "puku1",
+    "enter": "pop"
+   },
+   {
+    "do": "text",
+    "id": "stud1",
+    "enter": "fade",
+    "delay": 0.5
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p2"
+   },
+   {
+    "do": "text",
+    "id": "shio1",
+    "enter": "fade",
+    "delay": 0.25
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "shiori2",
+    "slot": "face",
+    "state": "stunned",
+    "delay": 0.3
+   },
+   {
+    "do": "text",
+    "id": "shio2",
+    "enter": "fade",
+    "delay": 0.55
+   },
+   {
+    "do": "push",
+    "panel": "p2",
+    "at": [
+     0.5,
+     0.35
+    ],
+    "z": 1.04,
+    "dur": 1.2,
+    "delay": 0.3
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p3",
+    "dur": 0.25
+   },
+   {
+    "do": "text",
+    "id": "board3.0",
+    "enter": "pop",
+    "delay": 0.1
+   },
+   {
+    "do": "text",
+    "id": "board3.1",
+    "enter": "pop",
+    "delay": 0.22
+   },
+   {
+    "do": "text",
+    "id": "kyu",
+    "enter": "slam",
+    "delay": 0.15
+   },
+   {
+    "do": "text",
+    "id": "puku3",
+    "enter": "pop",
+    "delay": 0.45
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "shio3",
+    "enter": "fade"
+   },
+   {
+    "do": "state",
+    "id": "chibi3",
+    "slot": "pose",
+    "state": "stone",
+    "style": "smear",
+    "delay": 0.3
+   },
+   {
+    "do": "alpha",
+    "id": "p3/grey",
+    "to": 1,
+    "delay": 0.3,
+    "dur": 0.06
+   },
+   {
+    "do": "alpha",
+    "id": "p3/stripes",
+    "to": 0,
+    "delay": 0.3,
+    "dur": 0.06
+   },
+   {
+    "do": "alpha",
+    "id": "p3/gloom",
+    "to": 1,
+    "delay": 0.35,
+    "dur": 0.3
+   },
+   {
+    "do": "text",
+    "id": "gaan",
+    "enter": "slam",
+    "delay": 0.35
+   },
+   {
+    "do": "untext",
+    "id": "kyu",
+    "delay": 0.3,
+    "dur": 0.1
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p4"
+   },
+   {
+    "do": "start",
+    "id": "p4/petals"
+   },
+   {
+    "do": "text",
+    "id": "empty",
+    "enter": "pop",
+    "delay": 0.5
+   }
+  ],
+  [
+   {
+    "do": "untext",
+    "id": "empty",
+    "delay": 0,
+    "dur": 0.8
+   },
+   {
+    "do": "state",
+    "id": "kodama4",
+    "slot": "face",
+    "state": "falter",
+    "delay": 0.15
+   },
+   {
+    "do": "wind",
+    "id": "kodama4",
+    "v": 0.05,
+    "delay": 0.15
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "kyu4",
+    "enter": "slam"
+   },
+   {
+    "do": "text",
+    "id": "board4",
+    "enter": "pop",
+    "delay": 0.2
+   },
+   {
+    "do": "state",
+    "id": "kodama4",
+    "slot": "face",
+    "state": "grin",
+    "delay": 0.55
+   },
+   {
+    "do": "wind",
+    "id": "kodama4",
+    "v": 0.4,
+    "delay": 0.55
+   },
+   {
+    "do": "push",
+    "panel": "p4",
+    "at": [
+     0.62,
+     0.5
+    ],
+    "z": 1.05,
+    "dur": 1.6,
+    "delay": 0.5
+   },
+   {
+    "do": "text",
+    "id": "cap4",
+    "enter": "fade",
+    "delay": 1.1
+   }
+  ]
+ ]
+}

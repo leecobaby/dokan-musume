@@ -1,0 +1,46 @@
+{
+ "id": "ep02/_selftest",
+ "paper": "#ffffff",
+ "lights": { "dusk": { "grade": 0.0, "rim": 0.0, "dir": [7, 2], "top": "#ffd9b0", "bot": "#a48cc0", "rimColor": "#ffb25c" } },
+ "panels": [
+  { "id": "a", "rect": [40, 40, 920, 430], "bleed": ["t", "l", "r"], "border": 0 },
+  { "id": "b", "poly": [[40, 500], [520, 500], [460, 900], [40, 900]] },
+  { "id": "c", "poly": [[540, 500], [960, 500], [960, 900], [480, 900]], "fill": "#203048" },
+  { "id": "d", "rect": [40, 930, 920, 444] }
+ ],
+ "layers": [
+  { "id": "a/plate", "panel": "a", "kind": "frame", "frame": "plate", "rect": [-0.1, -0.05, 1.1, 1.05], "depth": 0.5, "burst": true },
+  { "id": "a/sun", "panel": "a", "kind": "particles", "preset": "light", "n": 30, "area": [0.4, 0.2, 1, 1] },
+  { "id": "a/kodama", "panel": "a", "kind": "puppet", "pkg": "kodama4", "at": [0.7, 1.12], "scale": 0.42, "wind": 0.3, "burst": true, "light": "dusk" },
+  { "id": "a/rings", "panel": "a", "kind": "rings", "at": [0.7, 0.4], "r": 420, "rings": 3, "rainbow": true },
+  { "id": "b/bg", "panel": "b", "kind": "fill", "color": "#FFE08A" },
+  { "id": "b/beta", "panel": "b", "kind": "focus", "at": [0.45, 0.5], "inner": [0.3, 0.3], "ink": "#ffffff", "bg": "#111111", "flicker": true, "hidden": true },
+  { "id": "b/chibi", "panel": "b", "kind": "puppet", "pkg": "chibi3", "at": [0.45, 1.0], "scale": 0.26, "idle": false },
+  { "id": "b/ink", "panel": "b", "kind": "particles", "preset": "ink", "n": 24 },
+  { "id": "c/speed", "panel": "c", "kind": "speed", "angle": 0, "clear": [0.5, 0.6, 0.25, 0.3] },
+  { "id": "c/run", "panel": "c", "kind": "clip", "clip": "run", "at": [0.5, 0.98], "scale": 0.7, "auto": true },
+  { "id": "c/paper", "panel": "c", "kind": "particles", "preset": "paper", "n": 30 },
+  { "id": "d/base", "panel": "d", "kind": "frame", "frame": "base" },
+  { "id": "d/sprite", "panel": "d", "kind": "sprite", "frame": "plate2", "frames": ["plate"], "at": [0.15, 0.95], "scale": 0.12 },
+  { "id": "d/cheer", "panel": "d", "kind": "clip", "clip": "cheer", "at": [0.5, 1.0], "scale": 0.6, "loop": false, "then": "d/cheer2" },
+  { "id": "d/cheer2", "panel": "d", "kind": "clip", "clip": "cheer", "at": [0.5, 1.0], "scale": 0.6, "frame": 0, "hidden": true },
+  { "id": "d/focus", "panel": "d", "kind": "focus", "at": [0.5, 0.45], "inner": [0.2, 0.3], "n": 180, "hidden": true },
+  { "id": "d/spark", "panel": "d", "kind": "particles", "preset": "sparkle", "n": 20 },
+  { "id": "d/petals", "panel": "d", "kind": "particles", "preset": "petals", "n": 12 },
+  { "id": "d/dust", "panel": "d", "kind": "particles", "preset": "dust", "n": 20 }
+ ],
+ "texts": [
+  { "id": "t1", "panel": "a", "type": "bubble", "shape": "oval", "at": [0.25, 0.25], "tail": [0.6, 0.45], "size": 22, "maxW": 220, "vertical": { "ja": true }, "text": { "zh": "颜色……回来了！", "ja": "色が……戻った！", "en": "The colour… is back!" } },
+  { "id": "t2", "panel": "b", "type": "sfx", "at": [0.5, 0.25], "size": 60, "rot": -8, "font": "impact", "fill": "#E8262D", "stroke": [["#ffffff", 4], ["#111111", 3]], "text": { "zh": "轰!!", "ja": "ドカン!!", "en": "BOOM!!" } },
+  { "id": "t3", "panel": "d", "type": "bubble", "shape": "rect", "at": [0.15, 0.12], "size": 18, "maxW": 220, "font": "narration", "text": { "zh": "自检页：所有图层与命令。", "ja": "セルフテスト。", "en": "Self-test page." } }
+ ],
+ "beats": [
+  [ { "do": "panel", "id": "a" }, { "do": "start", "id": "a/sun" }, { "do": "cam", "panel": "a", "at": [0.7, 0.5], "z": 1.15, "pan": [-0.05, 0], "dur": 1.2 } ],
+  [ { "do": "color", "panel": "a", "at": [0.7, 0.4], "dur": 1.5 }, { "do": "fire", "id": "a/rings" }, { "do": "light", "id": "dusk", "grade": 0.35, "rim": 0.9, "dur": 1 }, { "do": "text", "id": "t1", "delay": 0.8 }, { "do": "state", "id": "a/kodama", "slot": "face", "state": "grin" } ],
+  [ { "do": "panel", "id": "b", "style": "slide", "from": "l" }, { "do": "alpha", "id": "b/beta", "to": 1, "dur": 0.1, "delay": 0.2 }, { "do": "silhouette", "id": "b/chibi", "on": true, "delay": 0.2 }, { "do": "start", "id": "b/ink", "delay": 0.2 }, { "do": "text", "id": "t2", "enter": "slam", "delay": 0.25 }, { "do": "shake", "panel": "b", "amp": 6, "dur": 0.5, "delay": 0.2 }, { "do": "flash", "delay": 0.2, "dur": 0.3 } ],
+  [ { "do": "panel", "id": "c", "style": "slide", "from": "r" }, { "do": "start", "id": "c/speed" }, { "do": "start", "id": "c/paper" }, { "do": "move", "id": "c/run", "by": [-0.15, 0], "dur": 1.5, "ease": "linear" } ],
+  [ { "do": "panel", "id": "d" }, { "do": "text", "id": "t3", "enter": "fade" }, { "do": "play", "id": "d/cheer", "loop": false }, { "do": "frame", "id": "d/sprite", "frame": "plate", "delay": 0.4 }, { "do": "start", "id": "d/spark" }, { "do": "start", "id": "d/petals" }, { "do": "start", "id": "d/dust" } ],
+  [ { "do": "alpha", "id": "d/focus", "to": 1, "dur": 0.15 }, { "do": "push", "panel": "d", "at": [0.5, 0.45], "z": 1.1, "dur": 0.6, "ease": "outExpo" }, { "do": "shake", "amp": 4, "dur": 0.4 }, { "do": "bone", "id": "a/kodama", "bone": "head", "r": 8 }, { "do": "move", "id": "a/kodama", "by": [-0.05, 0], "dur": 0.5 } ],
+  [ { "do": "fade", "color": "#000000", "to": 0.85, "dur": 0.8, "top": true } ]
+ ]
+}

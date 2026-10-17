@@ -1,0 +1,274 @@
+{
+ "v": 2,
+ "page": "ep01/p03",
+ "frames": {
+  "p1/plate": {
+   "file": "p1-plate.webp",
+   "crop": [
+    115,
+    0,
+    1306,
+    1024
+   ],
+   "s": 0.75,
+   "w": 980,
+   "h": 768,
+   "panel": "p1",
+   "mono": "p1-plate-mono.webp"
+  },
+  "student": {
+   "file": "student.webp",
+   "crop": [
+    94,
+    31,
+    1134,
+    1171
+   ],
+   "s": 0.5,
+   "w": 567,
+   "h": 586,
+   "mono": "student-mono.webp"
+  },
+  "p2/a": {
+   "file": "p2-a.webp",
+   "crop": [
+    0,
+    26,
+    1254,
+    1201
+   ],
+   "s": 0.7,
+   "w": 878,
+   "h": 841,
+   "panel": "p2",
+   "mono": "p2-a-mono.webp"
+  },
+  "p2/b": {
+   "file": "p2-b.webp",
+   "crop": [
+    0,
+    26,
+    1254,
+    1201
+   ],
+   "s": 0.7,
+   "w": 878,
+   "h": 841,
+   "panel": "p2",
+   "mono": "p2-b-mono.webp"
+  },
+  "p3/plate": {
+   "file": "p3-plate.webp",
+   "crop": [
+    0,
+    120,
+    1536,
+    604
+   ],
+   "s": 1.0,
+   "w": 1536,
+   "h": 604,
+   "panel": "p3",
+   "mono": "p3-plate-mono.webp"
+  },
+  "p3/wilt": {
+   "file": "p3-wilt.webp",
+   "crop": [
+    1300,
+    380,
+    110,
+    140
+   ],
+   "s": 1.0,
+   "w": 110,
+   "h": 140,
+   "panel": "p3",
+   "mono": "p3-wilt-mono.webp"
+  },
+  "p5/plate": {
+   "file": "p5-plate.webp",
+   "crop": [
+    58,
+    0,
+    966,
+    1536
+   ],
+   "s": 0.75,
+   "w": 724,
+   "h": 1152,
+   "panel": "p5",
+   "mono": "p5-plate-mono.webp"
+  },
+  "aura": {
+   "file": "aura.webp",
+   "crop": [
+    111,
+    504,
+    294,
+    504
+   ],
+   "s": 0.8,
+   "w": 235,
+   "h": 403,
+   "mono": "aura-mono.webp"
+  },
+  "slash": {
+   "file": "slash.webp",
+   "crop": [
+    1026,
+    224,
+    471,
+    30
+   ],
+   "s": 1.0,
+   "w": 471,
+   "h": 30,
+   "mono": "slash-mono.webp"
+  },
+  "vein": {
+   "file": "vein.webp",
+   "crop": [
+    96,
+    90,
+    307,
+    430
+   ],
+   "s": 0.5,
+   "w": 154,
+   "h": 215,
+   "mono": "vein-mono.webp"
+  },
+  "crack": {
+   "file": "crack.webp",
+   "crop": [
+    543,
+    17,
+    448,
+    443
+   ],
+   "s": 0.8,
+   "w": 358,
+   "h": 354,
+   "mono": "crack-mono.webp"
+  },
+  "dot-open": {
+   "file": "dot-open.webp",
+   "crop": [
+    619,
+    615,
+    280,
+    268
+   ],
+   "s": 0.25,
+   "w": 70,
+   "h": 67,
+   "mono": "dot-open-mono.webp"
+  },
+  "dot-shut": {
+   "file": "dot-shut.webp",
+   "crop": [
+    1129,
+    622,
+    280,
+    268
+   ],
+   "s": 0.25,
+   "w": 70,
+   "h": 67,
+   "mono": "dot-shut-mono.webp"
+  }
+ },
+ "puppets": {
+  "kodama1": "kodama1",
+  "kodama3": "kodama3",
+  "shiori3": "shiori3",
+  "shiori4": "shiori4",
+  "kodama4": "kodama4",
+  "chibi5": "chibi5",
+  "shiori5": "shiori5"
+ },
+ "align": {
+  "kodama3/face/shock": [
+   [
+    0.04,
+    0.06
+   ]
+  ],
+  "kodama3/face/shock-mono": [
+   [
+    -0.4,
+    -0.06
+   ]
+  ],
+  "kodama4/face/sparkle": [
+   [
+    0.39,
+    -1.21
+   ]
+  ],
+  "kodama4/face/sparkle-mono": [
+   [
+    -0.35,
+    -0.04
+   ]
+  ]
+ },
+ "stats": {
+  "bytes": 4370296
+ },
+ "pairs": {
+  "p1/plate": [
+   -0.39,
+   -0.22
+  ],
+  "student": [
+   -0.13,
+   0.01
+  ],
+  "p2/a": [
+   0.01,
+   -0.22
+  ],
+  "p2/b": [
+   0.61,
+   0.06
+  ],
+  "p3/plate": [
+   -0.4,
+   -0.22
+  ],
+  "p3/wilt": [
+   -0.12,
+   0.23
+  ],
+  "p5/plate": [
+   -0.05,
+   -0.16
+  ],
+  "aura": [
+   0.19,
+   0.25
+  ],
+  "slash": [
+   0.19,
+   0.25
+  ],
+  "vein": [
+   0.19,
+   0.25
+  ],
+  "crack": [
+   0.19,
+   0.25
+  ],
+  "dot-open": [
+   0.19,
+   0.25
+  ],
+  "dot-shut": [
+   0.19,
+   0.25
+  ]
+ },
+ "thumb": "thumb.webp"
+}

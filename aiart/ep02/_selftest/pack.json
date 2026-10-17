@@ -1,0 +1,11 @@
+{
+ "v": 2, "page": "ep02/_selftest",
+ "frames": {
+  "plate": { "file": "../p00/p4-plate.webp", "mono": "../p00/p4-plate-mono.webp", "s": 0.7, "w": 1170, "h": 552 },
+  "base": { "file": "../p00/p1-base.webp", "mono": "../p00/p1-base-mono.webp", "s": 0.85, "w": 1306, "h": 681 },
+  "plate2": { "file": "../p00/p2-plate.webp", "mono": "../p00/p2-plate-mono.webp", "s": 0.6, "w": 706, "h": 509 }
+ },
+ "puppets": { "kodama4": "../p00/kodama4", "chibi3": "../p00/chibi3" },
+ "clips": { "run": "../../_anim/run-a2", "cheer": "../../_anim/cheer-a2" },
+ "stats": { "bytes": 0 }
+}

@@ -1,0 +1,985 @@
+{
+ "id": "ep01/p17",
+ "paper": "#ffffff",
+ "seed": 17,
+ "panels": [
+  {
+   "id": "p",
+   "rect": [
+    40,
+    40,
+    920,
+    1334
+   ],
+   "border": 4
+  }
+ ],
+ "layers": [
+  {
+   "id": "bg",
+   "panel": "p",
+   "kind": "fill",
+   "color": "#FFFFFF"
+  },
+  {
+   "id": "petals",
+   "panel": "p",
+   "kind": "particles",
+   "preset": "petals",
+   "shape": "sakura",
+   "n": 8,
+   "area": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "dir": 100,
+   "speed": 0.6,
+   "colors": [
+    "#FFC7D9",
+    "#FFB0C8",
+    "#FFE1EA"
+   ]
+  },
+  {
+   "id": "shiori",
+   "panel": "p",
+   "kind": "puppet",
+   "at": [
+    0.1793,
+    0.8696
+   ],
+   "scale": 0.78,
+   "init": {
+    "scale": 0.01
+   }
+  },
+  {
+   "id": "puku",
+   "panel": "p",
+   "kind": "puppet",
+   "at": [
+    0.8261,
+    0.8696
+   ],
+   "scale": 0.78,
+   "init": {
+    "scale": 0.01
+   }
+  },
+  {
+   "id": "kodama",
+   "panel": "p",
+   "kind": "puppet",
+   "at": [
+    0.5,
+    0.8696
+   ],
+   "scale": 0.8,
+   "init": {
+    "scale": 0.01
+   }
+  },
+  {
+   "id": "fire",
+   "panel": "p",
+   "kind": "sprite",
+   "frame": "fl-row0",
+   "frames": [
+    "fl-row1",
+    "fl-row2"
+   ],
+   "fps": 9,
+   "at": [
+    0.5061,
+    0.361
+   ],
+   "scale": 0.42,
+   "anchor": [
+    0.5,
+    0.96
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "tuft",
+   "panel": "p",
+   "kind": "sprite",
+   "frame": "fl-tuft0",
+   "frames": [
+    "fl-tuft1",
+    "fl-tuft2"
+   ],
+   "fps": 8,
+   "at": [
+    0.6757,
+    0.4729
+   ],
+   "scale": 0.17,
+   "anchor": [
+    0.5,
+    0.96
+   ],
+   "alpha": 0
+  }
+ ],
+ "texts": [
+  {
+   "id": "logo1",
+   "panel": "p",
+   "type": "sfx",
+   "at": [
+    0.8348,
+    0.042
+   ],
+   "size": 58,
+   "rot": -4,
+   "tracking": -0.12,
+   "text": {
+    "zh": "轰",
+    "ja": "轟",
+    "en": "BOOM"
+   },
+   "font": "heavy",
+   "fill": {
+    "gradient": [
+     "#FF7A2F",
+     "#E8262D"
+    ],
+    "angle": 90
+   },
+   "stroke": [
+    [
+     "#111111",
+     3
+    ],
+    [
+     "#ffffff",
+     2.5
+    ]
+   ],
+   "depth": {
+    "x": 0.07,
+    "y": 0.11,
+    "color": "#6e1010",
+    "edge": "#111111"
+   }
+  },
+  {
+   "id": "logo2",
+   "panel": "p",
+   "type": "sfx",
+   "at": [
+    0.9022,
+    0.0405
+   ],
+   "size": 48,
+   "rot": 8,
+   "font": "pop",
+   "fill": "#FF8A2A",
+   "stroke": [
+    [
+     "#111111",
+     2.5
+    ],
+    [
+     "#ffffff",
+     2
+    ]
+   ],
+   "text": "!"
+  },
+  {
+   "id": "logo3",
+   "panel": "p",
+   "type": "bubble",
+   "shape": "rect",
+   "font": "shout",
+   "at": [
+    0.8652,
+    0.0765
+   ],
+   "size": {
+    "zh": 18,
+    "ja": 17,
+    "en": 10
+   },
+   "maxW": 150,
+   "tail": null,
+   "paper": "#ffffff",
+   "color": "#111111",
+   "ink": "#111111",
+   "line": 2,
+   "text": {
+    "zh": "拟声少女",
+    "ja": "擬音少女",
+    "en": "The Onomatopoeia Girl"
+   }
+  },
+  {
+   "id": "tbc1",
+   "type": "sfx",
+   "panel": "p",
+   "font": "brush",
+   "fill": "#1A1426",
+   "stroke": [
+    [
+     "#ffffff",
+     4
+    ]
+   ],
+   "jitter": 0.1,
+   "at": {
+    "zh": [
+     0.3913,
+     0.1237
+    ],
+    "ja": [
+     0.3826,
+     0.1237
+    ],
+    "en": [
+     0.4674,
+     0.0975
+    ]
+   },
+   "size": {
+    "zh": 190,
+    "ja": 190,
+    "en": 92
+   },
+   "rot": -3,
+   "text": {
+    "zh": "待",
+    "ja": "続",
+    "en": "TO BE"
+   }
+  },
+  {
+   "id": "tbc2",
+   "type": "sfx",
+   "panel": "p",
+   "font": "brush",
+   "fill": "#1A1426",
+   "stroke": [
+    [
+     "#ffffff",
+     4
+    ]
+   ],
+   "jitter": 0.1,
+   "at": {
+    "zh": [
+     0.6065,
+     0.1424
+    ],
+    "ja": [
+     0.5978,
+     0.1424
+    ],
+    "en": [
+     0.5435,
+     0.1709
+    ]
+   },
+   "size": {
+    "zh": 190,
+    "ja": 190,
+    "en": 92
+   },
+   "rot": 4,
+   "text": {
+    "zh": "续",
+    "ja": "く",
+    "en": "CONTINUED"
+   }
+  },
+  {
+   "id": "ep2a",
+   "panel": "p",
+   "type": "sfx",
+   "at": [
+    0.2826,
+    0.2339
+   ],
+   "size": {
+    "zh": 34,
+    "ja": 34,
+    "en": 26
+   },
+   "rot": -4,
+   "font": "pop",
+   "fill": {
+    "gradient": [
+     "#FF9A3C",
+     "#E8262D"
+    ],
+    "angle": 90
+   },
+   "stroke": [
+    [
+     "#ffffff",
+     3
+    ],
+    [
+     "#111111",
+     4
+    ]
+   ],
+   "depth": 0.08,
+   "text": {
+    "zh": "第2话",
+    "ja": "第2話",
+    "en": "EPISODE 2"
+   }
+  },
+  {
+   "id": "ep2b",
+   "panel": "p",
+   "type": "sfx",
+   "at": [
+    0.513,
+    0.2759
+   ],
+   "size": {
+    "zh": 60,
+    "ja": 50,
+    "en": 40
+   },
+   "rot": -4,
+   "font": "pop",
+   "fill": {
+    "gradient": [
+     "#FF9A3C",
+     "#E8262D"
+    ],
+    "angle": 90
+   },
+   "stroke": [
+    [
+     "#ffffff",
+     4
+    ],
+    [
+     "#111111",
+     6
+    ]
+   ],
+   "depth": 0.12,
+   "jitter": 0.15,
+   "text": {
+    "zh": "把那一声，夺回来!!",
+    "ja": "あの一声を、取り戻せ!!",
+    "en": "TAKE THAT VOICE BACK!!"
+   }
+  },
+  {
+   "id": "sign",
+   "panel": "p",
+   "type": "sfx",
+   "at": [
+    0.5061,
+    0.4114
+   ],
+   "size": {
+    "zh": 38,
+    "ja": 38,
+    "en": 30
+   },
+   "font": "hand",
+   "fill": "#E8262D",
+   "stroke": [
+    [
+     "#111111",
+     3
+    ]
+   ],
+   "jitter": 0.3,
+   "lineHeight": 1.1,
+   "text": {
+    "zh": "我一定会\n抢回来的!!!",
+    "ja": "絶対に\n取り戻す!!!",
+    "en": "I'LL TAKE\nIT BACK!!!"
+   }
+  },
+  {
+   "id": "sign2",
+   "panel": "p",
+   "type": "sfx",
+   "at": [
+    0.6017,
+    0.8012
+   ],
+   "size": {
+    "zh": 18,
+    "ja": 18,
+    "en": 14
+   },
+   "rot": 2,
+   "font": "hand",
+   "fill": "#E8262D",
+   "stroke": [
+    [
+     "#111111",
+     2
+    ]
+   ],
+   "jitter": 0.3,
+   "lineHeight": 1.1,
+   "text": {
+    "zh": "我一定会\n抢回来\n的!!!",
+    "ja": "絶対に\n取り戻す\n!!!",
+    "en": "I'LL\nTAKE IT\nBACK!!!"
+   }
+  },
+  {
+   "id": "q",
+   "panel": "p",
+   "type": "sfx",
+   "at": [
+    0.6496,
+    0.4954
+   ],
+   "size": 74,
+   "rot": 34,
+   "font": "round",
+   "fill": {
+    "gradient": [
+     "#FFB347",
+     "#F7752B"
+    ],
+    "angle": 90
+   },
+   "stroke": [
+    [
+     "#7A2E0A",
+     3
+    ]
+   ],
+   "text": "?"
+  },
+  {
+   "id": "pu",
+   "panel": "p",
+   "type": "sfx",
+   "at": [
+    0.6957,
+    0.7271
+   ],
+   "size": 36,
+   "rot": -10,
+   "font": "round",
+   "fill": "#FF9A4A",
+   "stroke": [
+    [
+     "#ffffff",
+     3
+    ]
+   ],
+   "text": {
+    "zh": "噗！",
+    "ja": "プク！",
+    "en": "PUKU!"
+   }
+  },
+  {
+   "id": "puku1",
+   "panel": "p",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.8913,
+    0.6147
+   ],
+   "tail": [
+    0.85,
+    0.6822
+   ],
+   "size": 20,
+   "maxW": 130,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "谺想说的是——",
+    "ja": "こだまが\n言いたいのは——",
+    "en": "WHAT KODAMA\nMEANS IS—"
+   }
+  },
+  {
+   "id": "bashi",
+   "panel": "p",
+   "type": "sfx",
+   "at": [
+    0.8478,
+    0.7271
+   ],
+   "size": 86,
+   "rot": 12,
+   "font": "impact",
+   "fill": "#FF7A2F",
+   "stroke": [
+    [
+     "#ffffff",
+     3
+    ],
+    [
+     "#111111",
+     4
+    ]
+   ],
+   "jitter": 0.4,
+   "text": {
+    "zh": "バシッ",
+    "ja": "バシッ",
+    "en": "WHAP!"
+   }
+  },
+  {
+   "id": "shio1",
+   "panel": "p",
+   "type": "bubble",
+   "shape": "whisper",
+   "at": [
+    0.1196,
+    0.3898
+   ],
+   "tail": [
+    0.1685,
+    0.4498
+   ],
+   "size": 20,
+   "maxW": 150,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "……没声音\n也这么吵。",
+    "ja": "……声がなくても\nうるさい。",
+    "en": "…Still loud,\neven without\na voice."
+   }
+  },
+  {
+   "id": "cap",
+   "panel": "p",
+   "type": "bubble",
+   "shape": "rect",
+   "font": "narration",
+   "at": [
+    0.2391,
+    0.9445
+   ],
+   "size": 22,
+   "maxW": 380,
+   "tail": null,
+   "text": {
+    "zh": "失去声音的鸣字师，\n要怎么战斗？",
+    "ja": "声を失った鳴字師は、\nどう戦う？",
+    "en": "How does a word-caller\nwho lost her voice fight?"
+   }
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "panel",
+    "id": "p",
+    "dur": 0.5
+   },
+   {
+    "do": "start",
+    "id": "petals"
+   },
+   {
+    "do": "text",
+    "id": "tbc1",
+    "enter": "slam",
+    "delay": 0.35
+   },
+   {
+    "do": "text",
+    "id": "tbc2",
+    "enter": "slam",
+    "delay": 0.6
+   },
+   {
+    "do": "text",
+    "id": "logo1",
+    "enter": "fade",
+    "delay": 0.9
+   },
+   {
+    "do": "text",
+    "id": "logo2",
+    "enter": "fade",
+    "delay": 0.9
+   },
+   {
+    "do": "text",
+    "id": "logo3",
+    "enter": "fade",
+    "delay": 0.9
+   }
+  ],
+  [
+   {
+    "do": "move",
+    "id": "puku",
+    "scale": 1,
+    "dur": 0.38,
+    "ease": "outBack",
+    "delay": 0
+   },
+   {
+    "do": "move",
+    "id": "kodama",
+    "scale": 1,
+    "dur": 0.38,
+    "ease": "outBack",
+    "delay": 0.12
+   },
+   {
+    "do": "move",
+    "id": "shiori",
+    "scale": 1,
+    "dur": 0.38,
+    "ease": "outBack",
+    "delay": 0.24
+   },
+   {
+    "do": "text",
+    "id": "pu",
+    "enter": "pop",
+    "delay": 0.45
+   },
+   {
+    "do": "text",
+    "id": "q",
+    "enter": "pop",
+    "delay": 0.5
+   },
+   {
+    "do": "alpha",
+    "id": "tuft",
+    "to": 1,
+    "dur": 0.2,
+    "delay": 0.7
+   },
+   {
+    "do": "text",
+    "id": "sign",
+    "enter": "write",
+    "stagger": 0.09,
+    "delay": 0.65
+   },
+   {
+    "do": "alpha",
+    "id": "fire",
+    "to": 1,
+    "dur": 0.25,
+    "delay": 1.55
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": 4,
+    "dur": 0.07,
+    "delay": 1.6
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": -4,
+    "dur": 0.07,
+    "delay": 1.6700000000000002
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": 4,
+    "dur": 0.07,
+    "delay": 1.7400000000000002
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": -4,
+    "dur": 0.07,
+    "delay": 1.81
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": 4,
+    "dur": 0.07,
+    "delay": 1.8800000000000001
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": 0,
+    "dur": 0.07,
+    "delay": 1.9500000000000002
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "puku",
+    "slot": "pose",
+    "state": "smug",
+    "style": "smear",
+    "ms": 140
+   },
+   {
+    "do": "untext",
+    "id": "pu",
+    "exit": "fade",
+    "dur": 0.15
+   },
+   {
+    "do": "text",
+    "id": "puku1",
+    "enter": "pop",
+    "delay": 0.25
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": 5,
+    "dur": 0.07,
+    "delay": 0.5
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": -5,
+    "dur": 0.07,
+    "delay": 0.5700000000000001
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": 5,
+    "dur": 0.07,
+    "delay": 0.64
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": -5,
+    "dur": 0.07,
+    "delay": 0.71
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": 5,
+    "dur": 0.07,
+    "delay": 0.78
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": -5,
+    "dur": 0.07,
+    "delay": 0.8500000000000001
+   },
+   {
+    "do": "move",
+    "id": "sign",
+    "rot": 0,
+    "dur": 0.07,
+    "delay": 0.92
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "kodama",
+    "slot": "pose",
+    "state": "slam",
+    "style": "smear",
+    "ms": 110
+   },
+   {
+    "do": "move",
+    "id": "kodama",
+    "by": [
+     0.045,
+     0
+    ],
+    "dur": 0.12,
+    "ease": "snap"
+   },
+   {
+    "do": "untext",
+    "id": "sign",
+    "exit": "fade",
+    "dur": 0.05
+   },
+   {
+    "do": "alpha",
+    "id": "fire",
+    "to": 0,
+    "dur": 0.06
+   },
+   {
+    "do": "move",
+    "id": "q",
+    "to": [
+     0.7085,
+     0.4882
+    ],
+    "rot": 0,
+    "dur": 0.12,
+    "ease": "snap"
+   },
+   {
+    "do": "move",
+    "id": "tuft",
+    "to": [
+     0.7346,
+     0.4657
+    ],
+    "rot": 34,
+    "dur": 0.12,
+    "ease": "snap"
+   },
+   {
+    "do": "state",
+    "id": "puku",
+    "slot": "pose",
+    "state": "flat",
+    "style": "smear",
+    "ms": 60,
+    "delay": 0.1
+   },
+   {
+    "do": "move",
+    "id": "puku1",
+    "scaleY": 0.22,
+    "scaleX": 1.25,
+    "by": [
+     0,
+     0.045
+    ],
+    "dur": 0.08,
+    "ease": "snap",
+    "delay": 0.1
+   },
+   {
+    "do": "shatter",
+    "id": "puku1",
+    "delay": 0.55
+   },
+   {
+    "do": "text",
+    "id": "bashi",
+    "enter": "slam",
+    "delay": 0.1
+   },
+   {
+    "do": "shake",
+    "amp": 5,
+    "dur": 0.35,
+    "delay": 0.1
+   },
+   {
+    "do": "state",
+    "id": "shiori",
+    "slot": "pose",
+    "state": "sigh",
+    "style": "smear",
+    "ms": 160,
+    "delay": 0.8
+   },
+   {
+    "do": "text",
+    "id": "shio1",
+    "enter": "fade",
+    "delay": 1.1
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "kodama",
+    "slot": "pose",
+    "state": "hips",
+    "style": "smear",
+    "ms": 140
+   },
+   {
+    "do": "move",
+    "id": "kodama",
+    "to": [
+     0.5,
+     0.8696
+    ],
+    "dur": 0.14,
+    "ease": "out"
+   },
+   {
+    "do": "move",
+    "id": "q",
+    "to": [
+     0.5157,
+     0.469
+    ],
+    "rot": -26,
+    "dur": 0.14,
+    "ease": "out"
+   },
+   {
+    "do": "move",
+    "id": "tuft",
+    "to": [
+     0.52,
+     0.442
+    ],
+    "rot": 0,
+    "dur": 0.14,
+    "ease": "out"
+   },
+   {
+    "do": "untext",
+    "id": "bashi",
+    "exit": "fade",
+    "dur": 0.2
+   },
+   {
+    "do": "text",
+    "id": "sign2",
+    "enter": "write",
+    "stagger": 0.05,
+    "delay": 0.25
+   },
+   {
+    "do": "text",
+    "id": "ep2a",
+    "enter": "slam",
+    "delay": 0.7
+   },
+   {
+    "do": "text",
+    "id": "ep2b",
+    "enter": "slam",
+    "delay": 0.85
+   },
+   {
+    "do": "shake",
+    "amp": 6,
+    "dur": 0.45,
+    "delay": 0.9
+   },
+   {
+    "do": "text",
+    "id": "cap",
+    "enter": "fade",
+    "delay": 1.7
+   }
+  ]
+ ]
+}

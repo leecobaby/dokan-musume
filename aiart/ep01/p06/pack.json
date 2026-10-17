@@ -1,0 +1,500 @@
+{
+ "v": 2,
+ "page": "ep01/p06",
+ "frames": {
+  "p1/plate": {
+   "file": "p1-plate.webp",
+   "crop": [
+    0,
+    30,
+    1536,
+    657
+   ],
+   "s": 0.75,
+   "w": 1152,
+   "h": 493,
+   "panel": "p1",
+   "mono": "p1-plate-mono.webp"
+  },
+  "dot": {
+   "file": "dot.webp",
+   "crop": [
+    2,
+    2,
+    37,
+    37
+   ],
+   "s": 1,
+   "w": 37,
+   "h": 37
+  },
+  "p2/pour": {
+   "file": "p2-pour.webp",
+   "crop": [
+    242,
+    0,
+    1294,
+    1024
+   ],
+   "s": 0.6,
+   "w": 776,
+   "h": 614,
+   "panel": "p2",
+   "mono": "p2-pour-mono.webp"
+  },
+  "p2/closed": {
+   "file": "p2-closed.webp",
+   "crop": [
+    242,
+    0,
+    1294,
+    1024
+   ],
+   "s": 0.6,
+   "w": 776,
+   "h": 614,
+   "panel": "p2",
+   "mono": "p2-closed-mono.webp"
+  },
+  "p2/open": {
+   "file": "p2-open.webp",
+   "crop": [
+    242,
+    0,
+    1294,
+    1024
+   ],
+   "s": 0.6,
+   "w": 776,
+   "h": 614,
+   "panel": "p2",
+   "mono": "p2-open-mono.webp"
+  },
+  "p2/roar": {
+   "file": "p2-roar.webp",
+   "crop": [
+    242,
+    0,
+    1294,
+    1024
+   ],
+   "s": 0.6,
+   "w": 776,
+   "h": 614,
+   "panel": "p2",
+   "mono": "p2-roar-mono.webp"
+  },
+  "p2/eyes0": {
+   "file": "p2-eyes0.webp",
+   "crop": [
+    242,
+    0,
+    1294,
+    1024
+   ],
+   "s": 0.6,
+   "w": 776,
+   "h": 614,
+   "panel": "p2",
+   "mono": "p2-eyes0-mono.webp"
+  },
+  "p2/eyes1": {
+   "file": "p2-eyes1.webp",
+   "crop": [
+    242,
+    0,
+    1294,
+    1024
+   ],
+   "s": 0.6,
+   "w": 776,
+   "h": 614,
+   "panel": "p2",
+   "mono": "p2-eyes1-mono.webp"
+  },
+  "p2/eyes2": {
+   "file": "p2-eyes2.webp",
+   "crop": [
+    242,
+    0,
+    1294,
+    1024
+   ],
+   "s": 0.6,
+   "w": 776,
+   "h": 614,
+   "panel": "p2",
+   "mono": "p2-eyes2-mono.webp"
+  },
+  "p2/eyes3": {
+   "file": "p2-eyes3.webp",
+   "crop": [
+    242,
+    0,
+    1294,
+    1024
+   ],
+   "s": 0.6,
+   "w": 776,
+   "h": 614,
+   "panel": "p2",
+   "mono": "p2-eyes3-mono.webp"
+  },
+  "p3/sketch": {
+   "file": "p3-sketch.webp",
+   "crop": [
+    70,
+    0,
+    857,
+    1536
+   ],
+   "s": 0.5,
+   "w": 428,
+   "h": 768,
+   "panel": "p3",
+   "mono": "p3-sketch-mono.webp"
+  },
+  "p3/col": {
+   "file": "p3-col.webp",
+   "crop": [
+    70,
+    0,
+    857,
+    1536
+   ],
+   "s": 0.5,
+   "w": 428,
+   "h": 768,
+   "panel": "p3",
+   "mono": "p3-col-mono.webp"
+  },
+  "p4/plate": {
+   "file": "p4-plate.webp",
+   "crop": [
+    60,
+    60,
+    1134,
+    1063
+   ],
+   "s": 0.5,
+   "w": 567,
+   "h": 532,
+   "panel": "p4",
+   "mono": "p4-plate-mono.webp"
+  },
+  "p5/bg": {
+   "file": "p5-bg.webp",
+   "crop": [
+    0,
+    0,
+    1472,
+    1024
+   ],
+   "s": 0.5,
+   "w": 736,
+   "h": 512,
+   "panel": "p5",
+   "mono": "p5-bg-mono.webp"
+  },
+  "tentH": {
+   "file": "tentH.webp",
+   "crop": [
+    37,
+    0,
+    1499,
+    330
+   ],
+   "s": 0.5,
+   "w": 750,
+   "h": 165,
+   "mono": "tentH-mono.webp"
+  },
+  "tentV": {
+   "file": "tentV.webp",
+   "crop": [
+    40,
+    325,
+    200,
+    650
+   ],
+   "s": 0.6,
+   "w": 120,
+   "h": 390,
+   "mono": "tentV-mono.webp"
+  },
+  "splash": {
+   "file": "splash.webp",
+   "crop": [
+    250,
+    580,
+    890,
+    420
+   ],
+   "s": 0.5,
+   "w": 445,
+   "h": 210,
+   "mono": "splash-mono.webp"
+  },
+  "fall": {
+   "file": "fall.webp",
+   "crop": [
+    1195,
+    325,
+    341,
+    675
+   ],
+   "s": 0.5,
+   "w": 170,
+   "h": 338,
+   "mono": "fall-mono.webp"
+  },
+  "flag1": {
+   "file": "flag1.webp",
+   "crop": [
+    70,
+    55,
+    720,
+    540
+   ],
+   "s": 0.35,
+   "w": 252,
+   "h": 189,
+   "mono": "flag1-mono.webp"
+  },
+  "flag2": {
+   "file": "flag2.webp",
+   "crop": [
+    830,
+    70,
+    730,
+    550
+   ],
+   "s": 0.35,
+   "w": 255,
+   "h": 192,
+   "mono": "flag2-mono.webp"
+  },
+  "curl": {
+   "file": "curl.webp",
+   "crop": [
+    1660,
+    130,
+    440,
+    500
+   ],
+   "s": 0.35,
+   "w": 154,
+   "h": 175,
+   "mono": "curl-mono.webp"
+  },
+  "tear0": {
+   "file": "tear0.webp",
+   "crop": [
+    0,
+    32,
+    266,
+    384
+   ],
+   "s": 0.75,
+   "w": 200,
+   "h": 288,
+   "mono": "tear0-mono.webp"
+  },
+  "tear1": {
+   "file": "tear1.webp",
+   "crop": [
+    266,
+    32,
+    266,
+    384
+   ],
+   "s": 0.75,
+   "w": 200,
+   "h": 288,
+   "mono": "tear1-mono.webp"
+  },
+  "tear2": {
+   "file": "tear2.webp",
+   "crop": [
+    532,
+    32,
+    266,
+    384
+   ],
+   "s": 0.75,
+   "w": 200,
+   "h": 288,
+   "mono": "tear2-mono.webp"
+  },
+  "tear3": {
+   "file": "tear3.webp",
+   "crop": [
+    798,
+    32,
+    266,
+    384
+   ],
+   "s": 0.75,
+   "w": 200,
+   "h": 288,
+   "mono": "tear3-mono.webp"
+  },
+  "tear4": {
+   "file": "tear4.webp",
+   "crop": [
+    1064,
+    32,
+    266,
+    384
+   ],
+   "s": 0.75,
+   "w": 200,
+   "h": 288,
+   "mono": "tear4-mono.webp"
+  }
+ },
+ "puppets": {
+  "kodama4": "kodama4",
+  "kodama5": "kodama5"
+ },
+ "align": {
+  "kodama4/face/shout": [
+   [
+    -0.35,
+    -0.06
+   ],
+   [
+    0.28,
+    -0.34
+   ]
+  ],
+  "kodama4/face/shout-mono": [
+   [
+    -0.04,
+    -0.26
+   ],
+   [
+    0.08,
+    -0.12
+   ]
+  ],
+  "kodama5/face/shock": [
+   [
+    0.17,
+    0.7
+   ]
+  ],
+  "kodama5/face/shock-mono": [
+   [
+    1.06,
+    -0.21
+   ]
+  ]
+ },
+ "stats": {
+  "bytes": 3745006
+ },
+ "pairs": {
+  "p1/plate": [
+   0.0,
+   0.0
+  ],
+  "p2/pour": [
+   0.0,
+   0.01
+  ],
+  "p2/closed": [
+   0.02,
+   0.02
+  ],
+  "p2/open": [
+   -0.01,
+   0.02
+  ],
+  "p2/roar": [
+   -0.0,
+   0.0
+  ],
+  "p2/eyes0": [
+   0.0,
+   0.0
+  ],
+  "p2/eyes1": [
+   0.0,
+   0.0
+  ],
+  "p2/eyes2": [
+   -0.0,
+   0.0
+  ],
+  "p2/eyes3": [
+   0.0,
+   -0.0
+  ],
+  "p3/sketch": [
+   0.0,
+   0.0
+  ],
+  "p3/col": [
+   0.0,
+   0.0
+  ],
+  "p4/plate": [
+   0.0,
+   0.0
+  ],
+  "p5/bg": [
+   0.0,
+   0.0
+  ],
+  "tentH": [
+   -0.0,
+   0.0
+  ],
+  "tentV": [
+   -0.0,
+   0.0
+  ],
+  "splash": [
+   -0.0,
+   0.0
+  ],
+  "fall": [
+   -0.0,
+   0.0
+  ],
+  "flag1": [
+   9.29,
+   0.91
+  ],
+  "flag2": [
+   9.29,
+   0.91
+  ],
+  "curl": [
+   9.29,
+   0.91
+  ],
+  "tear0": [
+   0.0,
+   0.0
+  ],
+  "tear1": [
+   0.0,
+   0.0
+  ],
+  "tear2": [
+   0.0,
+   0.0
+  ],
+  "tear3": [
+   0.0,
+   0.0
+  ],
+  "tear4": [
+   0.0,
+   0.0
+  ]
+ },
+ "thumb": "thumb.webp"
+}

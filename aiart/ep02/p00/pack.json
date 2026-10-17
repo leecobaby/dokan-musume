@@ -1,0 +1,133 @@
+{
+ "v": 2,
+ "page": "ep02/p00",
+ "frames": {
+  "p1/base": {
+   "file": "p1-base.webp",
+   "crop": [
+    0,
+    0,
+    1536,
+    801
+   ],
+   "s": 0.85,
+   "w": 1306,
+   "h": 681,
+   "panel": "p1",
+   "mono": "p1-base-mono.webp"
+  },
+  "p2/plate": {
+   "file": "p2-plate.webp",
+   "crop": [
+    678,
+    0,
+    1177,
+    848
+   ],
+   "s": 0.6,
+   "w": 706,
+   "h": 509,
+   "panel": "p2",
+   "mono": "p2-plate-mono.webp"
+  },
+  "p4/plate": {
+   "file": "p4-plate.webp",
+   "crop": [
+    0,
+    76,
+    1672,
+    789
+   ],
+   "s": 0.7,
+   "w": 1170,
+   "h": 552,
+   "panel": "p4",
+   "mono": "p4-plate-mono.webp"
+  }
+ },
+ "puppets": {
+  "shiori2": "shiori2",
+  "chibi3": "chibi3",
+  "kodama4": "kodama4"
+ },
+ "align": {
+  "shiori2/stunned": [
+   [
+    0.06,
+    -0.19
+   ],
+   [
+    -0.0,
+    0.09
+   ],
+   [
+    0.48,
+    -0.25
+   ]
+  ],
+  "shiori2/stunned-mono": [
+   [
+    0.4,
+    -0.85
+   ],
+   [
+    0.73,
+    -0.05
+   ],
+   [
+    0.24,
+    -0.05
+   ]
+  ],
+  "kodama4/falter": [
+   [
+    1.19,
+    -0.11
+   ],
+   [
+    0.89,
+    0.16
+   ]
+  ],
+  "kodama4/falter-mono": [
+   [
+    1.36,
+    0.28
+   ],
+   [
+    0.11,
+    0.29
+   ]
+  ],
+  "kodama4/grin": [
+   [
+    0.01,
+    -0.3
+   ]
+  ],
+  "kodama4/grin-mono": [
+   [
+    -0.19,
+    -0.53
+   ]
+  ]
+ },
+ "stats": {
+  "bytes": 2108437
+ },
+ "pairs": {
+  "p1/base": [
+   0.35,
+   -0.18
+  ],
+  "p2/plate": [
+   0.43,
+   -1.1
+  ],
+  "p4/plate": [
+   -0.16,
+   -0.46
+  ]
+ },
+ "thumb": "thumb.webp"
+}

@@ -1,0 +1,274 @@
+{
+ "v": 1,
+ "points": {
+  "kodamaAhoge": [
+   -53.02325581395349,
+   -561.1627906976744
+  ],
+  "kodamaEye": [
+   -59.651162790697676,
+   -494.4418604651163
+  ],
+  "kodamaChest": [
+   -44.18604651162791,
+   -371.16279069767444
+  ],
+  "pukuHorn": [
+   -20.946137491141034,
+   -202.94117647058823
+  ],
+  "shioriNib": [
+   272.39488117001827,
+   -361.9744058500914
+  ]
+ },
+ "page": 12,
+ "frames": {
+  "plate": {
+   "space": "stage",
+   "s": 0.768,
+   "ox": -166.66666666666666,
+   "oy": -293.0,
+   "w": 1024,
+   "h": 1536,
+   "file": "plate.webp",
+   "mono": "plate.m.webp"
+  },
+  "plate/hurt": {
+   "space": "stage",
+   "s": 0.768,
+   "ox": 287.76041666666663,
+   "oy": -221.38541666666669,
+   "w": 604,
+   "h": 726,
+   "file": "plate-hurt.webp",
+   "mono": "plate-hurt.m.webp"
+  },
+  "kodama/under": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -158.62790697674419,
+   "oy": -534.6511627906976,
+   "w": 351,
+   "h": 565,
+   "file": "kodama-under.webp"
+  },
+  "kodama/body": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -216.51162790697674,
+   "oy": -570.8837209302326,
+   "w": 703,
+   "h": 942,
+   "file": "kodama-body.webp",
+   "mono": "kodama-body.m.webp"
+  },
+  "kodama/cape": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -155.53488372093022,
+   "oy": -444.51162790697674,
+   "w": 602,
+   "h": 492,
+   "file": "kodama-cape.webp",
+   "mono": "kodama-cape.m.webp"
+  },
+  "kodama/ribbon": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -22.53488372093023,
+   "oy": -541.7209302325582,
+   "w": 230,
+   "h": 133,
+   "file": "kodama-ribbon.webp",
+   "mono": "kodama-ribbon.m.webp"
+  },
+  "kodama/mouth-grin": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -110.0232558139535,
+   "oy": -534.2093023255815,
+   "w": 162,
+   "h": 176,
+   "file": "kodama-mouth-grin.webp",
+   "mono": "kodama-mouth-grin.m.webp"
+  },
+  "kodama/mouth-shout": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -110.0232558139535,
+   "oy": -534.2093023255815,
+   "w": 162,
+   "h": 176,
+   "file": "kodama-mouth-shout.webp",
+   "mono": "kodama-mouth-shout.m.webp"
+  },
+  "kodama/keep-eyes": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -93.67441860465117,
+   "oy": -500.1860465116279,
+   "w": 60,
+   "h": 25,
+   "file": "kodama-keep-eyes.webp",
+   "mono": "kodama-keep-eyes.m.webp"
+  },
+  "kodama/keep-eyes-grin": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -93.67441860465117,
+   "oy": -500.1860465116279,
+   "w": 61,
+   "h": 26,
+   "file": "kodama-keep-eyes-grin.webp",
+   "mono": "kodama-keep-eyes-grin.m.webp"
+  },
+  "kodama/keep-eyes-open": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -94.11627906976744,
+   "oy": -499.30232558139534,
+   "w": 59,
+   "h": 25,
+   "file": "kodama-keep-eyes-open.webp",
+   "mono": "kodama-keep-eyes-open.m.webp"
+  },
+  "kodama/keep-ahoge": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -66.27906976744187,
+   "oy": -570.4418604651163,
+   "w": 54,
+   "h": 58,
+   "file": "kodama-keep-ahoge.webp",
+   "mono": "kodama-keep-ahoge.m.webp"
+  },
+  "kodama/keep": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -93.67441860465117,
+   "oy": -570.4418604651163,
+   "w": 98,
+   "h": 138,
+   "file": "kodama-keep.webp"
+  },
+  "kodama/keep-grin": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -93.67441860465117,
+   "oy": -570.4418604651163,
+   "w": 98,
+   "h": 139,
+   "file": "kodama-keep-grin.webp"
+  },
+  "kodama/keep-shout": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -94.11627906976744,
+   "oy": -570.4418604651163,
+   "w": 98,
+   "h": 139,
+   "file": "kodama-keep-shout.webp"
+  },
+  "kodama/cheer": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -216.51162790697674,
+   "oy": -610.6511627906976,
+   "w": 702,
+   "h": 1014,
+   "file": "kodama-cheer.webp",
+   "mono": "kodama-cheer.m.webp"
+  },
+  "puku/s1": {
+   "space": "world",
+   "s": 3.2,
+   "ox": -72.94472005669738,
+   "oy": -230.6520198440822,
+   "w": 468,
+   "h": 740,
+   "file": "puku-s1.webp",
+   "mono": "puku-s1.m.webp"
+  },
+  "puku/s2": {
+   "space": "world",
+   "s": 3.2,
+   "ox": -76.85683912119065,
+   "oy": -234.89014883061657,
+   "w": 481,
+   "h": 754,
+   "file": "puku-s2.webp",
+   "mono": "puku-s2.m.webp"
+  },
+  "puku/s6": {
+   "space": "world",
+   "s": 3.2,
+   "ox": -79.79092841956059,
+   "oy": -238.6392629340893,
+   "w": 520,
+   "h": 795,
+   "file": "puku-s6.webp",
+   "mono": "puku-s6.m.webp"
+  },
+  "shiori/s1": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -180.07312614259595,
+   "oy": -548.4460694698354,
+   "w": 737,
+   "h": 889,
+   "file": "shiori-s1.webp",
+   "mono": "shiori-s1.m.webp"
+  },
+  "shiori/s6": {
+   "space": "world",
+   "s": 1.6,
+   "ox": -181.9012797074954,
+   "oy": -542.0475319926874,
+   "w": 736,
+   "h": 907,
+   "file": "shiori-s6.webp",
+   "mono": "shiori-s6.m.webp"
+  },
+  "inset/eye": {
+   "space": "page",
+   "s": 2.0,
+   "ox": 0.0,
+   "oy": 0.0,
+   "w": 600,
+   "h": 561,
+   "file": "inset-eye.webp",
+   "mono": "inset-eye.m.webp"
+  },
+  "inset/town": {
+   "space": "page",
+   "s": 1.988950276243094,
+   "ox": 0.0,
+   "oy": 0.0,
+   "w": 720,
+   "h": 622,
+   "file": "inset-town.webp",
+   "mono": "inset-town.m.webp"
+  },
+  "fx/boom": {
+   "space": "page",
+   "s": 0.9,
+   "ox": -350.0,
+   "oy": -350.0,
+   "w": 630,
+   "h": 630,
+   "file": "fx-boom.webp",
+   "mono": "fx-boom.m.webp"
+  }
+ },
+ "plate": {
+  "ox": -166.66666666666666,
+  "oy": -293.0,
+  "w": 1333.3333333333333,
+  "h": 2000.0
+ },
+ "stats": {
+  "bytes": 4211322,
+  "px": 15045867
+ }
+}

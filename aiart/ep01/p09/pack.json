@@ -1,0 +1,342 @@
+{
+ "v": 2,
+ "page": "ep01/p09",
+ "frames": {
+  "p1/plate": {
+   "file": "p1-plate.webp",
+   "crop": [
+    0,
+    150,
+    1536,
+    680
+   ],
+   "s": 0.7,
+   "w": 1075,
+   "h": 476,
+   "panel": "p1",
+   "mono": "p1-plate-mono.webp"
+  },
+  "k1": {
+   "file": "k1.webp",
+   "crop": [
+    0,
+    0,
+    1312,
+    1199
+   ],
+   "s": 0.75,
+   "w": 984,
+   "h": 899,
+   "mono": "k1-mono.webp"
+  },
+  "k1-fury": {
+   "file": "k1-fury.webp",
+   "crop": [
+    0,
+    0,
+    1312,
+    1199
+   ],
+   "s": 0.75,
+   "w": 984,
+   "h": 899,
+   "mono": "k1-fury-mono.webp"
+  },
+  "k1-keep": {
+   "file": "k1-keep.webp",
+   "crop": [
+    0,
+    0,
+    1312,
+    1199
+   ],
+   "s": 0.75,
+   "w": 984,
+   "h": 899,
+   "mono": "k1-keep-mono.webp"
+  },
+  "p2/bg": {
+   "file": "p2-bg.webp",
+   "crop": [
+    560,
+    400,
+    976,
+    574
+   ],
+   "s": 0.6,
+   "w": 586,
+   "h": 344,
+   "panel": "p2",
+   "mono": "p2-bg-mono.webp"
+  },
+  "k2a": {
+   "file": "k2a.webp",
+   "crop": [
+    80,
+    38,
+    927,
+    1389
+   ],
+   "s": 0.45,
+   "w": 417,
+   "h": 625,
+   "mono": "k2a-mono.webp"
+  },
+  "k2b": {
+   "file": "k2b.webp",
+   "crop": [
+    250,
+    15,
+    1242,
+    995
+   ],
+   "s": 0.45,
+   "w": 559,
+   "h": 448,
+   "mono": "k2b-mono.webp"
+  },
+  "puku-hop": {
+   "file": "puku-hop.webp",
+   "crop": [
+    386,
+    42,
+    408,
+    518
+   ],
+   "s": 0.4,
+   "w": 163,
+   "h": 207,
+   "mono": "puku-hop-mono.webp"
+  },
+  "puku-stand": {
+   "file": "puku-stand.webp",
+   "crop": [
+    1359,
+    125,
+    404,
+    531
+   ],
+   "s": 0.4,
+   "w": 162,
+   "h": 212,
+   "mono": "puku-stand-mono.webp"
+  },
+  "k3": {
+   "file": "k3.webp",
+   "crop": [
+    0,
+    0,
+    1243,
+    1266
+   ],
+   "s": 0.55,
+   "w": 684,
+   "h": 696,
+   "mono": "k3-mono.webp"
+  },
+  "k3-open": {
+   "file": "k3-open.webp",
+   "crop": [
+    0,
+    0,
+    1243,
+    1266
+   ],
+   "s": 0.55,
+   "w": 684,
+   "h": 696,
+   "mono": "k3-open-mono.webp"
+  },
+  "p4/plate": {
+   "file": "p4-plate.webp",
+   "crop": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "s": 0.7,
+   "w": 1075,
+   "h": 717,
+   "panel": "p4",
+   "mono": "p4-plate-mono.webp"
+  },
+  "p4/hurt": {
+   "file": "p4-hurt.webp",
+   "crop": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "s": 0.7,
+   "w": 1075,
+   "h": 717,
+   "panel": "p4",
+   "mono": "p4-hurt-mono.webp"
+  },
+  "p4/hole": {
+   "file": "p4-hole.webp",
+   "crop": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "s": 0.6,
+   "w": 922,
+   "h": 614,
+   "panel": "p4",
+   "mono": "p4-hole-mono.webp"
+  },
+  "k4": {
+   "file": "k4.webp",
+   "crop": [
+    250,
+    15,
+    1241,
+    995
+   ],
+   "s": 0.6,
+   "w": 745,
+   "h": 597,
+   "mono": "k4-mono.webp"
+  },
+  "flame": {
+   "file": "flame.webp",
+   "crop": [
+    12,
+    21,
+    484,
+    978
+   ],
+   "s": 0.45,
+   "w": 218,
+   "h": 440,
+   "mono": "flame-mono.webp"
+  },
+  "boom": {
+   "file": "boom.webp",
+   "crop": [
+    476,
+    78,
+    696,
+    840
+   ],
+   "s": 0.6,
+   "w": 418,
+   "h": 504,
+   "mono": "boom-mono.webp"
+  },
+  "ink": {
+   "file": "ink.webp",
+   "crop": [
+    1064,
+    521,
+    463,
+    471
+   ],
+   "s": 0.5,
+   "w": 232,
+   "h": 236,
+   "mono": "ink-mono.webp"
+  },
+  "smoke": {
+   "file": "smoke.webp",
+   "crop": [
+    1148,
+    40,
+    367,
+    359
+   ],
+   "s": 0.45,
+   "w": 165,
+   "h": 162,
+   "mono": "smoke-mono.webp"
+  }
+ },
+ "puppets": {},
+ "align": {},
+ "stats": {
+  "bytes": 3881834
+ },
+ "pairs": {
+  "p1/plate": [
+   0.0,
+   0.0
+  ],
+  "k1": [
+   0.06,
+   -0.2
+  ],
+  "k1-fury": [
+   -0.19,
+   -0.32
+  ],
+  "k1-keep": [
+   0.86,
+   0.15
+  ],
+  "p2/bg": [
+   0.0,
+   0.0
+  ],
+  "k2a": [
+   0.78,
+   -0.12
+  ],
+  "k2b": [
+   0.93,
+   0.04
+  ],
+  "puku-hop": [
+   0.99,
+   0.48
+  ],
+  "puku-stand": [
+   -0.14,
+   0.25
+  ],
+  "k3": [
+   -0.05,
+   0.16
+  ],
+  "k3-open": [
+   0.06,
+   0.39
+  ],
+  "p4/plate": [
+   0.0,
+   0.0
+  ],
+  "p4/hurt": [
+   0.0,
+   0.0
+  ],
+  "p4/hole": [
+   -0.05,
+   0.03
+  ],
+  "k4": [
+   0.97,
+   0.16
+  ],
+  "flame": [
+   0.15,
+   -0.96
+  ],
+  "boom": [
+   -0.07,
+   -0.23
+  ],
+  "ink": [
+   -0.08,
+   -0.68
+  ],
+  "smoke": [
+   -1.15,
+   0.82
+  ]
+ },
+ "thumb": "thumb.webp"
+}

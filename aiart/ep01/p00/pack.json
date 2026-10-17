@@ -1,0 +1,118 @@
+{
+ "v": 2,
+ "page": "ep01/p00",
+ "frames": {
+  "plate": {
+   "file": "plate.webp",
+   "crop": [
+    0,
+    44,
+    1024,
+    1448
+   ],
+   "s": 1.0,
+   "w": 1024,
+   "h": 1448,
+   "mono": "plate-mono.webp"
+  },
+  "plateB": {
+   "file": "plateB.webp",
+   "crop": [
+    0,
+    44,
+    1024,
+    1448
+   ],
+   "s": 1.0,
+   "w": 1024,
+   "h": 1448,
+   "mono": "plateB-mono.webp"
+  },
+  "ink": {
+   "file": "ink.webp",
+   "crop": [
+    0,
+    44,
+    1024,
+    1448
+   ],
+   "s": 1.0,
+   "w": 1024,
+   "h": 1448,
+   "mono": "ink-mono.webp"
+  },
+  "nibble": {
+   "file": "nibble.webp",
+   "crop": [
+    0,
+    44,
+    1024,
+    1448
+   ],
+   "s": 0.5,
+   "w": 512,
+   "h": 724,
+   "mono": "nibble-mono.webp"
+  }
+ },
+ "puppets": {
+  "kodama": "kodama",
+  "shiori": "shiori"
+ },
+ "align": {
+  "shiori/closed": [
+   [
+    0.31,
+    0.12
+   ],
+   [
+    0.45,
+    0.03
+   ]
+  ],
+  "shiori/closed-mono": [
+   [
+    0.73,
+    0.24
+   ],
+   [
+    0.5,
+    0.14
+   ]
+  ],
+  "shiori/glance": [
+   [
+    0.51,
+    0.42
+   ]
+  ],
+  "shiori/glance-mono": [
+   [
+    1.08,
+    -0.23
+   ]
+  ]
+ },
+ "stats": {
+  "bytes": 3132133
+ },
+ "pairs": {
+  "plate": [
+   1.0,
+   0.24
+  ],
+  "plateB": [
+   0.0,
+   0.0
+  ],
+  "ink": [
+   -0.0,
+   -0.0
+  ],
+  "nibble": [
+   -0.0,
+   -0.0
+  ]
+ },
+ "thumb": "thumb.webp"
+}

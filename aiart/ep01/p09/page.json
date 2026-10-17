@@ -1,0 +1,1368 @@
+{
+ "id": "ep01/p09",
+ "paper": "#ffffff",
+ "seed": 9,
+ "panels": [
+  {
+   "id": "p1",
+   "rect": [
+    40,
+    40,
+    920,
+    388
+   ]
+  },
+  {
+   "id": "p2",
+   "poly": [
+    [
+     420,
+     448
+    ],
+    [
+     960,
+     448
+    ],
+    [
+     960,
+     725
+    ],
+    [
+     420,
+     766
+    ]
+   ]
+  },
+  {
+   "id": "p3",
+   "poly": [
+    [
+     40,
+     448
+    ],
+    [
+     400,
+     448
+    ],
+    [
+     400,
+     768
+    ],
+    [
+     40,
+     795
+    ]
+   ]
+  },
+  {
+   "id": "p4",
+   "poly": [
+    [
+     0,
+     818
+    ],
+    [
+     960,
+     745
+    ],
+    [
+     960,
+     1414
+    ],
+    [
+     0,
+     1414
+    ]
+   ]
+  }
+ ],
+ "layers": [
+  {
+   "id": "p1/plate",
+   "panel": "p1",
+   "kind": "frame",
+   "rect": [
+    -0.03,
+    -0.056,
+    1.03,
+    1.057
+   ],
+   "depth": 0.6
+  },
+  {
+   "id": "p1/focus",
+   "panel": "p1",
+   "kind": "focus",
+   "at": [
+    0.5863,
+    0.5641
+   ],
+   "inner": [
+    0.09,
+    0.2
+   ],
+   "n": 150,
+   "black": 0.65,
+   "hidden": true
+  },
+  {
+   "id": "p1/flash",
+   "panel": "p1",
+   "kind": "focus",
+   "at": [
+    0.6417,
+    0.8115
+   ],
+   "inner": [
+    0.12,
+    0.3
+   ],
+   "n": 110,
+   "ink": "#ffffff",
+   "bg": "#141414",
+   "flicker": true,
+   "hidden": true
+  },
+  {
+   "id": "p1/aura2",
+   "panel": "p1",
+   "kind": "sprite",
+   "frame": "flame",
+   "at": [
+    0.66,
+    1.3
+   ],
+   "scale": 0.95,
+   "alpha": 0,
+   "tags": [
+    "chara"
+   ]
+  },
+  {
+   "id": "p1/aura",
+   "panel": "p1",
+   "kind": "sprite",
+   "frame": "flame",
+   "at": [
+    0.66,
+    1.24
+   ],
+   "scale": 0.75,
+   "alpha": 0,
+   "tags": [
+    "chara"
+   ]
+  },
+  {
+   "id": "k1",
+   "panel": "p1",
+   "kind": "sprite",
+   "frame": "k1",
+   "at": [
+    0.66,
+    1.12
+   ],
+   "scale": 0.3,
+   "burst": true,
+   "tags": [
+    "chara"
+   ]
+  },
+  {
+   "id": "k1-fury",
+   "panel": "p1",
+   "kind": "sprite",
+   "frame": "k1-fury",
+   "at": [
+    0.66,
+    1.12
+   ],
+   "scale": 0.3,
+   "alpha": 0,
+   "tags": [
+    "chara"
+   ]
+  },
+  {
+   "id": "k1-keep",
+   "panel": "p1",
+   "kind": "sprite",
+   "frame": "k1-keep",
+   "at": [
+    0.66,
+    1.12
+   ],
+   "scale": 0.3
+  },
+  {
+   "id": "p1/sparks",
+   "panel": "p1",
+   "kind": "particles",
+   "preset": "sparkle",
+   "n": 26,
+   "area": [
+    0.45,
+    0.3,
+    0.88,
+    1.0
+   ],
+   "dir": -90,
+   "emit": "inside",
+   "colors": [
+    "#FFB347",
+    "#FF7A2F",
+    "#FFE08A"
+   ]
+  },
+  {
+   "id": "p2/bg",
+   "panel": "p2",
+   "kind": "frame",
+   "rect": [
+    -0.03,
+    -0.03,
+    1.03,
+    1.03
+   ],
+   "depth": 0.5
+  },
+  {
+   "id": "p2/burst",
+   "panel": "p2",
+   "kind": "focus",
+   "at": [
+    0.35,
+    0.55
+   ],
+   "inner": [
+    0.05,
+    0.08
+   ],
+   "n": 48,
+   "ink": "#ffffff",
+   "bg": "#3a3a3a",
+   "hidden": true
+  },
+  {
+   "id": "k2a",
+   "panel": "p2",
+   "kind": "sprite",
+   "frame": "k2a",
+   "at": [
+    0.74,
+    0.95
+   ],
+   "scale": 0.205,
+   "tags": [
+    "chara"
+   ]
+  },
+  {
+   "id": "k2b",
+   "panel": "p2",
+   "kind": "sprite",
+   "frame": "k2b",
+   "at": [
+    0.6,
+    0.97
+   ],
+   "scale": 0.28,
+   "alpha": 0,
+   "tags": [
+    "chara"
+   ]
+  },
+  {
+   "id": "puku2",
+   "panel": "p2",
+   "kind": "sprite",
+   "frame": "puku-hop",
+   "frames": [
+    "puku-stand"
+   ],
+   "at": [
+    -0.25,
+    0.7
+   ],
+   "scale": 0.15
+  },
+  {
+   "id": "p2/smoke",
+   "panel": "p2",
+   "kind": "sprite",
+   "frame": "smoke",
+   "at": [
+    0.4,
+    0.62
+   ],
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.5,
+   "alpha": 0,
+   "init": {
+    "scale": 0.3
+   }
+  },
+  {
+   "id": "p2/rings",
+   "panel": "p2",
+   "kind": "rings",
+   "at": [
+    0.4,
+    0.6
+   ],
+   "r": 220,
+   "rings": 2,
+   "w": 4
+  },
+  {
+   "id": "p3/void",
+   "panel": "p3",
+   "kind": "fill",
+   "color": "#ffffff"
+  },
+  {
+   "id": "p3/focus",
+   "panel": "p3",
+   "kind": "focus",
+   "at": [
+    0.5021,
+    0.414
+   ],
+   "inner": [
+    0.36,
+    0.36
+   ],
+   "n": 46,
+   "hidden": true
+  },
+  {
+   "id": "p3/vig",
+   "panel": "p3",
+   "kind": "tone",
+   "shape": "radial",
+   "strength": 0.22,
+   "depth": 0
+  },
+  {
+   "id": "k3",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "k3",
+   "at": [
+    0.6,
+    1.04
+   ],
+   "scale": 0.29,
+   "tags": [
+    "chara"
+   ]
+  },
+  {
+   "id": "k3-open",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "k3-open",
+   "at": [
+    0.6,
+    1.04
+   ],
+   "scale": 0.29,
+   "alpha": 0,
+   "tags": [
+    "chara"
+   ]
+  },
+  {
+   "id": "p3/glow",
+   "panel": "p3",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.5021,
+    0.414
+   ],
+   "r": [
+    0.16,
+    0.12
+   ],
+   "invert": true,
+   "color": "#FFB36B",
+   "strength": 0.8,
+   "blend": "add",
+   "alpha": 0
+  },
+  {
+   "id": "p4/plate",
+   "panel": "p4",
+   "kind": "frame",
+   "rect": [
+    -0.05,
+    -0.03,
+    1.05,
+    1.022
+   ]
+  },
+  {
+   "id": "p4/hurt",
+   "panel": "p4",
+   "kind": "frame",
+   "rect": [
+    -0.05,
+    -0.03,
+    1.05,
+    1.022
+   ],
+   "alpha": 0
+  },
+  {
+   "id": "p4/hole",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "p4/hole",
+   "at": [
+    0.1076,
+    0.2083
+   ],
+   "anchor": [
+    0.1432,
+    0.2266
+   ],
+   "scale": 0.6875,
+   "alpha": 0,
+   "init": {
+    "scale": 0.25
+   }
+  },
+  {
+   "id": "p4/speed",
+   "panel": "p4",
+   "kind": "speed",
+   "angle": 22.3,
+   "gap": 9,
+   "clear": [
+    0.75,
+    0.7,
+    0.25,
+    0.35
+   ],
+   "hidden": true
+  },
+  {
+   "id": "p4/focus",
+   "panel": "p4",
+   "kind": "focus",
+   "at": [
+    0.1076,
+    0.2083
+   ],
+   "inner": [
+    0.12,
+    0.16
+   ],
+   "n": 120,
+   "black": 0.3,
+   "hidden": true
+  },
+  {
+   "id": "p4/boom",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "boom",
+   "at": [
+    0.1076,
+    0.2083
+   ],
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.8,
+   "alpha": 0,
+   "init": {
+    "scale": 0.2
+   }
+  },
+  {
+   "id": "p4/ink",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "ink",
+   "at": [
+    0.2076,
+    0.14830000000000002
+   ],
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "scale": 0.9,
+   "alpha": 0,
+   "init": {
+    "scale": 0.3
+   }
+  },
+  {
+   "id": "p4/rings",
+   "panel": "p4",
+   "kind": "rings",
+   "at": [
+    0.1076,
+    0.2083
+   ],
+   "r": 620,
+   "rings": 3,
+   "w": 6
+  },
+  {
+   "id": "p4/wave",
+   "panel": "p4",
+   "kind": "rings",
+   "at": [
+    0.4384,
+    0.4031
+   ],
+   "r": 200,
+   "rings": 3,
+   "w": 4
+  },
+  {
+   "id": "k4",
+   "panel": "p4",
+   "kind": "sprite",
+   "frame": "k4",
+   "at": [
+    0.74,
+    1.06
+   ],
+   "scale": 0.55,
+   "tags": [
+    "chara"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "ko11",
+   "at": [
+    0.87,
+    0.22
+   ],
+   "tail": [
+    0.72,
+    0.5
+   ],
+   "size": 19,
+   "maxW": 200,
+   "panel": "p1",
+   "type": "bubble",
+   "shape": "burst",
+   "ink": "#E8262D",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "开什么玩笑——!!!",
+    "ja": "ふざけるなーーー!!!",
+    "en": "ARE YOU\nKIDDING ME—!!!"
+   }
+  },
+  {
+   "id": "ko12",
+   "at": [
+    0.3,
+    0.42
+   ],
+   "tail": [
+    0.52,
+    0.55
+   ],
+   "size": 25,
+   "maxW": 230,
+   "panel": "p1",
+   "type": "bubble",
+   "shape": "burst",
+   "ink": "#E8262D",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "我的声音，\n谁都别想吃掉!!!",
+    "ja": "あたしの声は、\n誰にも食わせない!!!",
+    "en": "NOBODY EATS\nMY VOICE!!!"
+   }
+  },
+  {
+   "id": "gogo1",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.43,
+    0.72
+   ],
+   "size": 30,
+   "font": "heavy",
+   "vertical": true,
+   "jitter": 0.25,
+   "fill": "#FF7A2FA8",
+   "stroke": [
+    [
+     "#ffffffb0",
+     2
+    ]
+   ],
+   "text": {
+    "zh": "ゴゴゴゴ",
+    "ja": "ゴゴゴゴ",
+    "en": "GOGOGOGO"
+   }
+  },
+  {
+   "id": "gogo2",
+   "panel": "p1",
+   "type": "sfx",
+   "at": [
+    0.92,
+    0.66
+   ],
+   "size": 32,
+   "font": "heavy",
+   "vertical": true,
+   "jitter": 0.25,
+   "fill": "#FF7A2FA8",
+   "stroke": [
+    [
+     "#ffffffb0",
+     2
+    ]
+   ],
+   "text": {
+    "zh": "ゴゴゴゴ",
+    "ja": "ゴゴゴゴ",
+    "en": "GOGOGOGO"
+   }
+  },
+  {
+   "id": "pu21",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "oval",
+   "at": [
+    0.38,
+    0.12
+   ],
+   "tail": [
+    0.42,
+    0.6
+   ],
+   "size": 12,
+   "maxW": 150,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "谺！对着本噗喊！",
+    "ja": "コダマ！\nボクに向かって叫ぶプク！",
+    "en": "KODAMA!\nSHOUT AT ME!"
+   }
+  },
+  {
+   "id": "pu22",
+   "panel": "p2",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.14,
+    0.46
+   ],
+   "tail": [
+    0.3,
+    0.36
+   ],
+   "size": 12,
+   "maxW": 120,
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "本噗给你的声音——\n装上‘框’噗!!",
+    "ja": "キミの声に——\n「枠」をつけるプク!!",
+    "en": "I'LL GIVE YOUR\nVOICE A FRAME,\nPUKU!!"
+   }
+  },
+  {
+   "id": "bon",
+   "panel": "p2",
+   "type": "sfx",
+   "at": [
+    0.36,
+    0.2
+   ],
+   "size": 36,
+   "rot": 10,
+   "font": "pop",
+   "jitter": 0.2,
+   "fill": "#ffffff",
+   "stroke": [
+    [
+     "#111111",
+     2.6
+    ]
+   ],
+   "text": {
+    "zh": "ボンッ",
+    "ja": "ボンッ",
+    "en": "POOF!"
+   }
+  },
+  {
+   "id": "suu",
+   "panel": "p3",
+   "type": "sfx",
+   "at": [
+    0.15,
+    0.42
+   ],
+   "size": 28,
+   "font": "quiet",
+   "vertical": true,
+   "tracking": 0.25,
+   "fill": "#FF7A2FD0",
+   "stroke": [],
+   "text": {
+    "zh": "すぅ——",
+    "ja": "すぅ——",
+    "en": "HHHHH…"
+   }
+  },
+  {
+   "id": "dokan",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.3557,
+    0.3144
+   ],
+   "size": {
+    "zh": 58,
+    "ja": 58,
+    "en": 54
+   },
+   "rot": 22.3,
+   "font": "impact",
+   "fill": {
+    "gradient": [
+     "#FFD36B",
+     "#FF7A2F",
+     "#E8262D"
+    ],
+    "angle": 90
+   },
+   "stroke": [
+    [
+     "#111111",
+     3
+    ],
+    [
+     "#ffffff",
+     6
+    ],
+    [
+     "#111111",
+     3.5
+    ]
+   ],
+   "depth": {
+    "x": 0.07,
+    "y": 0.12,
+    "color": "#6e1206",
+    "edge": "#111111"
+   },
+   "jitter": {
+    "size": 0.05,
+    "rot": 5,
+    "off": 0.06
+   },
+   "skew": -0.12,
+   "tracking": {
+    "zh": -0.12,
+    "ja": -0.12,
+    "en": 0.02
+   },
+   "ramp": [
+    1.55,
+    0.7
+   ],
+   "text": {
+    "zh": "ドカーーーーン!!!!",
+    "ja": "ドカーーーーン!!!!",
+    "en": "KA-BOOOOOM!!!!"
+   }
+  },
+  {
+   "id": "scream",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.2076,
+    0.5083
+   ],
+   "size": 34,
+   "rot": 8,
+   "font": "menace",
+   "jitter": 0.4,
+   "hollow": true,
+   "dash": [
+    7,
+    5
+   ],
+   "stroke": [
+    [
+     "#f4f4f4",
+     4
+    ]
+   ],
+   "mono": {
+    "stroke": [
+     [
+      "#f4f4f4",
+      4
+     ]
+    ]
+   },
+   "text": {
+    "zh": "□□□!!",
+    "ja": "□□□!!",
+    "en": "□□□!!"
+   }
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "panel",
+    "id": "p1",
+    "style": "cut"
+   },
+   {
+    "do": "cam",
+    "panel": "p1",
+    "at": [
+     0.6033,
+     0.4404
+    ],
+    "z": 3.4,
+    "dur": 0.01
+   },
+   {
+    "do": "flash",
+    "color": "#ffffff",
+    "dur": 0.35
+   },
+   {
+    "do": "cam",
+    "panel": "p1",
+    "at": [
+     0.6033,
+     0.4404
+    ],
+    "z": 1.08,
+    "rot": -4,
+    "dur": 0.75,
+    "ease": "outExpo",
+    "delay": 0.05
+   },
+   {
+    "do": "alpha",
+    "id": "p1/flash",
+    "to": 1,
+    "dur": 0.08,
+    "delay": 0.1
+   },
+   {
+    "do": "alpha",
+    "id": "p1/flash",
+    "to": 0.0,
+    "dur": 0.9,
+    "delay": 1.1
+   },
+   {
+    "do": "wipe",
+    "to": "color",
+    "ids": [
+     "k1"
+    ],
+    "shape": "linear",
+    "angle": 90,
+    "edge": "dots",
+    "dur": 1.0,
+    "delay": 0.3
+   },
+   {
+    "do": "alpha",
+    "id": "k1-keep",
+    "to": 0,
+    "dur": 0.1,
+    "delay": 1.3
+   },
+   {
+    "do": "alpha",
+    "id": "p1/aura",
+    "to": 0.85,
+    "dur": 0.5,
+    "delay": 0.5
+   },
+   {
+    "do": "start",
+    "id": "p1/sparks",
+    "delay": 0.6
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "k1-fury",
+    "to": 1,
+    "dur": 0.08
+   },
+   {
+    "do": "alpha",
+    "id": "p1/aura2",
+    "to": 0.55,
+    "dur": 0.25
+   },
+   {
+    "do": "shake",
+    "amp": 4,
+    "panel": "p1",
+    "dur": 0.3
+   },
+   {
+    "do": "text",
+    "id": "ko11",
+    "enter": "pop",
+    "delay": 0.12
+   },
+   {
+    "do": "text",
+    "id": "gogo1",
+    "enter": "shake",
+    "delay": 0.35
+   },
+   {
+    "do": "text",
+    "id": "gogo2",
+    "enter": "shake",
+    "delay": 0.45
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p1/focus",
+    "to": 1,
+    "dur": 0.1
+   },
+   {
+    "do": "push",
+    "panel": "p1",
+    "at": [
+     0.5863,
+     0.5641
+    ],
+    "z": 1.16,
+    "dur": 0.2,
+    "ease": "snap"
+   },
+   {
+    "do": "text",
+    "id": "ko12",
+    "enter": "slam",
+    "delay": 0.04
+   },
+   {
+    "do": "shake",
+    "amp": 10,
+    "dur": 0.5,
+    "delay": 0.08
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p2",
+    "style": "slide",
+    "from": "r",
+    "dist": 40
+   },
+   {
+    "do": "move",
+    "id": "puku2",
+    "to": [
+     0.42,
+     0.86
+    ],
+    "dur": 0.35,
+    "ease": "outBack",
+    "delay": 0.15
+   },
+   {
+    "do": "frame",
+    "id": "puku2",
+    "frame": "puku-stand",
+    "delay": 0.5
+   },
+   {
+    "do": "text",
+    "id": "pu21",
+    "enter": "pop",
+    "delay": 0.55
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "pu22",
+    "enter": "pop"
+   },
+   {
+    "do": "text",
+    "id": "bon",
+    "enter": "slam",
+    "delay": 0.2
+   },
+   {
+    "do": "alpha",
+    "id": "p2/smoke",
+    "to": 1,
+    "dur": 0.06,
+    "delay": 0.2
+   },
+   {
+    "do": "move",
+    "id": "p2/smoke",
+    "scale": 1.3,
+    "dur": 0.35,
+    "ease": "outBack",
+    "delay": 0.2
+   },
+   {
+    "do": "fire",
+    "id": "p2/rings",
+    "dur": 0.5,
+    "delay": 0.22
+   },
+   {
+    "do": "alpha",
+    "id": "puku2",
+    "to": 0,
+    "dur": 0.05,
+    "delay": 0.26
+   },
+   {
+    "do": "alpha",
+    "id": "p2/burst",
+    "to": 1,
+    "dur": 0.2,
+    "delay": 0.26
+   },
+   {
+    "do": "alpha",
+    "id": "k2a",
+    "to": 0,
+    "dur": 0.08,
+    "delay": 0.3
+   },
+   {
+    "do": "alpha",
+    "id": "k2b",
+    "to": 1,
+    "dur": 0.08,
+    "delay": 0.3
+   },
+   {
+    "do": "shake",
+    "amp": 6,
+    "panel": "p2",
+    "dur": 0.35,
+    "delay": 0.26
+   },
+   {
+    "do": "alpha",
+    "id": "p2/smoke",
+    "to": 0,
+    "dur": 0.5,
+    "delay": 0.55
+   },
+   {
+    "do": "untext",
+    "id": "bon",
+    "exit": "fade",
+    "dur": 0.8,
+    "delay": 0.9
+   },
+   {
+    "do": "move",
+    "id": "k2b",
+    "by": [
+     -0.05,
+     0
+    ],
+    "dur": 0.25,
+    "ease": "out",
+    "delay": 0.6
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p3",
+    "dur": 0.5
+   },
+   {
+    "do": "alpha",
+    "id": "p3/focus",
+    "to": 1,
+    "dur": 1.2
+   },
+   {
+    "do": "text",
+    "id": "suu",
+    "enter": "fade",
+    "dur": 0.6,
+    "delay": 0.2
+   },
+   {
+    "do": "alpha",
+    "id": "k3-open",
+    "to": 1,
+    "dur": 0.09,
+    "delay": 1.1
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 1,
+    "dur": 0.06,
+    "delay": 1.1
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0,
+    "dur": 0.5,
+    "delay": 1.25
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p4",
+    "style": "cut"
+   },
+   {
+    "do": "cam",
+    "panel": "p4",
+    "at": [
+     0.5,
+     0.5
+    ],
+    "z": 1.0,
+    "dur": 0.01
+   },
+   {
+    "do": "fire",
+    "id": "p4/wave",
+    "dur": 0.4
+   },
+   {
+    "do": "alpha",
+    "id": "p4/speed",
+    "to": 1,
+    "dur": 0.08,
+    "delay": 0.05
+   },
+   {
+    "do": "start",
+    "id": "p4/speed",
+    "delay": 0.05
+   },
+   {
+    "do": "move",
+    "id": "k4",
+    "by": [
+     0.035,
+     0.0
+    ],
+    "dur": 0.14,
+    "ease": "snap",
+    "delay": 0.06
+   },
+   {
+    "do": "shake",
+    "amp": 8,
+    "dur": 0.35,
+    "delay": 0.06
+   },
+   {
+    "do": "move",
+    "id": "dokan",
+    "to": [
+     0.4384,
+     0.4031
+    ],
+    "scale": 0.15,
+    "dur": 0.01
+   },
+   {
+    "do": "text",
+    "id": "dokan",
+    "enter": "fade",
+    "dur": 0.06,
+    "delay": 0.08
+   },
+   {
+    "do": "move",
+    "id": "dokan",
+    "to": [
+     0.3557,
+     0.3144
+    ],
+    "scale": 1.0,
+    "dur": 0.38,
+    "ease": "out",
+    "delay": 0.08
+   },
+   {
+    "do": "alpha",
+    "id": "p4/focus",
+    "to": 1,
+    "dur": 0.2,
+    "delay": 0.25
+   }
+  ],
+  [
+   {
+    "do": "flash",
+    "color": "#ffffff",
+    "dur": 0.22
+   },
+   {
+    "do": "alpha",
+    "id": "p4/hurt",
+    "to": 1,
+    "dur": 0.05
+   },
+   {
+    "do": "alpha",
+    "id": "p4/boom",
+    "to": 1,
+    "dur": 0.05
+   },
+   {
+    "do": "move",
+    "id": "p4/boom",
+    "scale": 1.0,
+    "dur": 0.3,
+    "ease": "outExpo"
+   },
+   {
+    "do": "alpha",
+    "id": "p4/ink",
+    "to": 1,
+    "dur": 0.05,
+    "delay": 0.05
+   },
+   {
+    "do": "move",
+    "id": "p4/ink",
+    "scale": 1.0,
+    "dur": 0.25,
+    "ease": "outExpo",
+    "delay": 0.05
+   },
+   {
+    "do": "fire",
+    "id": "p4/rings",
+    "dur": 0.9
+   },
+   {
+    "do": "alpha",
+    "id": "p4/hole",
+    "to": 1,
+    "dur": 0.1,
+    "delay": 0.15
+   },
+   {
+    "do": "move",
+    "id": "p4/hole",
+    "scale": 1.0,
+    "dur": 0.6,
+    "ease": "outBack",
+    "delay": 0.15
+   },
+   {
+    "do": "alpha",
+    "id": "p4/boom",
+    "to": 0,
+    "dur": 0.8,
+    "delay": 0.7
+   },
+   {
+    "do": "alpha",
+    "id": "p4/focus",
+    "to": 0,
+    "dur": 0.4,
+    "delay": 0.3
+   },
+   {
+    "do": "stop",
+    "id": "p4/speed",
+    "delay": 0.3
+   },
+   {
+    "do": "alpha",
+    "id": "p4/speed",
+    "to": 0,
+    "dur": 0.4,
+    "delay": 0.3
+   },
+   {
+    "do": "shake",
+    "amp": 18,
+    "dur": 0.4
+   },
+   {
+    "do": "cam",
+    "panel": "p4",
+    "at": [
+     0.1076,
+     0.2083
+    ],
+    "z": 1.08,
+    "dur": 0.15,
+    "ease": "snap"
+   },
+   {
+    "do": "cam",
+    "panel": "p4",
+    "at": [
+     0.1076,
+     0.2083
+    ],
+    "z": 1.0,
+    "dur": 0.3,
+    "ease": "outBack",
+    "delay": 0.15
+   },
+   {
+    "do": "text",
+    "id": "scream",
+    "enter": "shake",
+    "delay": 0.3
+   }
+  ]
+ ]
+}

@@ -1,0 +1,127 @@
+{
+ "v": 2,
+ "page": "ep01/p02",
+ "frames": {
+  "p1/plate": {
+   "file": "p1-plate.webp",
+   "crop": [
+    0,
+    170,
+    1536,
+    420
+   ],
+   "s": 0.75,
+   "w": 1152,
+   "h": 315,
+   "panel": "p1",
+   "mono": "p1-plate-mono.webp"
+  },
+  "p2/plate": {
+   "file": "p2-plate.webp",
+   "crop": [
+    0,
+    0,
+    1536,
+    1024
+   ],
+   "s": 0.8,
+   "w": 1229,
+   "h": 819,
+   "panel": "p2",
+   "mono": "p2-plate-mono.webp"
+  },
+  "p3/wall": {
+   "file": "p3-wall.webp",
+   "crop": [
+    68,
+    0,
+    1400,
+    1024
+   ],
+   "s": 0.55,
+   "w": 770,
+   "h": 563,
+   "panel": "p3",
+   "mono": "p3-wall-mono.webp"
+  },
+  "p3/flap": {
+   "file": "p3-flap.webp",
+   "crop": [
+    68,
+    0,
+    1400,
+    1024
+   ],
+   "s": 0.55,
+   "w": 770,
+   "h": 563,
+   "panel": "p3",
+   "mono": "p3-flap-mono.webp"
+  },
+  "p4/plate": {
+   "file": "p4-plate.webp",
+   "crop": [
+    70,
+    0,
+    1114,
+    1254
+   ],
+   "s": 0.45,
+   "w": 501,
+   "h": 564,
+   "panel": "p4",
+   "mono": "p4-plate-mono.webp"
+  }
+ },
+ "puppets": {
+  "kodama2": "kodama2",
+  "puku4": "puku4",
+  "kodama2i": "kodama2i"
+ },
+ "align": {
+  "puku4/spark": [
+   [
+    0.16,
+    0.11
+   ],
+   [
+    0.7,
+    0.84
+   ],
+   [
+    -0.15,
+    0.27
+   ]
+  ],
+  "puku4/spark-mono": [
+   [
+    -0.79,
+    0.55
+   ],
+   [
+    0.24,
+    0.44
+   ],
+   [
+    -0.54,
+    -0.05
+   ]
+  ],
+  "kodama2i/puff": [
+   [
+    0.17,
+    -0.27
+   ]
+  ],
+  "kodama2i/puff-mono": [
+   [
+    0.05,
+    0.4
+   ]
+  ]
+ },
+ "stats": {
+  "bytes": 2633840
+ },
+ "thumb": "thumb.webp"
+}

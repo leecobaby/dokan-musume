@@ -1,0 +1,1165 @@
+{
+ "id": "ep01/p16",
+ "paper": "#FAFAF7",
+ "seed": 16,
+ "panels": [
+  {
+   "id": "p1",
+   "rect": [
+    40,
+    46,
+    920,
+    666.6
+   ],
+   "bleed": [
+    "t",
+    "l",
+    "r"
+   ],
+   "border": 0
+  },
+  {
+   "id": "p2",
+   "rect": [
+    600,
+    732.6,
+    360,
+    256.4
+   ],
+   "border": 0,
+   "fill": "#000000"
+  },
+  {
+   "id": "p3",
+   "rect": [
+    40,
+    732.6,
+    540,
+    256.4
+   ],
+   "border": 0,
+   "fill": "#FAFAF7"
+  },
+  {
+   "id": "p4",
+   "rect": [
+    40,
+    1009,
+    920,
+    359
+   ],
+   "bleed": [
+    "b"
+   ],
+   "border": 0,
+   "fill": "#FAFAF7"
+  }
+ ],
+ "layers": [
+  {
+   "id": "p1/plate",
+   "panel": "p1",
+   "kind": "frame",
+   "frame": "p1-plate",
+   "rect": [
+    -0.034,
+    0,
+    1.034,
+    1
+   ]
+  },
+  {
+   "id": "p1/orbs",
+   "panel": "p1",
+   "kind": "sprite",
+   "frame": "p1-orbs",
+   "at": [
+    -0.0124,
+    0.1748
+   ],
+   "anchor": [
+    0,
+    0
+   ],
+   "scale": 0.6953125000000001,
+   "alpha": 0
+  },
+  {
+   "id": "p1/fig",
+   "panel": "p1",
+   "kind": "sprite",
+   "frame": "p1-fig",
+   "at": [
+    0.6286,
+    0.9971
+   ],
+   "anchor": [
+    0.5,
+    1
+   ],
+   "scale": 0.6953125000000001,
+   "hidden": true,
+   "init": {
+    "scaleY": 0.9
+   }
+  },
+  {
+   "id": "p1/mote",
+   "panel": "p1",
+   "kind": "sprite",
+   "frame": "mote",
+   "at": [
+    0.585,
+    -0.03
+   ],
+   "anchor": [
+    0.5,
+    0.12
+   ],
+   "scale": 0.11,
+   "rot": 180,
+   "alpha": 0
+  },
+  {
+   "id": "p1/moteglow",
+   "panel": "p1",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.629,
+    0.8096
+   ],
+   "r": [
+    0.014,
+    0.02
+   ],
+   "invert": true,
+   "color": "#FFB36B",
+   "strength": 0.45,
+   "alpha": 0
+  },
+  {
+   "id": "p2/half",
+   "panel": "p2",
+   "kind": "frame",
+   "frame": "p2-half",
+   "alpha": 0
+  },
+  {
+   "id": "p2/glowS",
+   "panel": "p2",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.546,
+    0.4
+   ],
+   "r": [
+    0.12,
+    0.05
+   ],
+   "invert": true,
+   "color": "#FF2A3A",
+   "strength": 0.22,
+   "blend": "add",
+   "alpha": 0
+  },
+  {
+   "id": "p2/open",
+   "panel": "p2",
+   "kind": "frame",
+   "frame": "p2-open",
+   "alpha": 0
+  },
+  {
+   "id": "p2/glowL",
+   "panel": "p2",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.546,
+    0.4
+   ],
+   "r": [
+    0.36,
+    0.34
+   ],
+   "invert": true,
+   "color": "#FF2A3A",
+   "strength": 0.2,
+   "blend": "add",
+   "alpha": 0
+  },
+  {
+   "id": "p3/bg",
+   "panel": "p3",
+   "kind": "frame",
+   "frame": "p3-bg",
+   "rect": [
+    -0.04,
+    -0.04,
+    1.04,
+    1.04
+   ],
+   "depth": 0.6
+  },
+  {
+   "id": "p3/orbL",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "orb1-soft",
+   "at": [
+    0.07,
+    0.3
+   ],
+   "scale": 1.2,
+   "alpha": 0.75,
+   "depth": 0.6
+  },
+  {
+   "id": "p3/orbR",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "orb1-soft",
+   "at": [
+    0.95,
+    0.16
+   ],
+   "scale": 0.9,
+   "alpha": 0.7,
+   "depth": 0.6
+  },
+  {
+   "id": "p3/glow",
+   "panel": "p3",
+   "kind": "tone",
+   "shape": "radial",
+   "at": [
+    0.47,
+    0.44
+   ],
+   "r": [
+    0.2,
+    0.42
+   ],
+   "invert": true,
+   "color": "#FFB36B",
+   "strength": 0.55,
+   "alpha": 0
+  },
+  {
+   "id": "p3/hand",
+   "panel": "p3",
+   "kind": "puppet",
+   "pkg": "hand",
+   "at": [
+    0.4602,
+    1.4135
+   ],
+   "scale": 0.42,
+   "idle": false
+  },
+  {
+   "id": "p3/mote",
+   "panel": "p3",
+   "kind": "sprite",
+   "frame": "mote",
+   "at": [
+    0.5,
+    -0.1
+   ],
+   "anchor": [
+    0.5,
+    0.12
+   ],
+   "scale": 0.1,
+   "rot": 180,
+   "alpha": 0
+  },
+  {
+   "id": "p4/shijima",
+   "panel": "p4",
+   "kind": "puppet",
+   "pkg": "shijima4",
+   "at": [
+    0.5,
+    1.2719
+   ],
+   "scale": 0.5989583333333334,
+   "idle": false
+  },
+  {
+   "id": "p4/stream",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "light",
+   "n": 26,
+   "area": [
+    0.08,
+    0.06,
+    0.5318,
+    0.5201
+   ],
+   "emit": "inside",
+   "dir": -156,
+   "speed": 0.9,
+   "size": 0.9,
+   "colors": [
+    "#FF7A2F",
+    "#FFB36B"
+   ]
+  },
+  {
+   "id": "p4/dust",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "light",
+   "n": 18,
+   "area": [
+    0.04,
+    0.04,
+    0.42,
+    0.42
+   ],
+   "emit": "inside",
+   "dir": -150,
+   "speed": 0.35,
+   "size": 0.7,
+   "colors": [
+    "#FFB36B",
+    "#FFD9B0"
+   ]
+  },
+  {
+   "id": "p4/twinkle",
+   "panel": "p4",
+   "kind": "particles",
+   "preset": "sparkle",
+   "n": 2,
+   "area": [
+    0.03,
+    0.3,
+    0.09,
+    0.42
+   ],
+   "emit": "inside",
+   "colors": [
+    "#ffffff"
+   ]
+  }
+ ],
+ "texts": [
+  {
+   "id": "bang",
+   "panel": "p3",
+   "type": "sfx",
+   "at": [
+    0.47,
+    0.42
+   ],
+   "size": 40,
+   "font": "round",
+   "fill": "#FFB36B99",
+   "stroke": [],
+   "parent": "p3/hand",
+   "text": {
+    "zh": "!",
+    "ja": "!",
+    "en": "!"
+   }
+  },
+  {
+   "id": "dokun",
+   "panel": "p3",
+   "type": "sfx",
+   "at": [
+    0.7,
+    0.3
+   ],
+   "size": 26,
+   "rot": 4,
+   "font": "round",
+   "fill": "#FF8A1F",
+   "stroke": [],
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "ドクン",
+    "ja": "ドクン",
+    "en": "THUMP"
+   }
+  },
+  {
+   "id": "bub1",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.38,
+    0.16
+   ],
+   "tail": [
+    0.5318,
+    0.5201
+   ],
+   "size": 17,
+   "maxW": 170,
+   "ink": "#E8262D",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "全校的各位——",
+    "ja": "全校のみなさーん——",
+    "en": "Hey, everyone—"
+   }
+  },
+  {
+   "id": "bub2",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "burst",
+   "at": [
+    0.2,
+    0.6
+   ],
+   "tail": [
+    0.5318,
+    0.5201
+   ],
+   "size": 20,
+   "maxW": 200,
+   "ink": "#E8262D",
+   "vertical": {
+    "ja": true
+   },
+   "text": {
+    "zh": "早·上·好————♪",
+    "ja": "お・は・よ————♪",
+    "en": "GOOD·MOR·NING♪"
+   }
+  },
+  {
+   "id": "note",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.43,
+    0.39
+   ],
+   "size": 30,
+   "rot": 12,
+   "font": "round",
+   "fill": "#FF7A2FB0",
+   "stroke": [
+    [
+     "#ffffffb3",
+     2
+    ]
+   ],
+   "text": {
+    "zh": "♪",
+    "ja": "♪",
+    "en": "♪"
+   },
+   "mono": {
+    "fill": "#555555b0",
+    "stroke": [
+     [
+      "#ffffffb3",
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "ohayo",
+   "panel": "p4",
+   "type": "sfx",
+   "at": [
+    0.22,
+    0.27
+   ],
+   "size": 38,
+   "rot": 22,
+   "font": "impact",
+   "fill": "#FF7A2FA6",
+   "stroke": [
+    [
+     "#ffffffb3",
+     2
+    ]
+   ],
+   "skew": -0.21,
+   "tracking": -0.1,
+   "ramp": [
+    0.9,
+    1.5
+   ],
+   "jitter": {
+    "size": 0.05,
+    "rot": 3,
+    "off": 0.06
+   },
+   "text": {
+    "zh": "オハヨーーーッ",
+    "ja": "オハヨーーーッ",
+    "en": "MORNIIIING"
+   },
+   "mono": {
+    "fill": "#555555a6",
+    "stroke": [
+     [
+      "#ffffffb3",
+      2
+     ]
+    ]
+   }
+  },
+  {
+   "id": "cap",
+   "panel": "p4",
+   "type": "bubble",
+   "shape": "rect",
+   "font": "narration",
+   "at": [
+    0.3,
+    0.9
+   ],
+   "size": 15,
+   "maxW": 340,
+   "tail": null,
+   "paper": "#111111",
+   "ink": "#111111",
+   "color": "#ffffff",
+   "text": {
+    "zh": "被夺走的“最后一声”，在余白里笑了。",
+    "ja": "奪われた「最後の声」が、余白で笑った。",
+    "en": "The stolen \"last voice\" laughed in the blank margin."
+   }
+  }
+ ],
+ "beats": [
+  [
+   {
+    "do": "panel",
+    "id": "p1",
+    "style": "fade",
+    "dur": 0.8
+   },
+   {
+    "do": "cam",
+    "panel": "p1",
+    "at": [
+     0.62,
+     0.8
+    ],
+    "z": 1.1,
+    "dur": 0
+   }
+  ],
+  [
+   {
+    "do": "wipe",
+    "to": "color",
+    "panel": "p1",
+    "tags": [
+     "_reveal"
+    ],
+    "shape": "linear",
+    "angle": -90,
+    "at": [
+     0.62,
+     1.0
+    ],
+    "width": 70,
+    "noise": 30,
+    "show": [
+     "p1/fig"
+    ],
+    "dur": 1.6,
+    "ease": "inOut"
+   },
+   {
+    "do": "move",
+    "id": "p1/fig",
+    "scaleY": 1,
+    "dur": 1.6,
+    "ease": "out"
+   },
+   {
+    "do": "cam",
+    "panel": "p1",
+    "at": [
+     0.62,
+     0.8
+    ],
+    "z": 1.0,
+    "dur": 1.6,
+    "ease": "inOut"
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p1/orbs",
+    "to": 0.85,
+    "dur": 1.4,
+    "ease": "inOut"
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p1/mote",
+    "to": 1,
+    "dur": 0.5
+   },
+   {
+    "do": "move",
+    "id": "p1/mote",
+    "by": [
+     -0.04,
+     0.3
+    ],
+    "rot": -14,
+    "dur": 1.0,
+    "ease": "inOut",
+    "delay": 0.0
+   },
+   {
+    "do": "move",
+    "id": "p1/mote",
+    "by": [
+     0.06,
+     0.36
+    ],
+    "rot": 12,
+    "dur": 1.0,
+    "ease": "inOut",
+    "delay": 1.0
+   },
+   {
+    "do": "move",
+    "id": "p1/mote",
+    "by": [
+     0.024,
+     0.1796
+    ],
+    "rot": 0,
+    "dur": 1.0,
+    "ease": "inOut",
+    "delay": 2.0
+   },
+   {
+    "do": "alpha",
+    "id": "p1/mote",
+    "to": 0.8,
+    "dur": 0.4,
+    "delay": 2.8
+   },
+   {
+    "do": "alpha",
+    "id": "p1/moteglow",
+    "to": 1,
+    "dur": 0.6,
+    "delay": 2.7
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p2",
+    "style": "cut"
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p2/half",
+    "to": 1,
+    "dur": 0.8,
+    "ease": "inOut"
+   },
+   {
+    "do": "alpha",
+    "id": "p2/glowS",
+    "to": 1,
+    "dur": 0.8
+   }
+  ],
+  [
+   {
+    "do": "alpha",
+    "id": "p2/open",
+    "to": 1,
+    "dur": 0.9,
+    "ease": "inOut"
+   },
+   {
+    "do": "alpha",
+    "id": "p2/glowL",
+    "to": 1,
+    "dur": 1.2,
+    "delay": 0.3
+   },
+   {
+    "do": "cam",
+    "panel": "p2",
+    "at": [
+     0.546,
+     0.4
+    ],
+    "z": 1.04,
+    "dur": 2.0,
+    "ease": "out"
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p3",
+    "style": "fade",
+    "dur": 0.5
+   },
+   {
+    "do": "alpha",
+    "id": "p3/mote",
+    "to": 1,
+    "dur": 0.3,
+    "delay": 0.2
+   },
+   {
+    "do": "move",
+    "id": "p3/mote",
+    "to": [
+     0.47,
+     0.44
+    ],
+    "dur": 1.2,
+    "ease": "inOut",
+    "delay": 0.2
+   },
+   {
+    "do": "alpha",
+    "id": "p3/mote",
+    "to": 0,
+    "dur": 0.15,
+    "delay": 1.4
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0.6,
+    "dur": 0.3,
+    "delay": 1.35
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "p3/hand",
+    "slot": "orb",
+    "state": "on"
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 1,
+    "dur": 0.15
+   },
+   {
+    "do": "text",
+    "id": "bang",
+    "enter": "fade",
+    "dur": 0.4,
+    "delay": 0.2
+   },
+   {
+    "do": "text",
+    "id": "dokun",
+    "enter": "fade",
+    "dur": 0.3,
+    "delay": 0.4
+   },
+   {
+    "do": "cam",
+    "panel": "p3",
+    "at": [
+     0.47,
+     0.44
+    ],
+    "z": 1.06,
+    "dur": 1.5,
+    "ease": "out"
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 1,
+    "dur": 0.27,
+    "ease": "out",
+    "delay": 0.15
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0.45,
+    "dur": 0.63,
+    "ease": "inOut",
+    "delay": 0.42
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 1,
+    "dur": 0.27,
+    "ease": "out",
+    "delay": 1.05
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0.45,
+    "dur": 0.63,
+    "ease": "inOut",
+    "delay": 1.32
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 1,
+    "dur": 0.27,
+    "ease": "out",
+    "delay": 1.95
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0.45,
+    "dur": 0.63,
+    "ease": "inOut",
+    "delay": 2.22
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 1,
+    "dur": 0.27,
+    "ease": "out",
+    "delay": 2.85
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0.45,
+    "dur": 0.63,
+    "ease": "inOut",
+    "delay": 3.12
+   },
+   {
+    "do": "move",
+    "id": "dokun",
+    "scale": 1.12,
+    "dur": 0.12,
+    "ease": "out",
+    "delay": 0.4
+   },
+   {
+    "do": "move",
+    "id": "dokun",
+    "scale": 1,
+    "dur": 0.4,
+    "ease": "inOut",
+    "delay": 0.52
+   },
+   {
+    "do": "move",
+    "id": "dokun",
+    "scale": 1.12,
+    "dur": 0.12,
+    "ease": "out",
+    "delay": 1.3
+   },
+   {
+    "do": "move",
+    "id": "dokun",
+    "scale": 1,
+    "dur": 0.4,
+    "ease": "inOut",
+    "delay": 1.42
+   },
+   {
+    "do": "move",
+    "id": "dokun",
+    "scale": 1.12,
+    "dur": 0.12,
+    "ease": "out",
+    "delay": 2.2
+   },
+   {
+    "do": "move",
+    "id": "dokun",
+    "scale": 1,
+    "dur": 0.4,
+    "ease": "inOut",
+    "delay": 2.32
+   },
+   {
+    "do": "move",
+    "id": "bang",
+    "scale": 1.08,
+    "dur": 0.12,
+    "ease": "out",
+    "delay": 0.4
+   },
+   {
+    "do": "move",
+    "id": "bang",
+    "scale": 1,
+    "dur": 0.4,
+    "ease": "inOut",
+    "delay": 0.52
+   },
+   {
+    "do": "move",
+    "id": "bang",
+    "scale": 1.08,
+    "dur": 0.12,
+    "ease": "out",
+    "delay": 1.3
+   },
+   {
+    "do": "move",
+    "id": "bang",
+    "scale": 1,
+    "dur": 0.4,
+    "ease": "inOut",
+    "delay": 1.42
+   },
+   {
+    "do": "move",
+    "id": "bang",
+    "scale": 1.08,
+    "dur": 0.12,
+    "ease": "out",
+    "delay": 2.2
+   },
+   {
+    "do": "move",
+    "id": "bang",
+    "scale": 1,
+    "dur": 0.4,
+    "ease": "inOut",
+    "delay": 2.32
+   }
+  ],
+  [
+   {
+    "do": "move",
+    "id": "p3/hand",
+    "by": [
+     0.1,
+     0.14
+    ],
+    "scale": 0.96,
+    "dur": 0.9,
+    "ease": "inOut"
+   },
+   {
+    "do": "move",
+    "id": "p3/glow",
+    "by": [
+     0.1,
+     0.14
+    ],
+    "dur": 0.9,
+    "ease": "inOut"
+   },
+   {
+    "do": "untext",
+    "id": "dokun",
+    "exit": "fade",
+    "dur": 0.6,
+    "delay": 0.5
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0.9,
+    "dur": 0.27,
+    "ease": "out",
+    "delay": 0.9
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0.45,
+    "dur": 0.63,
+    "ease": "inOut",
+    "delay": 1.17
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0.9,
+    "dur": 0.27,
+    "ease": "out",
+    "delay": 1.8
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0.45,
+    "dur": 0.63,
+    "ease": "inOut",
+    "delay": 2.07
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0.9,
+    "dur": 0.27,
+    "ease": "out",
+    "delay": 2.7
+   },
+   {
+    "do": "alpha",
+    "id": "p3/glow",
+    "to": 0.45,
+    "dur": 0.63,
+    "ease": "inOut",
+    "delay": 2.97
+   }
+  ],
+  [
+   {
+    "do": "panel",
+    "id": "p4",
+    "style": "fade",
+    "dur": 0.6
+   },
+   {
+    "do": "cam",
+    "panel": "p4",
+    "at": [
+     0.62,
+     0.45
+    ],
+    "z": 1.05,
+    "dur": 14,
+    "ease": "linear"
+   }
+  ],
+  [
+   {
+    "do": "state",
+    "id": "p4/shijima",
+    "slot": "eye",
+    "state": "smile"
+   },
+   {
+    "do": "text",
+    "id": "bub1",
+    "enter": "fade",
+    "dur": 0.4,
+    "delay": 0.6
+   }
+  ],
+  [
+   {
+    "do": "text",
+    "id": "bub2",
+    "enter": "fade",
+    "dur": 0.5
+   },
+   {
+    "do": "start",
+    "id": "p4/stream",
+    "delay": 0.3
+   },
+   {
+    "do": "text",
+    "id": "ohayo",
+    "enter": "write",
+    "stagger": 0.2,
+    "dur": 0.3,
+    "delay": 0.5
+   },
+   {
+    "do": "text",
+    "id": "note",
+    "enter": "fade",
+    "dur": 0.4,
+    "delay": 1.6
+   },
+   {
+    "do": "move",
+    "id": "ohayo",
+    "by": [
+     -0.03,
+     -0.04
+    ],
+    "dur": 4,
+    "ease": "out",
+    "delay": 0.5
+   },
+   {
+    "do": "move",
+    "id": "note",
+    "by": [
+     -0.02,
+     -0.03
+    ],
+    "dur": 3,
+    "ease": "out",
+    "delay": 1.6
+   }
+  ],
+  [
+   {
+    "do": "untext",
+    "id": "ohayo",
+    "exit": "fade",
+    "dur": 1.5
+   },
+   {
+    "do": "untext",
+    "id": "note",
+    "exit": "fade",
+    "dur": 1.5
+   },
+   {
+    "do": "stop",
+    "id": "p4/stream"
+   },
+   {
+    "do": "start",
+    "id": "p4/dust"
+   },
+   {
+    "do": "stop",
+    "id": "p4/dust",
+    "delay": 1.6
+   },
+   {
+    "do": "text",
+    "id": "cap",
+    "enter": "fade",
+    "dur": 0.5,
+    "delay": 0.4
+   },
+   {
+    "do": "start",
+    "id": "p4/twinkle",
+    "delay": 1.2
+   },
+   {
+    "do": "stop",
+    "id": "p4/twinkle",
+    "delay": 2.0
+   }
+  ]
+ ]
+}

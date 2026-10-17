@@ -1,0 +1,1 @@
+import{n as e,t}from"./scene-CnJxUc3c.js";function n(e,n){return t(e.replace(/\/$/,``),n)}export{n as loadPage,e as prefetchPage};
